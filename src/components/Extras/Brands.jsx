@@ -1,6 +1,9 @@
 import React from 'react'
 import slider from "../../assets/images/img-box/partners-1.png"
 import slider2 from "../../assets/images/img-box/brand-2.png"
+import slider3 from "../../assets/images/img-box/brand-3.png"
+import slider4 from "../../assets/images/img-box/brand-4.png"
+import slider5 from "../../assets/images/img-box/brand-5.png"
 const Brands = () => {
   return (
     <section class="flat-brand" data-aos="zoom-in" data-aos-duration="1200">
@@ -33,7 +36,7 @@ const Brands = () => {
                 <div class="slogan-logo">
                   <a href="#">
                     <img
-                      src="assets/images/img-box/brand-3.png"
+                      src={slider3}
                       alt="images"
                     />
                   </a>
@@ -43,7 +46,7 @@ const Brands = () => {
                 <div class="slogan-logo">
                   <a href="#">
                     <img
-                      src="assets/images/img-box/brand-4.png"
+                      src={slider4}
                       alt="images"
                     />
                   </a>
@@ -53,7 +56,7 @@ const Brands = () => {
                 <div class="slogan-logo">
                   <a href="#">
                     <img
-                      src="assets/images/img-box/brand-5.png"
+                      src={slider5}
                       alt="images"
                     />
                   </a>

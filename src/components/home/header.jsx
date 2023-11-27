@@ -1,5 +1,6 @@
 import React from "react";
-
+import logo from "../../assets/images/logo/logo.png"
+import "../../styles/scss/component/header.css"
 const Header = () => {
   return (
     <>
@@ -14,7 +15,7 @@ const Header = () => {
                       <a href="index.html" rel="home" className="main-logo">
                         <img
                           id="logo_header"
-                          src="assets/images/logo/logo.png"
+                          src={logo}
                           alt="img"
                           width="195"
                           height="50"
@@ -25,10 +26,10 @@ const Header = () => {
                   <div className="mobile-button">
                     <span></span>
                   </div>
-                  /** mobile button */ /**{" "}
+                 {/* {" "}
                   <div className="wrap-nav">
                     {" "}
-                    */
+                    */}
                     <div id="site-header-inner">
                       <div className="wrap-inner clearfix flex">
                         <nav id="main-nav" className="main-nav">
@@ -49,25 +50,25 @@ const Header = () => {
                               <a href="#"> Pages </a>
                               <ul className="sub-menu ">
                                 <li className="menu-item">
-                                  <a href="about.html">About</a>
+                                  <a href="/about">About</a>
                                 </li>
                                 <li className="menu-item">
-                                  <a href="team.html">Our Team</a>
+                                  <a href="/team">Our Team</a>
                                 </li>
                                 <li className="menu-item">
-                                  <a href="team-details.html">Team Details</a>
+                                  <a href="/team_details">Team Details</a>
                                 </li>
                                 <li className="menu-item">
-                                  <a href="pricing.html">Pricing</a>
+                                  <a href="/pricing">Pricing</a>
                                 </li>
                                 <li className="menu-item">
-                                  <a href="faq.html">Our Faq</a>
+                                  <a href="/faq">Our Faq</a>
                                 </li>
                                 <li className="menu-item">
-                                  <a href="shop.html">Shop</a>
+                                  <a href="/shop">Shop</a>
                                 </li>
                                 <li className="menu-item">
-                                  <a href="product-details.html">
+                                  <a href="/product_details">
                                     Product Details
                                   </a>
                                 </li>
@@ -75,13 +76,13 @@ const Header = () => {
                             </li>
 
                             <li className="menu-item menu-item-has-children ">
-                              <a href="services.html"> Services </a>
+                              <a href="/services"> Services </a>
                               <ul className="sub-menu ">
                                 <li className="menu-item">
-                                  <a href="services.html">Services</a>
+                                  <a href="/services">Services</a>
                                 </li>
                                 <li className="menu-item">
-                                  <a href="service-details.html">
+                                  <a href="/service_details">
                                     Service Details
                                   </a>
                                 </li>
@@ -89,13 +90,13 @@ const Header = () => {
                             </li>
 
                             <li className="menu-item menu-item-has-children">
-                              <a href="portfolio.html">Portfolio </a>
+                              <a href="/portfolio">Portfolio </a>
                               <ul className="sub-menu ">
                                 <li className="menu-item">
-                                  <a href="portfolio.html">Portfolio</a>
+                                  <a href="/portfolio">Portfolio</a>
                                 </li>
                                 <li className="menu-item">
-                                  <a href="portfolio-details.html">
+                                  <a href="/portfolio_details">
                                     Portfolio Details
                                   </a>
                                 </li>
@@ -103,23 +104,23 @@ const Header = () => {
                             </li>
 
                             <li className="menu-item menu-item-has-children ">
-                              <a href="#">Blog</a>
-                              <ul className="sub-menu">
+                              <a href="/blogs">Blogs</a>
+                              {/* <ul className="sub-menu">
                                 <li className="menu-item ">
-                                  <a href="blog.html">Blog</a>
+                                  <a href="/blogs">Blog</a>
                                 </li>
                                 <li className="menu-item">
-                                  <a href="blog-details.html">Blog Details</a>
+                                  <a href="/blog_details">Blog Details</a>
                                 </li>
-                              </ul>
+                              </ul> */}
                             </li>
 
                             <li className="menu-item">
-                              <a href="contact.html">Contact </a>
+                              <a href="/contact">Contact </a>
                             </li>
                           </ul>
                         </nav>
-                        /** #main-nav -- */
+                        
                         <div
                           className="header-search flat-show-search shadows"
                           id="s1"
@@ -159,9 +160,9 @@ const Header = () => {
                         </div>
                       </div>
                     </div>
-                    /**{" "}
+                    {" "}
                   </div>{" "}
-                  - */
+    
                   <div className="flat-button-top flex-three">
                     <a href="#" className="menu-bar-right header-menu">
                       <svg
@@ -223,7 +224,7 @@ const Header = () => {
               </div>
             </div>
           </div>
-        </div>
+        
         <div id="sidebar" className="side-menu__block">
           <div className="side-menu__block-overlay custom-cursor__overlay"></div>
           <div className="inner-sidebar side-menu__block-inner fl-st-1">
@@ -373,7 +374,7 @@ const Header = () => {
               </div>
             </aside>
           </div>
-          /** --/inner-sidebar- */
+        
         </div>
       </header>
     </>

@@ -1,9 +1,10 @@
 import React from 'react'
-
+import footer from "../../assets/images/logo/logo-footer.png"
+import "../../styles/scss/component/footer.css"
 const Footer = () => {
   return (
-    <div>
-       /**!-- Footer --*/
+    <>
+    
            <footer id="footer" class="clearfix home">
             <div class="container">
                 <div class="row">
@@ -11,8 +12,8 @@ const Footer = () => {
                         <div class="widget widget-logo">
                             <div class="flat-box">
                                 <div class="logo-footer style" id="logo-footer">
-                                    <a href="index.html">
-                                        <img id="logo_footer" src="assets/images/logo/logo-footer.png" alt="img" width="195" height="50"/>
+                                    <a href="/">
+                                        <img id="logo_footer" src={footer} alt="img" width="195" height="50"/>
                                     </a>
                                 </div>
                                 <p class="sub-widget-logo tp-16">Sit amet consectetur adipiscing dipiscing in porttitor aliquam
@@ -96,7 +97,7 @@ const Footer = () => {
                 </div>
             </div>
             </footer>
-            /**!-- /#footer --*/
+        
 
             <div class="widget-social-footer home">
                 <div class="container">
@@ -118,7 +119,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-    </div>
+    </>
   )
 }
 

@@ -1,5 +1,12 @@
 import React from 'react'
-
+import testimonials from "../../assets/images/img-box/testimonials.jpg"
+import testimonials2 from "../../assets/images/img-box/testimonials-1.png"
+import testimonials3 from "../../assets/images/img-box/testimonials-2.png"
+import testimonials4 from "../../assets/images/img-box/testimonials-3.png"
+import testimonials5 from "../../assets/images/img-box/testimonials-4.png"
+import testimonials6 from "../../assets/images/img-box/testimonials-5.png"
+import testimonials7 from "../../assets/images/img-box/testimonials-6.png"
+import testimonials8 from "../../assets/images/img-box/testimonials-7.png"
 const Testimonials = () => {
   return (
     <div>
@@ -24,7 +31,7 @@ const Testimonials = () => {
                                                     </div>
                                                     <div class="author-box flex-three">
                                                         <div class="image">
-                                                            <img src="assets/images/img-box/testimonials.jpg" alt=""/>
+                                                            <img src={testimonials} alt=""/>
                                                         </div>
                                                         <div class="content">
                                                             <h4 class="fw-5">Somalia D. Silva</h4>
@@ -42,7 +49,7 @@ const Testimonials = () => {
                                                     </div>
                                                     <div class="author-box flex-three">
                                                         <div class="image">
-                                                            <img src="assets/images/img-box/testimonials.jpg" alt=""/>
+                                                            <img src={testimonials} alt=""/>
                                                         </div>
                                                         <div class="content">
                                                             <h4 class="fw-5">Somalia D. Silva</h4>
@@ -60,7 +67,7 @@ const Testimonials = () => {
                                                     </div>
                                                     <div class="author-box flex-three">
                                                         <div class="image">
-                                                            <img src="assets/images/img-box/testimonials.jpg" alt=""/>
+                                                            <img src={testimonials} alt=""/>
                                                         </div>
                                                         <div class="content">
                                                             <h4 class="fw-5">Somalia D. Silva</h4>
@@ -78,7 +85,7 @@ const Testimonials = () => {
                                                     </div>
                                                     <div class="author-box flex-three">
                                                         <div class="image">
-                                                            <img src="assets/images/img-box/testimonials.jpg" alt=""/>
+                                                            <img src={testimonials} alt=""/>
                                                         </div>
                                                         <div class="content">
                                                             <h4 class="fw-5">Somalia D. Silva</h4>
@@ -94,28 +101,28 @@ const Testimonials = () => {
                                 <div class="box-images">
                                     <div class="inner flex" data-aos="fade-up" data-aos-duration="1200">
                                         <div class="images style">
-                                            <img src="assets/images/img-box/testimonials-1.png" alt=""/>
+                                            <img src={testimonials2} alt=""/>
                                         </div> 
                                         <div class="images ">
-                                            <img src="assets/images/img-box/testimonials-2.png" alt=""/>
+                                            <img src={testimonials3} alt=""/>
                                         </div> 
                                         <div class="images style">
-                                            <img src="assets/images/img-box/testimonials-3.png" alt=""/>
+                                            <img src={testimonials4} alt=""/>
                                         </div> 
                                     </div>
                                     <div class="inner flex" data-aos="fade-up" data-aos-duration="1300">
                                         <div class="images style">
-                                            <img src="assets/images/img-box/testimonials-4.png" alt=""/>
+                                            <img src={testimonials5} alt=""/>
                                         </div> 
                                         <div class="images ">
-                                            <img src="assets/images/img-box/testimonials-5.png" alt=""/>
+                                            <img src={testimonials6} alt=""/>
                                         </div> 
                                         <div class="images style">
-                                            <img src="assets/images/img-box/testimonials-6.png" alt=""/>
+                                            <img src={testimonials7} alt=""/>
                                         </div> 
                                     </div>  
                                     <div class="image2" data-aos="zoom-in" data-aos-duration="1400">
-                                        <img src="assets/images/img-box/testimonials-7.png" alt=""/>
+                                        <img src={testimonials8} alt=""/>
                                     </div> 
                                 </div>                       
                             </div>
