@@ -1,0 +1,189 @@
+/* button */
+.sc-button {
+  display: inline-block;
+  background-color: var(--color-6);
+  box-sizing: border-box;
+  padding: 14px 38px;
+  border-radius: 200px;
+  transition: var(--transition3);
+}
+
+.sc-button span {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+  text-transform: capitalize;
+  transition: var(--transition3);
+}
+
+.sc-button:hover,
+.sc-button.active {
+  border-color: transparent;
+  outline: 0 none;
+}
+
+.cta {
+  padding: 12px 28px 12px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background: var(--color-3);
+  transition: 1s;
+  box-shadow: 5px 5px 0 black;
+}
+
+.cta svg {
+  width: 16px;
+  height: 16px;
+  margin-top: -3px;
+}
+
+.cta span {
+  transform: skewX(15deg);
+  color: var(--color-1);
+  transition: var(--transition3);
+}
+
+.cta span:nth-child(2) {
+  width: 20px;
+  margin-left: 5px;
+  position: relative;
+  top: 12%;
+}
+
+.cta.btn-1 {
+  background: var(--color-2);
+  box-shadow: 5px 5px 0 var(--color-6);
+}
+
+.cta.btn-1:hover {
+  box-shadow: 8px 8px 0 var(--color-2);
+  background: var(--color-3) !important;
+}
+
+.cta.btn-2 {
+  padding: 12px 38px 12px 40px;
+  box-shadow: unset;
+  background: #00234B;
+}
+
+.cta.btn-2:hover {
+  box-shadow: 5px 5px 0 #00234B;
+  background: var(--color-7);
+}
+
+.cta.btn-3 {
+  padding: 12px 38px 12px 40px;
+  box-shadow: unset;
+  background: var(--color-7);
+}
+
+.cta.btn-3:hover {
+  box-shadow: 5px 5px 0 var(--color-7);
+  background: #00234B;
+}
+
+.cta.btn-4 {
+  background: unset;
+  border: 1px solid var(--color-2);
+  padding: 11px 37px 11px 39px;
+  transition: 0.3s;
+  margin-bottom: 80px;
+}
+
+.cta.btn-4 span {
+  color: var(--color-2);
+}
+
+.cta.btn-4:hover {
+  background: var(--color-2);
+}
+
+.cta.btn-4:hover span {
+  color: var(--color-1);
+}
+
+.cta.btn-5 {
+  background: var(--color-6);
+  box-shadow: 5px 5px 0 var(--color-2);
+}
+
+.cta.btn-5 span {
+  color: var(--color-2);
+}
+
+.cta.btn-5 path {
+  fill: var(--color-2);
+}
+
+.cta.btn-5:hover {
+  box-shadow: 8px 8px 0 var(--color-6);
+  background: var(--color-3) !important;
+}
+
+.cta.btn-5:hover span {
+  color: var(--color-1);
+}
+
+.cta.btn-5:hover path {
+  fill: var(--color-1);
+}
+
+.cta:focus {
+  outline: none;
+}
+
+.cta:hover {
+  transition: 0.5s;
+  box-shadow: 8px 8px 0 var(--color-6);
+  background: var(--color-2);
+}
+
+.cta span:nth-child(2) {
+  transition: 0.5s;
+  margin-right: 0px;
+}
+
+.cta:hover span:nth-child(2) {
+  transition: 0.5s;
+  margin-right: 5px;
+}
+
+/* SVG */
+path.one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+path.two {
+  transition: 0.5s;
+}
+
+.cta:hover path.three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.cta:hover path.one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.cta:hover path.two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+@keyframes color_anim {
+  0% {
+      fill: white;
+  }
+  50% {
+      fill: var(--color-6);
+  }
+  100% {
+      fill: white;
+  }
+}
