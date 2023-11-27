@@ -1,6 +1,6 @@
 import React from 'react'
 
-const preloader = () => {
+const Preloader = () => {
   return (
     <>
     /** preloader */
@@ -14,4 +14,4 @@ const preloader = () => {
   )
 }
 
-export default preloader
+export default Preloader;
