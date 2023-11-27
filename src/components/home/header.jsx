@@ -190,8 +190,7 @@ const Header = () => {
                             viewBox="0 0 66 43"
                             version="1.1"
                             xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                            throwIfNamespace="false"
+                           
                           >
                             <g
                               stroke="none"
