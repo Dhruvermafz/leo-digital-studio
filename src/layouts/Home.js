@@ -10,7 +10,6 @@ const Home = () => {
   return (
     <>
       <body className="body header-fixed counter-scroll">
-        <Preloader />
         <div id="wrapper" className="wrapper-home2">
           <div id="page" className="clearfix">
             <Header />
