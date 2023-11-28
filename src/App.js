@@ -1,9 +1,8 @@
-import { Router, Routes, Route } from "react-router";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./layouts/Home";
-import "./App.css";
-
-import "shortcodes";
 import About from "./layouts/About";
+import "./App.css";
 
 function App() {
   return (
