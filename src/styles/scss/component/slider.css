@@ -1,4 +1,4 @@
-@import url(../abstracts/_variables.scss);
+@import url(../abstracts/variables.css);
 
 .swiper-button-next:after,
 .swiper-button-prev:after {
@@ -292,7 +292,7 @@
     padding: 55px;
     bottom: 13px;
     margin-left: 82px;
-    background: url(./../../assets/images/slider/mark-title.png) center no-repeat;
+    background: url(../../../assets/images/slider/mark-title.png) center no-repeat;
     animation: swing3 ease-in-out 2s infinite alternate;
 }
 
