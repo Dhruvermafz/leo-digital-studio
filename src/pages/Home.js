@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
-import Preloader from "../components/Home/Preloader";
+
 import Footer from "../components/Home/Footer";
 import Testimonials from "../components/Testimonials/Testimonials";
 import NewsBlogs from "../components/Blogs/News&Blogs";
