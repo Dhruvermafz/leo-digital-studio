@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/images/logo/logo.png"
 import "../../styles/scss/component/header.css"
-const Header = () => {
+const Navbar = () => {
   return (
    
       <header id="header_main" className="header_1 js-header home">
@@ -381,4 +381,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;

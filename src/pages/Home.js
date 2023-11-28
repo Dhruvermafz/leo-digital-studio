@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Home/Header";
+import Navbar from "../components/Home/Navbar";
 import Preloader from "../components/Home/Preloader";
 import Footer from "../components/Home/Footer";
 import Testimonials from "../components/Testimonials/Testimonials";
@@ -14,7 +14,7 @@ const Home = () => {
       <body className="body header-fixed counter-scroll">
         <div id="wrapper" className="wrapper-home2">
           <div id="page" className="clearfix">
-            <Header />
+            <Navbar />
             <Slider />
             <About />
             <Brands />

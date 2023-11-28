@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Home/Header";
+import Navbar from "../components/Home/Navbar";
 import TitleAbout from "../components/About/TitleAbout";
 import FlatAbout from "../components/About/FlatAbout";
 import FlatSkills from "../components/Skills/FlatSkills";
@@ -11,7 +11,7 @@ const About = () => {
     <body className="body header-fixed counter-scroll">
       <div id="wrapper" className="wrapper-home2">
         <div id="page" className="clearfix">
-          <Header />
+          <Navbar />
           <TitleAbout />
           <FlatAbout />
           <FlatSkills />
