@@ -25,7 +25,7 @@ const Home = () => {
           </div>
         </div>
 
-        <a id="scroll-top" class="button-go"></a>
+        <a id="scroll-top" className="button-go"></a>
       </body>
     </>
   );

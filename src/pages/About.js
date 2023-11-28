@@ -6,6 +6,7 @@ import FlatSkills from "../components/Skills/FlatSkills";
 import FlatTeam from "../components/Team/FlatTeam";
 import Business from "../components/Extras/Business";
 import Footer from "../components/Home/Footer";
+
 const About = () => {
   return (
     <body className="body header-fixed counter-scroll">
