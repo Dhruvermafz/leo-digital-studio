@@ -1,5 +1,5 @@
 // Requires jQuery
-import "jquery";
+
 import "node-jquery";
 // Initialize slider:
 $(document).ready(function () {

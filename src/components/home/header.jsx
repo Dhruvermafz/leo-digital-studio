@@ -3,7 +3,7 @@ import logo from "../../assets/images/logo/logo.png"
 import "../../styles/scss/component/header.css"
 const Header = () => {
   return (
-    <>
+   
       <header id="header_main" className="header_1 js-header home">
         <div className="container-fuild ">
           <div className="row">
@@ -377,7 +377,7 @@ const Header = () => {
         
         </div>
       </header>
-    </>
+  
   );
 };
 
