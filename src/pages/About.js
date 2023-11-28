@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Home/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 import TitleAbout from "../components/About/TitleAbout";
 import FlatAbout from "../components/About/FlatAbout";
 import FlatSkills from "../components/Skills/FlatSkills";
