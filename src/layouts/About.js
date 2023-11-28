@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "../components/home/Header";
+import Header from "../components/Home/Header";
 import TitleAbout from "../components/About/TitleAbout";
 import FlatAbout from "../components/About/FlatAbout";
 import FlatSkills from "../components/Skills/FlatSkills";
 import FlatTeam from "../components/Team/FlatTeam";
 import Business from "../components/Extras/Business";
-import Footer from "../components/home/Footer";
+import Footer from "../components/Home/Footer";
 const About = () => {
   return (
     <body className="body header-fixed counter-scroll">
