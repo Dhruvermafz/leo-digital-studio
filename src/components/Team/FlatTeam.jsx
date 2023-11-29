@@ -1,5 +1,8 @@
 import React from 'react'
-
+import team from "../../assets/images/img-box/team-1.jpg" 
+import team2 from "../../assets/images/img-box/team-2.jpg" 
+import team3 from "../../assets/images/img-box/team-3.jpg" 
+import team4 from "../../assets/images/img-box/team-4.jpg" 
 const FlatTeam = () => {
   return (
     <section class="tf-section flat-team">
@@ -15,7 +18,7 @@ const FlatTeam = () => {
               <div class="swiper-slide">
                 <div class="box-team hover-img">
                   <div class="images flex-center img-style">
-                    <img src="assets/images/img-box/team-1.jpg" alt="" />
+                    <img src={team} alt="" />
                     <div class="icon-social link-style-6">
                       <a href="#"><i class="fab fa-facebook-f"></i></a>
                       <a href="#"><i class="fab fa-twitter"></i></a>
@@ -36,7 +39,7 @@ const FlatTeam = () => {
               <div class="swiper-slide">
                 <div class="box-team hover-img">
                   <div class="images flex-center img-style">
-                    <img src="assets/images/img-box/team-2.jpg" alt="" />
+                    <img src={team2} alt="" />
                     <div class="icon-social link-style-6">
                       <a href="#"><i class="fab fa-facebook-f"></i></a>
                       <a href="#"><i class="fab fa-twitter"></i></a>
@@ -57,7 +60,7 @@ const FlatTeam = () => {
               <div class="swiper-slide">
                 <div class="box-team hover-img">
                   <div class="images flex-center img-style">
-                    <img src="assets/images/img-box/team-3.jpg" alt="" />
+                    <img src={team3} alt="" />
                     <div class="icon-social link-style-6">
                       <a href="#"><i class="fab fa-facebook-f"></i></a>
                       <a href="#"><i class="fab fa-twitter"></i></a>
@@ -78,7 +81,7 @@ const FlatTeam = () => {
               <div class="swiper-slide">
                 <div class="box-team hover-img">
                   <div class="images flex-center img-style">
-                    <img src="assets/images/img-box/team-4.jpg" alt="" />
+                    <img src={team4} alt="" />
                     <div class="icon-social link-style-6">
                       <a href="#"><i class="fab fa-facebook-f"></i></a>
                       <a href="#"><i class="fab fa-twitter"></i></a>
@@ -99,7 +102,7 @@ const FlatTeam = () => {
               <div class="swiper-slide">
                 <div class="box-team hover-img">
                   <div class="images flex-center img-style">
-                    <img src="assets/images/img-box/team-1.jpg" alt="" />
+                    <img src={team} alt="" />
                     <div class="icon-social link-style-6">
                       <a href="#"><i class="fab fa-facebook-f"></i></a>
                       <a href="#"><i class="fab fa-twitter"></i></a>
@@ -120,7 +123,7 @@ const FlatTeam = () => {
               <div class="swiper-slide">
                 <div class="box-team hover-img">
                   <div class="images flex-center img-style">
-                    <img src="assets/images/img-box/team-2.jpg" alt="" />
+                    <img src={team2} alt="" />
                     <div class="icon-social link-style-6">
                       <a href="#"><i class="fab fa-facebook-f"></i></a>
                       <a href="#"><i class="fab fa-twitter"></i></a>

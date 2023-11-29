@@ -8,6 +8,9 @@ import Faq from "../components/Extras/Faq";
 import Brands from "../components/Extras/Brands";
 import Slider from "../components/Extras/Slider";
 import About from "../components/About/About";
+import Counter from "../components/Extras/Counter";
+import SectionService from "../components/Services/SectionService";
+import Help from "../components/Help/Help";
 const Home = () => {
   return (
     <>
@@ -16,11 +19,14 @@ const Home = () => {
           <div id="page" className="clearfix">
             <Navbar />
             <Slider />
+            <Counter/>
             <About />
+            <SectionService/>
             <Brands />
             <Faq />
             <Testimonials />
             <NewsBlogs />
+            <Help/>
             <Footer />
           </div>
         </div>

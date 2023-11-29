@@ -1,5 +1,6 @@
 import React from 'react'
-
+import about from "../../assets/images/img-box/about-2.png"
+import about2 from "../../assets/images/icon/icon-about-1.png" 
 const FlatAbout = () => {
   return (
     <section className="tf-section flat-about3">
@@ -8,7 +9,7 @@ const FlatAbout = () => {
         <div className="col-lg-6 col-md-5">
           <div className="box-images">
             <div className="images">
-              <img src="assets/images/img-box/about-2.png" alt="" />
+              <img src={about2} alt="" />
             </div>
           </div>
         </div>
@@ -21,7 +22,7 @@ const FlatAbout = () => {
             <div className="icon-box flex">
               <div className="inner inner-1 flex-three">
                 <div className="icon">
-                  <img src="assets/images/icon/icon-about-1.png" alt="" />
+                  <img src={about2} alt="" />
                 </div>
                 <h6 className="link-style-1">
                   <a href="about.html">Research & Strategy</a>
@@ -29,7 +30,7 @@ const FlatAbout = () => {
               </div>
               <div className="inner inner-2 flex-three">
                 <div className="icon">
-                  <img src="assets/images/icon/icon-about-2.png" alt="" />
+                  <img src={about} alt="" />
                 </div>
                 <h6 className="link-style-1">
                   <a href="about.html">Development & scale</a>

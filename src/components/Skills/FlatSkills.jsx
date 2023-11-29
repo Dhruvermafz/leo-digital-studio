@@ -1,5 +1,5 @@
 import React from 'react'
-
+import about3 from "../../assets/images/img-box/about-3.png" 
 const FlatSkills = () => {
   return (
     <section class="flat-skills">
@@ -59,7 +59,7 @@ const FlatSkills = () => {
         <div class="col-lg-6 col-md-5">
           <div class="box-images">
             <div class="images">
-              <img src="assets/images/img-box/about-3.png" alt="" />
+              <img src={about3} alt="" />
             </div>
           </div>
         </div>

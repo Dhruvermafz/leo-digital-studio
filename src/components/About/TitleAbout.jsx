@@ -1,5 +1,5 @@
 import React from 'react'
-
+import title from "../../assets/images/mark/mark-inner-page.png"
 const TitleAbout = () => {
   return (
     <section className="flat-title-page inner">
@@ -11,7 +11,7 @@ const TitleAbout = () => {
                     <div className="heading"><span>About Us</span></div>
                     <div className="title-inner link-style-7">
                       <h5 className="font-2">
-                        <a className="home" href="index.html">Home</a
+                        <a className="home" href="/">Home</a
                         ><span>About Us</span>
                       </h5>
                     </div>
@@ -22,7 +22,7 @@ const TitleAbout = () => {
                 <div className="images">
                   <img
                     className="img-item animate-new"
-                    src="assets/images/mark/mark-inner-page.png"
+                    src={title}
                     alt=""
                   />
                 </div>

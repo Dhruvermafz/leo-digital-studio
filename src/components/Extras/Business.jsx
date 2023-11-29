@@ -1,5 +1,5 @@
 import React from 'react'
-
+import bussiness from "../../assets/images/img-box/business.png" 
 const Business = () => {
   return (
     <section class="tf-section flat-business">
@@ -8,7 +8,7 @@ const Business = () => {
               <div class="col-lg-6 col-md-5">
                 <div class="box-images">
                   <div class="images">
-                    <img src="assets/images/img-box/business.png" alt="" />
+                    <img src={bussiness} alt="" />
                   </div>
                 </div>
               </div>
