@@ -16,7 +16,7 @@ const Navbar = () => {
               <div className="wrap-box relative">
                 <div id="site-logo" className="clearfix">
                   <div id="site-logo-inner">
-                    <a href="index.html" rel="home" className="main-logo">
+                    <a href="/" rel="home" className="main-logo">
                       <img
                         id="logo_header"
                         src={logo}
@@ -39,15 +39,8 @@ const Navbar = () => {
                     <nav id="main-nav" className="main-nav">
                       <ul id="menu-primary-menu" className="menu">
                         <li className="menu-item menu-item-has-children current-menu-item">
-                          <a href="index.html">Home</a>
-                          <ul className="sub-menu">
-                            <li className="menu-item current-item">
-                              <a href="index.html">Home 01</a>
-                            </li>
-                            <li className="menu-item">
-                              <a href="home2.html">Home 02</a>
-                            </li>
-                          </ul>
+                          <a href="/">Home</a>
+                         
                         </li>
 
                         <li className="menu-item menu-item-has-children">
@@ -59,9 +52,7 @@ const Navbar = () => {
                             <li className="menu-item">
                               <a href="/team">Our Team</a>
                             </li>
-                            <li className="menu-item">
-                              <a href="/team_details">Team Details</a>
-                            </li>
+                          
                             <li className="menu-item">
                               <a href="/pricing">Pricing</a>
                             </li>
@@ -79,26 +70,12 @@ const Navbar = () => {
 
                         <li className="menu-item menu-item-has-children ">
                           <a href="/services"> Services </a>
-                          <ul className="sub-menu ">
-                            <li className="menu-item">
-                              <a href="/services">Services</a>
-                            </li>
-                            <li className="menu-item">
-                              <a href="/service_details">Service Details</a>
-                            </li>
-                          </ul>
+                          
                         </li>
 
                         <li className="menu-item menu-item-has-children">
                           <a href="/portfolio">Portfolio </a>
-                          <ul className="sub-menu ">
-                            <li className="menu-item">
-                              <a href="/portfolio">Portfolio</a>
-                            </li>
-                            <li className="menu-item">
-                              <a href="/portfolio_details">Portfolio Details</a>
-                            </li>
-                          </ul>
+                        
                         </li>
 
                         <li className="menu-item menu-item-has-children ">

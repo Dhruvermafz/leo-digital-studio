@@ -4,7 +4,7 @@ import blog2 from "../../assets/images/img-box/blog-2.jpg"
 import blog3 from "../../assets/images/img-box/blog-3.jpg"
 const NewsBlogs = () => {
   return (
-    <div>
+   
           <section className="tf-section flat-news"> 
                 <div className="container">
                     <div className="row">
@@ -75,7 +75,7 @@ const NewsBlogs = () => {
                     </div>
                 </div>
             </section>
-    </div>
+    
   )
 }
 

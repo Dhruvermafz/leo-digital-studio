@@ -3,7 +3,7 @@ import slider from "../../assets/images/slider/slider-2.png"
 import "../../styles/scss/component/slider.css"
 const Slider = () => {
   return (
-    <section class="slider home2 sld-style">
+    <section class="slider home">
     <div class="swiper-container mainslider2">
       <div class="swiper-wrapper">
         <div class="swiper-slide">

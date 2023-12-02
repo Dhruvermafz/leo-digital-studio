@@ -10,118 +10,118 @@ import testimonials8 from "../../assets/images/img-box/testimonials-7.png"
 const Testimonials = () => {
   return (
     <div>
-       <section class="flat-testimonials">
-                <div class="container-fuild">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="wrap-testi flex">
-                                <div class="box-testi">
-                                    <div class="heading-section2 " data-aos="fade-up" data-aos-duration="1200">
-                                        <h6 class="">Our Testimonials</h6>
-                                        <h2 class="">What Our Clients Say About Solutions</h2>             
+       <section className="flat-testimonials">
+                <div className="container-fuild">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="wrap-testi flex">
+                                <div className="box-testi">
+                                    <div className="heading-section2 " data-aos="fade-up" data-aos-duration="1200">
+                                        <h6 className="">Our Testimonials</h6>
+                                        <h2 className="">What Our Clients Say About Solutions</h2>             
                                     </div>  
-                                    <div class="swiper-container carousel-3 pagi2">                            
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="box-inner ">  
-                                                    <div class="inner inner-bottom">
-                                                        <h6 class="lh-27 fw-5"> Sit amet consectetur adipiscing estibulum vitae auctor 
+                                    <div className="swiper-container carousel-3 pagi2">                            
+                                        <div className="swiper-wrapper">
+                                            <div className="swiper-slide">
+                                                <div className="box-inner ">  
+                                                    <div className="inner inner-bottom">
+                                                        <h6 className="lh-27 fw-5"> Sit amet consectetur adipiscing estibulum vitae auctor 
                                                             orci odio. Fusce hendrerit orci ullamcorper enim, cursus. Netus ut nulla venenatis vel imperdiet nunc</h6>
-                                                       <p class="lh-26">Diam augue quis sed cras placerat blandit quisque vivamus. Fames massa odio habitant nisl commodo eu nunc </p>
+                                                       <p className="lh-26">Diam augue quis sed cras placerat blandit quisque vivamus. Fames massa odio habitant nisl commodo eu nunc </p>
                                                     </div>
-                                                    <div class="author-box flex-three">
-                                                        <div class="image">
+                                                    <div className="author-box flex-three">
+                                                        <div className="image">
                                                             <img src={testimonials} alt=""/>
                                                         </div>
-                                                        <div class="content">
-                                                            <h4 class="fw-5">Somalia D. Silva</h4>
-                                                            <p class="text-color-7 fw-5">CEO & Founder</p>
+                                                        <div className="content">
+                                                            <h4 className="fw-5">Somalia D. Silva</h4>
+                                                            <p className="text-color-7 fw-5">CEO & Founder</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="swiper-slide">
-                                                <div class="box-inner ">  
-                                                    <div class="inner inner-bottom">
-                                                        <h6 class="lh-27 fw-5"> Sit amet consectetur adipiscing estibulum vitae auctor 
+                                            <div className="swiper-slide">
+                                                <div className="box-inner ">  
+                                                    <div className="inner inner-bottom">
+                                                        <h6 className="lh-27 fw-5"> Sit amet consectetur adipiscing estibulum vitae auctor 
                                                             orci odio. Fusce hendrerit orci ullamcorper enim, cursus. Netus ut nulla venenatis vel imperdiet nunc</h6>
-                                                       <p class="lh-26">Diam augue quis sed cras placerat blandit quisque vivamus. Fames massa odio habitant nisl commodo eu nunc </p>
+                                                       <p className="lh-26">Diam augue quis sed cras placerat blandit quisque vivamus. Fames massa odio habitant nisl commodo eu nunc </p>
                                                     </div>
-                                                    <div class="author-box flex-three">
-                                                        <div class="image">
+                                                    <div className="author-box flex-three">
+                                                        <div className="image">
                                                             <img src={testimonials} alt=""/>
                                                         </div>
-                                                        <div class="content">
-                                                            <h4 class="fw-5">Somalia D. Silva</h4>
-                                                            <p class="text-color-7 fw-5">CEO & Founder</p>
+                                                        <div className="content">
+                                                            <h4 className="fw-5">Somalia D. Silva</h4>
+                                                            <p className="text-color-7 fw-5">CEO & Founder</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="swiper-slide">
-                                                <div class="box-inner ">  
-                                                    <div class="inner inner-bottom">
-                                                        <h6 class="lh-27 fw-5"> Sit amet consectetur adipiscing estibulum vitae auctor 
+                                            <div className="swiper-slide">
+                                                <div className="box-inner ">  
+                                                    <div className="inner inner-bottom">
+                                                        <h6 className="lh-27 fw-5"> Sit amet consectetur adipiscing estibulum vitae auctor 
                                                             orci odio. Fusce hendrerit orci ullamcorper enim, cursus. Netus ut nulla venenatis vel imperdiet nunc</h6>
-                                                       <p class="lh-26">Diam augue quis sed cras placerat blandit quisque vivamus. Fames massa odio habitant nisl commodo eu nunc </p>
+                                                       <p className="lh-26">Diam augue quis sed cras placerat blandit quisque vivamus. Fames massa odio habitant nisl commodo eu nunc </p>
                                                     </div>
-                                                    <div class="author-box flex-three">
-                                                        <div class="image">
+                                                    <div className="author-box flex-three">
+                                                        <div className="image">
                                                             <img src={testimonials} alt=""/>
                                                         </div>
-                                                        <div class="content">
-                                                            <h4 class="fw-5">Somalia D. Silva</h4>
-                                                            <p class="text-color-7 fw-5">CEO & Founder</p>
+                                                        <div className="content">
+                                                            <h4 className="fw-5">Somalia D. Silva</h4>
+                                                            <p className="text-color-7 fw-5">CEO & Founder</p>
                                                         </div>
                                                     </div> 
                                                 </div>
                                             </div>
-                                            <div class="swiper-slide">
-                                                <div class="box-inner ">  
-                                                    <div class="inner inner-bottom">
-                                                        <h6 class="lh-27 fw-5"> Sit amet consectetur adipiscing estibulum vitae auctor 
+                                            <div className="swiper-slide">
+                                                <div className="box-inner ">  
+                                                    <div className="inner inner-bottom">
+                                                        <h6 className="lh-27 fw-5"> Sit amet consectetur adipiscing estibulum vitae auctor 
                                                             orci odio. Fusce hendrerit orci ullamcorper enim, cursus. Netus ut nulla venenatis vel imperdiet nunc</h6>
-                                                       <p class="lh-26">Diam augue quis sed cras placerat blandit quisque vivamus. Fames massa odio habitant nisl commodo eu nunc </p>
+                                                       <p className="lh-26">Diam augue quis sed cras placerat blandit quisque vivamus. Fames massa odio habitant nisl commodo eu nunc </p>
                                                     </div>
-                                                    <div class="author-box flex-three">
-                                                        <div class="image">
+                                                    <div className="author-box flex-three">
+                                                        <div className="image">
                                                             <img src={testimonials} alt=""/>
                                                         </div>
-                                                        <div class="content">
-                                                            <h4 class="fw-5">Somalia D. Silva</h4>
-                                                            <p class="text-color-7 fw-5">CEO & Founder</p>
+                                                        <div className="content">
+                                                            <h4 className="fw-5">Somalia D. Silva</h4>
+                                                            <p className="text-color-7 fw-5">CEO & Founder</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="swiper-pagination2 center">  </div> 
+                                        <div className="swiper-pagination2 center">  </div> 
                                     </div>
                                 </div>
-                                <div class="box-images">
-                                    <div class="inner flex" data-aos="fade-up" data-aos-duration="1200">
-                                        <div class="images style">
+                                <div className="box-images">
+                                    <div className="inner flex" data-aos="fade-up" data-aos-duration="1200">
+                                        <div className="images style">
                                             <img src={testimonials2} alt=""/>
                                         </div> 
-                                        <div class="images ">
+                                        <div className="images ">
                                             <img src={testimonials3} alt=""/>
                                         </div> 
-                                        <div class="images style">
+                                        <div className="images style">
                                             <img src={testimonials4} alt=""/>
                                         </div> 
                                     </div>
-                                    <div class="inner flex" data-aos="fade-up" data-aos-duration="1300">
-                                        <div class="images style">
+                                    <div className="inner flex" data-aos="fade-up" data-aos-duration="1300">
+                                        <div className="images style">
                                             <img src={testimonials5} alt=""/>
                                         </div> 
-                                        <div class="images ">
+                                        <div className="images ">
                                             <img src={testimonials6} alt=""/>
                                         </div> 
-                                        <div class="images style">
+                                        <div className="images style">
                                             <img src={testimonials7} alt=""/>
                                         </div> 
                                     </div>  
-                                    <div class="image2" data-aos="zoom-in" data-aos-duration="1400">
+                                    <div className="image2" data-aos="zoom-in" data-aos-duration="1400">
                                         <img src={testimonials8} alt=""/>
                                     </div> 
                                 </div>                       

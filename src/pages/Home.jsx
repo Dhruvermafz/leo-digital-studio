@@ -11,11 +11,14 @@ import About from "../components/About/About";
 import Counter from "../components/Extras/Counter";
 import SectionService from "../components/Services/SectionService";
 import Help from "../components/Help/Help";
+import Analytics from "../components/Extras/Analytics";
+import Partners from "../components/Partners/Partners";
+import Projects from "../components/Projects/Projects";
 const Home = () => {
   return (
     <>
       <body className="body header-fixed counter-scroll">
-        <div id="wrapper" className="wrapper-home2">
+        <div id="wrapper">
           <div id="page" className="clearfix">
             <Navbar />
             <Slider />
@@ -23,7 +26,10 @@ const Home = () => {
             <About />
             <SectionService/>
             <Brands />
+            <Projects/>
             <Faq />
+            <Partners/>
+            <Analytics/>
             <Testimonials />
             <NewsBlogs />
             <Help/>
