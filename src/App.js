@@ -7,6 +7,7 @@ import "font-awesome/css/font-awesome.css";
 import Contact from "./pages/Contact";
 import Faqs from "./pages/Faqs";
 import Team from "./pages/Team";
+import Portfolio from "./pages/Portfolio";
 function App() {
   return (
     <Router>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/faq" element={<Faqs />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
     </Router>
   );
