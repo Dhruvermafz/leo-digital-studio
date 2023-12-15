@@ -10,7 +10,7 @@ import Slider from "../components/Extras/Slider";
 import About from "../components/About/About";
 import Counter from "../components/Extras/Counter";
 import SectionService from "../components/Services/SectionService";
-import Help from "../components/Help/Help";
+import FlatHelp from "../components/Home/FlatHelp";
 import Analytics from "../components/Extras/Analytics";
 import Partners from "../components/Partners/Partners";
 import Projects from "../components/Projects/Projects";
@@ -32,7 +32,7 @@ const Home = () => {
             <Analytics/>
             <Testimonials />
             <NewsBlogs />
-            <Help/>
+            <FlatHelp/>
             <Footer />
           </div>
         </div>

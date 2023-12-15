@@ -30,10 +30,11 @@ const Navbar = () => {
                 <div className="mobile-button">
                   <span></span>
                 </div>
-                {/* {" "}
+                 {" "}
                   <div className="wrap-nav">
+                    
                     {" "}
-                    */}
+                    
                 <div id="site-header-inner">
                   <div className="wrap-inner clearfix flex">
                     <nav id="main-nav" className="main-nav">
@@ -136,6 +137,7 @@ const Navbar = () => {
                   </div>
                 </div>{" "}
               </div>{" "}
+              </div>
               <div className="flat-button-top flex-three">
                 <a href="#" className="menu-bar-right header-menu">
                   <svg

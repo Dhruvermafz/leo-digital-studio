@@ -2,17 +2,17 @@ import React from 'react'
 
 const Counter = () => {
   return (
-    <section class="flat-count">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="themes-count tf-counter flex">
+    <section className="flat-count">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="themes-count tf-counter flex">
                   <div
-                    class="counter-box one flex-three"
+                    className="counter-box one flex-three"
                     data-aos="fade-right"
                     data-aos-duration="1200"
                   >
-                    <div class="icon">
+                    <div className="icon">
                       <svg
                         width="80"
                         height="80"
@@ -53,24 +53,24 @@ const Counter = () => {
                         </defs>
                       </svg>
                     </div>
-                    <div class="content">
-                      <div class="count-number">
+                    <div className="content">
+                      <div className="count-number">
                         <div
-                          class="number number-style number-one"
+                          className="number number-style number-one"
                           data-speed="2000"
                           data-to="5"
                           data-inviewport="yes"
                         ></div>
                       </div>
-                      <h5 class="title-count">Happy Clients</h5>
+                      <h5 className="title-count">Happy Clients</h5>
                     </div>
                   </div>
                   <div
-                    class="counter-box flex-three"
+                    className="counter-box flex-three"
                     data-aos="zoom-in"
                     data-aos-duration="1200"
                   >
-                    <div class="icon">
+                    <div className="icon">
                       <svg
                         width="80"
                         height="80"
@@ -112,24 +112,24 @@ const Counter = () => {
                         </defs>
                       </svg>
                     </div>
-                    <div class="content">
-                      <div class="count-number">
+                    <div className="content">
+                      <div className="count-number">
                         <div
-                          class="number number-one"
+                          className="number number-one"
                           data-speed="2000"
                           data-to="68"
                           data-inviewport="yes"
                         ></div>
                       </div>
-                      <h5 class="title-count">Team Member</h5>
+                      <h5 className="title-count">Team Member</h5>
                     </div>
                   </div>
                   <div
-                    class="counter-box flex-three"
+                    className="counter-box flex-three"
                     data-aos="fade-left"
                     data-aos-duration="1200"
                   >
-                    <div class="icon">
+                    <div className="icon">
                       <svg
                         width="80"
                         height="80"
@@ -158,16 +158,16 @@ const Counter = () => {
                         </defs>
                       </svg>
                     </div>
-                    <div class="content">
-                      <div class="count-number">
+                    <div className="content">
+                      <div className="count-number">
                         <div
-                          class="number number-one"
+                          className="number number-one"
                           data-speed="2000"
                           data-to="23"
                           data-inviewport="yes"
                         ></div>
                       </div>
-                      <h5 class="title-count">Countries</h5>
+                      <h5 className="title-count">Countries</h5>
                     </div>
                   </div>
                 </div>

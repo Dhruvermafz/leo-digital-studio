@@ -2,23 +2,23 @@ import React from 'react'
 import bussiness from "../../assets/images/img-box/business.png" 
 const Business = () => {
   return (
-    <section class="tf-section flat-business">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-5">
-                <div class="box-images">
-                  <div class="images">
+    <section className="tf-section flat-business">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 col-md-5">
+                <div className="box-images">
+                  <div className="images">
                     <img src={bussiness} alt="" />
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6 col-md-7">
-                <div class="business-box">
-                  <div class="heading-section style4">
-                    <h6 class="">Business Analysis</h6>
+              <div className="col-lg-6 col-md-7">
+                <div className="business-box">
+                  <div className="heading-section style4">
+                    <h6 className="">Business Analysis</h6>
                     <h2>Build Your Business Grateful & Successful Together</h2>
                   </div>
-                  <p class="tp-16">
+                  <p className="tp-16">
                     Sit amet consectetur adipiscing elit. Ornare molestie
                     ultrices accumsan nunc. Dolor feugiat etiam egestas
                     volutpat, tempus maecenas quam sagittis. Tortor ut dictumst
@@ -26,10 +26,10 @@ const Business = () => {
                     Orci, quisque vitae nisl, sed sit nec feugiat amet. In
                     feugiat
                   </p>
-                  <div class="meta">
+                  <div className="meta">
                     <a
                       href="service-details.html"
-                      class="btn-button flex-three fw-5"
+                      className="btn-button flex-three fw-5"
                       ><span>Learn More</span>
                       <svg
                         width="31"

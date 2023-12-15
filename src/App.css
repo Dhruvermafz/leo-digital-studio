@@ -1,10 +1,4 @@
 @charset "UTF-8";
-/**
-  * Name: SeoMx - Seo & Digital Marketing HTML Template
-  * Version: 1.0
-  * Author: Themesflat
-  * Author URI: http://www.themesflat.com
-*/
 @import url("./styles/font-awesome.css");
 @import url("./styles/animate.css");
 @import url("./styles/responsive.css");
@@ -2367,7 +2361,7 @@ path.two {
 .flat-testimonials .box-testi {
   padding: 131px 97px 122px 307px;
   width: 50%;
-  background: url(./assets/images/section/bg-testimonials-1.jpg) center no-repeat;
+  background: url(./assets/images/section/bg-testimonials-1.png) center no-repeat;
   background-size: cover;
   flex: none;
 }
@@ -2424,7 +2418,7 @@ path.two {
 .flat-testimonials .box-images {
   width: 50%;
   padding: 110px 0px 120px 214px;
-  background: url(./assets/images/section/bg-testimonials-2.jpg) center no-repeat;
+  background: url(./assets/images/section/bg-testimonials-2.png) center no-repeat;
   background-size: cover;
 }
 .flat-testimonials .box-images .images {

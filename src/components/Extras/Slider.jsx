@@ -15,7 +15,7 @@ const Slider = () => {
                     <div class="img-slider">
                       <img
                         class="img-item"
-                        src="assets/images/slider/bg-slider-1.png"
+                        src={slider}
                         alt=""
                       />
                     </div>
@@ -32,7 +32,7 @@ const Slider = () => {
                           </h4>
                         </div>
                         <div class="flat-bt-slider sc-btn-top">
-                          <a class="cta btn-3" href="services.html">
+                          <a class="cta btn-3" href="/services">
                             <span>Discover More</span>
                             <span>
                               <svg
@@ -106,7 +106,7 @@ const Slider = () => {
                           </h4>
                         </div>
                         <div class="flat-bt-slider sc-btn-top">
-                          <a class="cta btn-3" href="services.html">
+                          <a class="cta btn-3" href="/services">
                             <span>Discover More</span>
                             <span>
                               <svg
@@ -180,7 +180,7 @@ const Slider = () => {
                           </h4>
                         </div>
                         <div class="flat-bt-slider sc-btn-top">
-                          <a class="cta btn-3" href="services.html">
+                          <a class="cta btn-3" href="/services">
                             <span>Discover More</span>
                             <span>
                               <svg

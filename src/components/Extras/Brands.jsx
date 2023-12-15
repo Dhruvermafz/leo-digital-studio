@@ -6,14 +6,14 @@ import slider4 from "../../assets/images/img-box/brand-4.png"
 import slider5 from "../../assets/images/img-box/brand-5.png"
 const Brands = () => {
   return (
-    <section class="flat-brand" data-aos="zoom-in" data-aos-duration="1200">
-    <div class="container-fuild">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="swiper-container carousel-5">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="slogan-logo">
+    <section className="flat-brand" data-aos="zoom-in" data-aos-duration="1200">
+    <div className="container-fuild">
+      <div className="row">
+        <div className="col-lg-12">
+          <div className="swiper-container carousel-5">
+            <div className="swiper-wrapper">
+              <div className="swiper-slide">
+                <div className="slogan-logo">
                   <a href="#">
                     <img
                       src={slider}
@@ -22,8 +22,8 @@ const Brands = () => {
                   </a>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="slogan-logo">
+              <div className="swiper-slide">
+                <div className="slogan-logo">
                   <a href="#">
                     <img
                       src={slider2}
@@ -32,8 +32,8 @@ const Brands = () => {
                   </a>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="slogan-logo">
+              <div className="swiper-slide">
+                <div className="slogan-logo">
                   <a href="#">
                     <img
                       src={slider3}
@@ -42,8 +42,8 @@ const Brands = () => {
                   </a>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="slogan-logo">
+              <div className="swiper-slide">
+                <div className="slogan-logo">
                   <a href="#">
                     <img
                       src={slider4}
@@ -52,8 +52,8 @@ const Brands = () => {
                   </a>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="slogan-logo">
+              <div className="swiper-slide">
+                <div className="slogan-logo">
                   <a href="#">
                     <img
                       src={slider5}

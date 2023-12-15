@@ -2,13 +2,13 @@ import React from 'react'
 
 const Count = () => {
   return (
-    <section class="flat-count2">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="themes-count tf-counter flex">
-                    <div class="counter-box one flex-three">
-                        <div class="icon">
+    <section className="flat-count2">
+    <div className="container">
+        <div className="row">
+            <div className="col-lg-12">
+                <div className="themes-count tf-counter flex">
+                    <div className="counter-box one flex-three">
+                        <div className="icon">
                             <svg width="55" height="55" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_36_10892)">
                                 <path d="M28.9766 3.1328C28.6985 2.32796 27.7965 1.88952 26.9922 2.16249C24.6454 2.9703 22.3626 4.00312 20.2047 5.23437C15.9677 7.65218 12.1193 10.9041 9.01255 14.7031C7.4563 16.6094 6.06881 18.6672 4.88912 20.8203C4.47662 21.5766 4.75474 22.528 5.51099 22.9406C6.25818 23.3481 7.22302 23.0647 7.6313 22.3203C12.0641 14.2203 19.3016 8.11093 28.0079 5.11874C28.8219 4.83906 29.2579 3.94687 28.9766 3.1328Z" fill="white"/>
@@ -25,15 +25,15 @@ const Count = () => {
                                 </defs>
                             </svg>
                         </div>
-                        <div class="content" >
-                            <div class="count-number ">                                  
-                                <div class="number number-style number-one" data-speed="2000" data-to="512" data-inviewport="yes"></div>                                   
+                        <div className="content" >
+                            <div className="count-number ">                                  
+                                <div className="number number-style number-one" data-speed="2000" data-to="512" data-inviewport="yes"></div>                                   
                             </div>
-                            <h6 class="title-count fs-16 fw-4">Satisfied Clients</h6>
+                            <h6 className="title-count fs-16 fw-4">Satisfied Clients</h6>
                         </div>                                
                     </div>
-                    <div class="counter-box flex-three">
-                        <div class="icon">
+                    <div className="counter-box flex-three">
+                        <div className="icon">
                             <svg width="55" height="55" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_36_10980)">
                                 <path d="M39.8605 10.1656C40.7295 10.1656 41.4341 9.46109 41.4341 8.59203V1.57359C41.4341 0.704531 40.7295 0 39.8605 0C38.9914 0 38.2869 0.704531 38.2869 1.57359V8.59203C38.287 9.46109 38.9916 10.1656 39.8605 10.1656Z" fill="white"/>
@@ -50,15 +50,15 @@ const Count = () => {
                                 </defs>
                             </svg>
                         </div>
-                        <div class="content" >
-                            <div class="count-number "> 
-                                <div class="number number-style " data-speed="2000" data-to="835" data-inviewport="yes"></div>                                                      
+                        <div className="content" >
+                            <div className="count-number "> 
+                                <div className="number number-style " data-speed="2000" data-to="835" data-inviewport="yes"></div>                                                      
                             </div>
-                            <h6 class="title-count fs-16 fw-4">Experience Member</h6>
+                            <h6 className="title-count fs-16 fw-4">Experience Member</h6>
                         </div>                                
                     </div>
-                    <div class="counter-box flex-three">
-                        <div class="icon">
+                    <div className="counter-box flex-three">
+                        <div className="icon">
                             <svg width="55" height="55" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_36_10987)">
                                 <path d="M29.0289 13.3225C31.2973 13.3225 33.1429 11.4769 33.1429 9.20844C33.1429 6.94 31.2973 5.09438 29.0289 5.09438C26.7604 5.09438 24.9148 6.94 24.9148 9.20844C24.9148 11.4769 26.7604 13.3225 29.0289 13.3225ZM29.0289 7.43828C30.005 7.43828 30.7992 8.2325 30.7992 9.20859C30.7992 10.1847 30.005 10.9789 29.0289 10.9789C28.0528 10.9789 27.2585 10.1847 27.2585 9.20859C27.2585 8.2325 28.0528 7.43828 29.0289 7.43828Z" fill="white"/>
@@ -72,15 +72,15 @@ const Count = () => {
                                 </defs>
                             </svg>
                         </div>
-                        <div class="content" >
-                            <div class="count-number "> 
-                                <div class="number number-one" data-speed="2000" data-to="345" data-inviewport="yes"></div>                                                      
+                        <div className="content" >
+                            <div className="count-number "> 
+                                <div className="number number-one" data-speed="2000" data-to="345" data-inviewport="yes"></div>                                                      
                             </div>
-                            <h6 class="title-count fs-16 fw-4">Our Global Branch</h6>
+                            <h6 className="title-count fs-16 fw-4">Our Global Branch</h6>
                         </div>                                
                     </div>
-                    <div class="counter-box flex-three">
-                        <div class="icon">
+                    <div className="counter-box flex-three">
+                        <div className="icon">
                             <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_53_1400)">
                                 <path d="M29.6822 21.7034L27.1814 19.59L27.5048 16.3316C27.5405 15.9718 27.372 15.6296 27.0651 15.4382C26.7583 15.247 26.3768 15.2465 26.0693 15.4371L23.2865 17.1623L20.2877 15.8479C19.9564 15.7027 19.5789 15.7571 19.3021 15.9898C19.0253 16.2227 18.9069 16.5856 18.9932 16.9367L19.7741 20.1165L17.5975 22.5621C17.357 22.8323 17.292 23.2083 17.4278 23.5435C17.5636 23.8787 17.8721 24.1034 18.2327 24.1298L21.4982 24.3698L23.1519 27.1961C23.3229 27.4883 23.6297 27.6627 23.9641 27.6627C23.9868 27.6627 24.0097 27.6619 24.0326 27.6604C24.3932 27.6347 24.7022 27.4109 24.8389 27.076L26.0762 24.0444L29.2755 23.345C29.6286 23.2676 29.9019 23.0014 29.9888 22.6505C30.0757 22.2997 29.9582 21.9368 29.6822 21.7034ZM25.3943 22.5517C25.0909 22.6181 24.8398 22.8294 24.7226 23.1166L23.86 25.2301L22.7068 23.2593C22.5501 22.9919 22.2721 22.8187 21.9623 22.7957L19.6858 22.6284L21.2036 20.9229C21.4097 20.6911 21.4886 20.3728 21.4146 20.0713L20.8702 17.8546L22.9603 18.7706C23.2446 18.8955 23.5719 18.8723 23.8364 18.7086L25.7765 17.5058L25.5511 19.7772C25.5204 20.0862 25.6436 20.3903 25.8808 20.5908L27.6243 22.0641L25.3943 22.5517Z" fill="white"/>
@@ -94,11 +94,11 @@ const Count = () => {
                             </svg>
                                 
                         </div>
-                        <div class="content" >
-                            <div class="count-number "> 
-                                <div class="number number-style " data-speed="2000" data-to="962" data-inviewport="yes"></div>                                                      
+                        <div className="content" >
+                            <div className="count-number "> 
+                                <div className="number number-style " data-speed="2000" data-to="962" data-inviewport="yes"></div>                                                      
                             </div>
-                            <h6 class="title-count fs-16 fw-4">Awards Winning</h6>
+                            <h6 className="title-count fs-16 fw-4">Awards Winning</h6>
                         </div>                                
                     </div>
                 </div>

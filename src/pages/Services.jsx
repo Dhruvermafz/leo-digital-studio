@@ -6,6 +6,7 @@ import FlatStep from '../components/Services/FlatStep'
 import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Extras/Footer'
 import Help from '../components/Help/Help'
+import WeDo from '../components/Services/WeDo'
 const Services = () => {
   return (
     <body className="body header-fixed counter-scroll">
@@ -13,6 +14,7 @@ const Services = () => {
           <div id="page" className="clearfix">
             <Navbar />
             <TitleService/>
+            <WeDo/>
             <ServiceFlat/>
             <Count/>
             <FlatStep/>
