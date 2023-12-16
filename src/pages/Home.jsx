@@ -14,6 +14,10 @@ import FlatHelp from "../components/Home/FlatHelp";
 import Analytics from "../components/Extras/Analytics";
 import Partners from "../components/Partners/Partners";
 import Projects from "../components/Projects/Projects";
+import FlatIcons from "../components/Extras/FlatIcons";
+import ServiceFlat from "../components/Services/ServiceFlat";
+import FlatProcess from "../components/Extras/FlatProcess";
+import FlatGrowing from "../components/Extras/FlatGrowing";
 const Home = () => {
   return (
     <>
@@ -22,12 +26,11 @@ const Home = () => {
           <div id="page" className="clearfix">
             <Navbar />
             <Slider />
-            <Counter/>
-            <About />
-            <SectionService/>
-            <Brands />
+            <FlatIcons/>
+            <ServiceFlat/>
+            <FlatProcess/>
+            <FlatGrowing/>
             <Projects/>
-            <Faq />
             <Partners/>
             <Analytics/>
             <Testimonials />

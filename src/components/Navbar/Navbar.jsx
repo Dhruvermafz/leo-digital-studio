@@ -9,135 +9,129 @@ import "../../styles/scss/component/header.css";
 const Navbar = () => {
   return (
     <header id="header_main" className="header_1 js-header home">
-      <div className="container-fuild ">
-        <div className="row">
-          <div className="col-md-12">
-            <div id="site-header-wrap" className="header-home">
-              <div className="wrap-box relative">
-                <div id="site-logo" className="clearfix">
-                  <div id="site-logo-inner">
-                    <a href="/" rel="home" className="main-logo">
-                      <img
-                        id="logo_header"
-                        src={logo}
-                        alt="img"
-                        width="195"
-                        height="50"
-                      />
-                    </a>
-                  </div>
+    <div className="container-fuild">
+      <div className="row">
+        <div className="col-md-12">
+          <div id="site-header-wrap" className="header-home">
+            <div className="wrap-box relative">
+              <div id="site-logo" className="clearfix">
+                <div id="site-logo-inner">
+                  <a href="index.html" rel="home" className="main-logo">
+                    <img
+                      id="logo_header"
+                      src={logo}
+                      alt="img"
+                      width="195"
+                      height="50"
+                    />
+                  </a>
                 </div>
-                <div className="mobile-button">
-                  <span></span>
-                </div>
-                 {" "}
-                  <div className="wrap-nav">
-                    
-                    {" "}
-                    
-                <div id="site-header-inner">
-                  <div className="wrap-inner clearfix flex">
-                    <nav id="main-nav" className="main-nav">
-                      <ul id="menu-primary-menu" className="menu">
-                        <li className="menu-item menu-item-has-children current-menu-item">
-                          <a href="/">Home</a>
-                         
-                        </li>
-
-                        <li className="menu-item menu-item-has-children">
-                          <a href="#"> Pages </a>
-                          <ul className="sub-menu ">
-                            <li className="menu-item">
-                              <a href="/about">About</a>
-                            </li>
-                            <li className="menu-item">
-                              <a href="/team">Our Team</a>
-                            </li>
-                          
-                            <li className="menu-item">
-                              <a href="/pricing">Pricing</a>
-                            </li>
-                            <li className="menu-item">
-                              <a href="/faq">Our Faq</a>
-                            </li>
-                            <li className="menu-item">
-                              <a href="/shop">Shop</a>
-                            </li>
-                            <li className="menu-item">
-                              <a href="/product_details">Product Details</a>
-                            </li>
-                          </ul>
-                        </li>
-
-                        <li className="menu-item menu-item-has-children ">
-                          <a href="/services"> Services </a>
-                          
-                        </li>
-
-                        <li className="menu-item menu-item-has-children">
-                          <a href="/portfolio">Portfolio </a>
+              </div>
+              <div className="mobile-button"><span></span></div>
+              {/* <!-- /.mobile-button --> */}
+              {/* <!-- <div className="wrap-nav"> --> */}
+              <div id="site-header-inner">
+                <div className="wrap-inner clearfix flex">
+                  <nav id="main-nav" className="main-nav">
+                    <ul id="menu-primary-menu" className="menu">
+                      <li
+                        className="menu-item menu-item-has-children current-menu-item"
+                      >
+                        <a href="/">Home</a>
                         
-                        </li>
+                      </li>
 
-                        <li className="menu-item menu-item-has-children ">
-                          <a href="/blogs">Blogs</a>
-                          {/* <ul className="sub-menu">
-                                <li className="menu-item ">
-                                  <a href="/blogs">Blog</a>
-                                </li>
-                                <li className="menu-item">
-                                  <a href="/blog_details">Blog Details</a>
-                                </li>
-                              </ul> */}
-                        </li>
+                      <li className="menu-item menu-item-has-children">
+                        <a href="#"> Pages </a>
+                        <ul className="sub-menu">
+                          <li className="menu-item">
+                            <a href="/about">About</a>
+                          </li>
+                          <li className="menu-item">
+                            <a href="/team">Our Team</a>
+                          </li>
+                          <li className="menu-item">
+                            <a href="/team-details">Team Details</a>
+                          </li>
+                          <li className="menu-item">
+                            <a href="/pricing">Pricing</a>
+                          </li>
+                          <li className="menu-item">
+                            <a href="/faq">Our Faq</a>
+                          </li>
+                          <li className="menu-item">
+                            <a href="/shop">Shop</a>
+                          </li>
+                          <li className="menu-item">
+                            <a href="/product-details"
+                              >Product Details</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
 
-                        <li className="menu-item">
-                          <a href="/contact">Contact </a>
-                        </li>
-                      </ul>
-                    </nav>
+                      <li className="menu-item menu-item-has-children">
+                        <a href="/services"> Services </a>
+                        
+                      </li>
 
-                    <div
-                      className="header-search flat-show-search shadows"
-                      id="s1"
-                    >
-                      <a href="#" className="show-search header-search-trigger">
-                        <span className="icon-Vector">
-                          <i className="far fa-search"></i>
-                        </span>
-                      </a>
+                      <li className="menu-item menu-item-has-children">
+                        <a href="/portfolio">Portfolio </a>
+                        
+                      </li>
 
-                      <div className="top-search">
-                        <form
-                          action="#"
-                          method="get"
-                          role="search"
-                          className="search-form"
+                      <li className="menu-item menu-item-has-children">
+                        <a href="/blogs">Blog</a>
+                       
+                      </li>
+
+                      <li className="menu-item">
+                        <a href="/contact">Contact </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  {/* <!-- /#main-nav --> */}
+
+                  <div
+                    className="header-search flat-show-search shadows"
+                    id="s1"
+                  >
+                    <a href="#" className="show-search header-search-trigger">
+                      <span className="icon-Vector"
+                        ><i className="far fa-search"></i
+                      ></span>
+                    </a>
+
+                    <div className="top-search">
+                      <form
+                        action="#"
+                        method="get"
+                        role="search"
+                        className="search-form"
+                      >
+                        <input
+                          type="search"
+                          id="s"
+                          className="search-field"
+                          placeholder="Search..."
+                          value=""
+                          name="s"
+                          title="Search for"
+                          required=""
+                        />
+                        <button
+                          className="search search-submit"
+                          type="submit"
+                          title="Search"
                         >
-                          <input
-                            type="search"
-                            id="s"
-                            className="search-field"
-                            placeholder="Search..."
-                            value=""
-                            name="s"
-                            title="Search for"
-                            required=""
-                          />
-                          <button
-                            className="search search-submit"
-                            type="submit"
-                            title="Search"
-                          >
-                            <i className="far fa-search"></i>
-                          </button>
-                        </form>
-                      </div>
+                          <i className="far fa-search"></i>
+                        </button>
+                      </form>
                     </div>
                   </div>
-                </div>{" "}
-              </div>{" "}
+                </div>
               </div>
+              {/* <!-- </div> --> */}
               <div className="flat-button-top flex-three">
                 <a href="#" className="menu-bar-right header-menu">
                   <svg
@@ -166,6 +160,7 @@ const Navbar = () => {
                         viewBox="0 0 66 43"
                         version="1.1"
                         xmlns="http://www.w3.org/2000/svg"
+              
                       >
                         <g
                           stroke="none"
@@ -198,158 +193,147 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-
-      <div id="sidebar" className="side-menu__block">
-        <div className="side-menu__block-overlay custom-cursor__overlay"></div>
-        <div className="inner-sidebar side-menu__block-inner fl-st-1">
-          <div className="side-menu__top justify-content-end">
-            <a href="#" className="side-menu__toggler side-menu__close-btn">
-              <img src={close} alt="images" />
-            </a>
-          </div>
-          <aside className="side-bar">
-            <div className="inner-side-bar">
-              <div className="widget widget-search search">
-                <h3 className="widget-title title-search">Search</h3>
-                <div className="search-flat">
-                  <form
-                    action="#"
-                    method="get"
-                    role="search"
-                    className="search-form"
-                  >
-                    <input
-                      type="search"
-                      className="search-field"
-                      placeholder="Search here"
-                      value=""
-                      name="s"
-                      title="Search for"
-                      required=""
-                    />
-                    <button
-                      className="search-icon search-submit"
-                      type="submit"
-                      title="Search"
-                    ></button>
-                  </form>
-                </div>
-              </div>
-
-              <div className="widget widget-categories style">
-                <h3 className="widget-title title-list">Category</h3>
-                <ul>
-                  <li>
-                    <h6>
-                      <a href="blog.html">Digital Marketing</a>
-                    </h6>
-                  </li>
-                  <li className="active">
-                    <h6>
-                      <a href="blog.html">SEO Optimization</a>
-                    </h6>
-                  </li>
-                  <li>
-                    <h6>
-                      <a href="blog.html">Email Marketing</a>
-                    </h6>
-                  </li>
-                  <li>
-                    <h6>
-                      <a href="blog.html">Content Writing</a>
-                    </h6>
-                  </li>
-                  <li>
-                    <h6>
-                      <a href="blog.html">UI/UX Strategy</a>
-                    </h6>
-                  </li>
-                  <li>
-                    <h6>
-                      <a href="blog.html">Web Development</a>
-                    </h6>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="widget widget-menu">
-                <h3 className="widget-title title-news">Recent Post</h3>
-                <ul className="recent-news ">
-                  <li className="hover-img flex">
-                    <div className="thumb img-style ">
-                      <img
-                        className="img"
-                        src={news2}
-                        alt="images"
-                      />
-                    </div>
-                    <div className="content link-style-1">
-                      <div className="days p-16">September 25, 2022</div>
-                      <h6 className="title">
-                        <a href="blog-details.html">
-                          Fluid Sizing Instead Of Media Queries
-                        </a>
-                      </h6>
-                    </div>
-                  </li>
-                  <li className="hover-img flex">
-                    <div className="thumb img-style ">
-                      <img
-                        className="img"
-                        src={news}
-                        alt="images"
-                      />
-                    </div>
-                    <div className="content link-style-1">
-                      <div className="days p-16">September 25, 2022</div>
-                      <h6 className="title">
-                        <a href="blog-details.html">
-                          Fluid Sizing Instead Of Media Queries
-                        </a>
-                      </h6>
-                    </div>
-                  </li>
-                  <li className="hover-img flex">
-                    <div className="thumb img-style ">
-                      <img
-                        className="img"
-                        src={news3}
-                        alt="images"
-                      />
-                    </div>
-                    <div className="content link-style-1">
-                      <div className="days p-16">September 25, 2022</div>
-                      <h6 className="title">
-                        <a href="blog-details.html">
-                          Fluid Sizing Instead Of Media Queries
-                        </a>
-                      </h6>
-                    </div>
-                  </li>
-                  <li className="hover-img flex">
-                    <div className="thumb img-style ">
-                      <img
-                        className="img"
-                        src={news4}
-                        alt="images"
-                      />
-                    </div>
-                    <div className="content link-style-1">
-                      <div className="days p-16">September 25, 2022</div>
-                      <h6 className="title">
-                        <a href="blog-details.html">
-                          Fluid Sizing Instead Of Media Queries
-                        </a>
-                      </h6>
-                    </div>
-                  </li>
-                </ul>
+    </div>
+    <div id="sidebar" className="side-menu__block">
+      <div className="side-menu__block-overlay custom-cursor__overlay"></div>
+      <div className="inner-sidebar side-menu__block-inner fl-st-1">
+        <div className="side-menu__top justify-content-end">
+          <a href="#" className="side-menu__toggler side-menu__close-btn"
+            ><img src={close} alt="images"
+          /></a>
+        </div>
+        <aside className="side-bar">
+          <div className="inner-side-bar">
+            <div className="widget widget-search search">
+              <h3 className="widget-title title-search">Search</h3>
+              <div className="search-flat">
+                <form
+                  action="#"
+                  method="get"
+                  role="search"
+                  className="search-form"
+                >
+                  <input
+                    type="search"
+                    className="search-field"
+                    placeholder="Search here"
+                    value=""
+                    name="s"
+                    title="Search for"
+                    required=""
+                  />
+                  <button
+                    className="search-icon search-submit"
+                    type="submit"
+                    title="Search"
+                  ></button>
+                </form>
               </div>
             </div>
-          </aside>
-        </div>
+
+            <div className="widget widget-categories style">
+              <h3 className="widget-title title-list">Category</h3>
+              <ul>
+                <li>
+                  <h6><a href="/blog">Digital Marketing</a></h6>
+                </li>
+                <li className="active">
+                  <h6><a href="/blog">SEO Optimization</a></h6>
+                </li>
+                <li>
+                  <h6><a href="/blog">Email Marketing</a></h6>
+                </li>
+                <li>
+                  <h6><a href="/blog">Content Writing</a></h6>
+                </li>
+                <li>
+                  <h6><a href="/blog">UI/UX Strategy</a></h6>
+                </li>
+                <li>
+                  <h6><a href="/blog">Web Development</a></h6>
+                </li>
+              </ul>
+            </div>
+
+            <div className="widget widget-menu">
+              <h3 className="widget-title title-news">Recent Post</h3>
+              <ul className="recent-news">
+                <li className="hover-img flex">
+                  <div className="thumb img-style">
+                    <img
+                      className="img"
+                      src={news}
+                      alt="images"
+                    />
+                  </div>
+                  <div className="content link-style-1">
+                    <div className="days p-16">September 25, 2022</div>
+                    <h6 className="title">
+                      <a href="blog-details.html"
+                        >Fluid Sizing Instead Of Media Queries</a
+                      >
+                    </h6>
+                  </div>
+                </li>
+                <li className="hover-img flex">
+                  <div className="thumb img-style">
+                    <img
+                      className="img"
+                      src={news2}
+                      alt="images"
+                    />
+                  </div>
+                  <div className="content link-style-1">
+                    <div className="days p-16">September 25, 2022</div>
+                    <h6 className="title">
+                      <a href="/blog-details"
+                        >Fluid Sizing Instead Of Media Queries</a
+                      >
+                    </h6>
+                  </div>
+                </li>
+                <li className="hover-img flex">
+                  <div className="thumb img-style">
+                    <img
+                      className="img"
+                      src={news3}
+                      alt="images"
+                    />
+                  </div>
+                  <div className="content link-style-1">
+                    <div className="days p-16">September 25, 2022</div>
+                    <h6 className="title">
+                      <a href="/blog-details"
+                        >Fluid Sizing Instead Of Media Queries</a
+                      >
+                    </h6>
+                  </div>
+                </li>
+                <li className="hover-img flex">
+                  <div className="thumb img-style">
+                    <img
+                      className="img"
+                      src={news4}
+                      alt="images"
+                    />
+                  </div>
+                  <div className="content link-style-1">
+                    <div className="days p-16">September 25, 2022</div>
+                    <h6 className="title">
+                      <a href="/blog-details"
+                        >Fluid Sizing Instead Of Media Queries</a
+                      >
+                    </h6>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </aside>
       </div>
-    </header>
+      {/* <!--/inner-sidebar--> */}
+    </div>
+  </header>
   );
 };
 

@@ -8,7 +8,7 @@ import Help from '../components/Help/Help'
 const Team = () => {
   return (
     <body className="body header-fixed counter-scroll">
-        <div id="wrapper" className="wrapper-home2">
+        <div id="wrapper">
           <div id="page" className="clearfix">
             <Navbar />
             <TitleTeam/>
