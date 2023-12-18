@@ -1,5 +1,5 @@
 import React from 'react'
-import contact from "../../assets/images/mark/mark-inner-page.png"
+import contact from "../../assets/images/mark/mark-inner-page.jpg"
 const ContactTitle = () => {
   return (
     <section class="flat-title-page inner">

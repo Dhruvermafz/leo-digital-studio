@@ -1,5 +1,5 @@
 import React from 'react'
-import team from "../../assets/images/mark/mark-inner-page.png"
+import team from "../../assets/images/mark/mark-inner-page.jpg"
 
 const TitleTeam = () => {
   return (

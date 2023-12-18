@@ -29,7 +29,7 @@ const FlatHelp = () => {
                   id="subscribe-form"
                   action="#"
                   method="GET"
-                  accept-charset="utf-8"
+                  acceptCharset="utf-8"
                   className="form-submit flex"
                 >
                   <input

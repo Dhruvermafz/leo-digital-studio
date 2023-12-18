@@ -6,7 +6,7 @@ import FlatSkills from "../components/Skills/FlatSkills";
 import FlatTeam from "../components/Team/FlatTeam";
 import Business from "../components/Extras/Business";
 import Footer from "../components/Extras/Footer";
-
+import TeamSection from "../components/Team/TeamSection";
 const About = () => {
   return (
     <body className="body header-fixed counter-scroll">
@@ -16,7 +16,7 @@ const About = () => {
           <TitleAbout />
           <FlatAbout />
           <FlatSkills />
-          <FlatTeam />
+          <TeamSection/>
           <Business />
 
           <Footer />

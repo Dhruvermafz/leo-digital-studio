@@ -1,15 +1,9 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
-
 import Footer from "../components/Extras/Footer";
 import Testimonials from "../components/Testimonials/Testimonials";
 import NewsBlogs from "../components/Blogs/News&Blogs";
-import Faq from "../components/Extras/Faq";
-import Brands from "../components/Extras/Brands";
 import Slider from "../components/Extras/Slider";
-import About from "../components/About/About";
-import Counter from "../components/Extras/Counter";
-import SectionService from "../components/Services/SectionService";
 import FlatHelp from "../components/Home/FlatHelp";
 import Analytics from "../components/Extras/Analytics";
 import Partners from "../components/Partners/Partners";
@@ -18,6 +12,8 @@ import FlatIcons from "../components/Extras/FlatIcons";
 import ServiceFlat from "../components/Services/ServiceFlat";
 import FlatProcess from "../components/Extras/FlatProcess";
 import FlatGrowing from "../components/Extras/FlatGrowing";
+import "../scripts/swiper"
+import Help from "../components/Help/Help"
 const Home = () => {
   return (
     <>
@@ -35,7 +31,7 @@ const Home = () => {
             <Analytics/>
             <Testimonials />
             <NewsBlogs />
-            <FlatHelp/>
+            <Help/>
             <Footer />
           </div>
         </div>

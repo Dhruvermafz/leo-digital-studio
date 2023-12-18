@@ -11,98 +11,98 @@ import client5 from "../../assets/images/img-box/client-5.jpg"
 import client6 from "../../assets/images/img-box/client-6.jpg" 
 const FlatProcess = () => {
   return (
-    <section class="flat-process">
-    <div class="container-fuild">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="wrap-process flex">
-            <div class="box-process">
-              <div class="heading-section2">
-                <h6 class="">Working Process</h6>
-                <h2 class="">
+    <section className="flat-process">
+    <div className="container-fuild">
+      <div className="row">
+        <div className="col-lg-12">
+          <div className="wrap-process flex">
+            <div className="box-process">
+              <div className="heading-section2">
+                <h6 className="">Working Process</h6>
+                <h2 className="">
                   Foundations of SEO to Complate Our Business Missions
                 </h2>
               </div>
-              <div class="diagram-box flex">
+              <div className="diagram-box flex">
                 <div
-                  class="diagram one center"
+                  className="diagram one center"
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
-                  <div class="icon">
+                  <div className="icon">
                     <img src={process} alt="" />
                   </div>
-                  <div class="content">
-                    <div class="sub-title title-14 fw-5">SETP 01</div>
+                  <div className="content">
+                    <div className="sub-title title-14 fw-5">SETP 01</div>
                     <h6>Perform a Complete SEO and Content Audit</h6>
-                    <p class="text-color-7">
+                    <p className="text-color-7">
                       Sit amet consect adipiscing nec tortor nec aenean
                     </p>
                   </div>
                 </div>
                 <div
-                  class="diagram two center"
+                  className="diagram two center"
                   data-aos="fade-up"
                   data-aos-duration="1400"
                 >
-                  <div class="icon">
+                  <div className="icon">
                     <img src={process2} alt="" />
                   </div>
-                  <div class="content">
-                    <div class="sub-title title-14 fw-5">SETP 02</div>
+                  <div className="content">
+                    <div className="sub-title title-14 fw-5">SETP 02</div>
                     <h6>Identify Keywords to Optimize</h6>
-                    <p class="text-color-7">
+                    <p className="text-color-7">
                       Sit amet consect adipiscing nec tortor nec aenean
                     </p>
                   </div>
                 </div>
                 <div
-                  class="diagram three center"
+                  className="diagram three center"
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <div class="icon">
+                  <div className="icon">
                     <img src={process3} alt="" />
                   </div>
-                  <div class="content">
-                    <div class="sub-title title-14 fw-5">SETP 03</div>
+                  <div className="content">
+                    <div className="sub-title title-14 fw-5">SETP 03</div>
                     <h6>Install analytics and Set Key Performance</h6>
-                    <p class="text-color-7">
+                    <p className="text-color-7">
                       Sit amet consect adipiscing nec tortor nec aenean
                     </p>
                   </div>
                 </div>
-                <div class="mark-diagram absolute">
+                <div className="mark-diagram absolute">
                   <img src={mark} alt="" />
                 </div>
               </div>
             </div>
-            <div class="box-client">
-              <h6 class="text-color-7 fw-4">Saticfied Clients</h6>
+            <div className="box-client">
+              <h6 className="text-color-7 fw-4">Saticfied Clients</h6>
               <h3>We Have Thousands Of Global Clients</h3>
-              <ul class="flex">
-                <li class="user">
+              <ul className="flex">
+                <li className="user">
                   <img src={client} alt="" />
                 </li>
-                <li class="user">
+                <li className="user">
                   <img src={client2}alt="" />
                 </li>
-                <li class="user">
+                <li className="user">
                   <img src={client3} alt="" />
                 </li>
-                <li class="user">
+                <li className="user">
                   <img src={client4} alt="" />
                 </li>
-                <li class="user">
+                <li className="user">
                   <img src={client5} alt="" />
                 </li>
-                <li class="user">
+                <li className="user">
                   <img src={client6} alt="" />
                 </li>
                 
-                <li class="user style"><i class="far fa-plus"></i></li>
+                <li className="user style"><i className="far fa-plus"></i></li>
               </ul>
-              <div class="images">
+              <div className="images">
                 <img src={process} alt="" />
               </div>
             </div>

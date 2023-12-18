@@ -6,6 +6,7 @@ import news from "../../assets/images/blog/news-2.jpg"
 import news4 from "../../assets/images/blog/news-4.jpg"
 import news2 from "../../assets/images/blog/news-1.jpg"
 import "../../styles/scss/component/header.css";
+import "../../styles/scss/component/side-bar.css"
 const Navbar = () => {
   return (
     <header id="header_main" className="header_1 js-header home">
@@ -50,18 +51,14 @@ const Navbar = () => {
                           <li className="menu-item">
                             <a href="/team">Our Team</a>
                           </li>
-                          <li className="menu-item">
-                            <a href="/team-details">Team Details</a>
-                          </li>
+                          
                           <li className="menu-item">
                             <a href="/pricing">Pricing</a>
                           </li>
                           <li className="menu-item">
                             <a href="/faq">Our Faq</a>
                           </li>
-                          <li className="menu-item">
-                            <a href="/shop">Shop</a>
-                          </li>
+                       
                           <li className="menu-item">
                             <a href="/product-details"
                               >Product Details</a
@@ -144,9 +141,9 @@ const Navbar = () => {
                     <path
                       d="M20.7904 16.4166V25.1666V16.4166ZM16.4154 20.7916H25.1654H16.4154ZM4.7487 10.5833H7.66536C8.43891 10.5833 9.18078 10.276 9.72776 9.72904C10.2747 9.18206 10.582 8.44019 10.582 7.66665V4.74998C10.582 3.97643 10.2747 3.23457 9.72776 2.68758C9.18078 2.1406 8.43891 1.83331 7.66536 1.83331H4.7487C3.97515 1.83331 3.23328 2.1406 2.6863 2.68758C2.13932 3.23457 1.83203 3.97643 1.83203 4.74998V7.66665C1.83203 8.44019 2.13932 9.18206 2.6863 9.72904C3.23328 10.276 3.97515 10.5833 4.7487 10.5833ZM19.332 10.5833H22.2487C23.0222 10.5833 23.7641 10.276 24.3111 9.72904C24.8581 9.18206 25.1654 8.44019 25.1654 7.66665V4.74998C25.1654 3.97643 24.8581 3.23457 24.3111 2.68758C23.7641 2.1406 23.0222 1.83331 22.2487 1.83331H19.332C18.5585 1.83331 17.8166 2.1406 17.2696 2.68758C16.7227 3.23457 16.4154 3.97643 16.4154 4.74998V7.66665C16.4154 8.44019 16.7227 9.18206 17.2696 9.72904C17.8166 10.276 18.5585 10.5833 19.332 10.5833ZM4.7487 25.1666H7.66536C8.43891 25.1666 9.18078 24.8594 9.72776 24.3124C10.2747 23.7654 10.582 23.0235 10.582 22.25V19.3333C10.582 18.5598 10.2747 17.8179 9.72776 17.2709C9.18078 16.7239 8.43891 16.4166 7.66536 16.4166H4.7487C3.97515 16.4166 3.23328 16.7239 2.6863 17.2709C2.13932 17.8179 1.83203 18.5598 1.83203 19.3333V22.25C1.83203 23.0235 2.13932 23.7654 2.6863 24.3124C3.23328 24.8594 3.97515 25.1666 4.7487 25.1666Z"
                       stroke="#120A21"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 </a>
@@ -166,7 +163,7 @@ const Navbar = () => {
                           stroke="none"
                           stroke-width="1"
                           fill="none"
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                         >
                           <path
                             className="one"

@@ -9,6 +9,7 @@ import Faqs from "./pages/Faqs";
 import Team from "./pages/Team";
 import Portfolio from "./pages/Portfolio";
 import Services from "./pages/Services";
+
 function App() {
   return (
     <Router>
