@@ -13,7 +13,7 @@ import FlatProcess from "../components/Extras/FlatProcess";
 import FlatGrowing from "../components/Extras/FlatGrowing";
 import "../scripts/swiper"
 import Help from "../components/Help/Help"
-import FlatAbout from "../components/Home/FlatAbout";
+import SectionAbout from "../components/About/SectionAbout";
 import FlatPricing from "../components/Pricing/FlatPricing";
 const Home = () => {
   return (
@@ -23,7 +23,7 @@ const Home = () => {
           <div id="page" className="clearfix">
             <Navbar />
             <Slider />
-            <FlatAbout/>
+            <SectionAbout/>
             <FlatIcons/>
             <ServiceFlat/>
             <FlatProcess/>
