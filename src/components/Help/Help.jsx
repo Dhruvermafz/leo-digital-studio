@@ -2,7 +2,7 @@ import React from 'react'
 import mark2 from "../../assets/images/mark/mark-news-2.png"
 import mark from "../../assets/images/mark/mark-news-1.png" 
 import mark3 from "../../assets/images/mark/mark-news-3.png"
-import newsletter from "../../assets/images/img-box/newsletter-1.png"
+import newsletter from "../../assets/images/img-box/newsletter-1.jpg"
 const Help = () => {
   return (
 
