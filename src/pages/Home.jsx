@@ -4,7 +4,6 @@ import Footer from "../components/Extras/Footer";
 import Testimonials from "../components/Testimonials/Testimonials";
 import NewsBlogs from "../components/Blogs/News&Blogs";
 import Slider from "../components/Extras/Slider";
-import FlatHelp from "../components/Home/FlatHelp";
 import Analytics from "../components/Extras/Analytics";
 import Partners from "../components/Partners/Partners";
 import Projects from "../components/Projects/Projects";
