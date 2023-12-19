@@ -14,7 +14,6 @@ import FlatGrowing from "../components/Extras/FlatGrowing";
 import "../scripts/swiper"
 import Help from "../components/Help/Help"
 import FlatAbout from "../components/Home/FlatAbout";
-import SectionPricing from "../components/Pricing/SectionPricing";
 import FlatPricing from "../components/Pricing/FlatPricing";
 const Home = () => {
   return (
