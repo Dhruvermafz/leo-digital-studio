@@ -1,4 +1,4 @@
-@import url(../scss/abstracts/variables.css);
+@use './abstracts/' as *;
 
 /**
   * Name: SeoMx - Seo & Digital Marketing HTML Template
@@ -7,16 +7,15 @@
   * Author URI: http://www.themesflat.com
 */
 
-@import "../responsive.css";
-@import "../animate.css";
-@import url("../font-awesome.css");
-@import url("../jquery.fancybox.min.css");
-@import "../magnific-popup.css";
-@import "../swiper-bundle.min.css";
+@import "responsive.css";
+@import "animate.css";
+@import "jquery.fancybox.min.css";
+@import "../dist/font-awesome.css";
+@import "magnific-popup.css";
+@import "swiper-bundle.min.css";
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-@import url("./component/index.css");
-
+@import "bootstrap.css";
 
 /**
   	* Reset Browsers
@@ -70,12 +69,12 @@ html {
 }
 
 body {
-    font-family: --font-1;
+    font-family: $font-1;
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    color: --color-2;
-    background-color: --color-1;
+    color: $color-2;
+    background-color: $color-1;
 }
 
 img {
@@ -134,7 +133,7 @@ input[type="search"],
 input[type="tel"], 
 input[type="color"] {
     border: 1px solid rgba(255,255,255,0.2);
-    font-family: --font-2;
+    font-family: $font-2;
     outline: 0;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -145,7 +144,7 @@ input[type="color"] {
     padding: 13px 15px 13px 27px;
     width: 100%;
     background: #F6F6F6;
-    color: --color-1;
+    color: $color-1;
 }
 
 textarea::placeholder,
@@ -163,10 +162,10 @@ input[type="url"]::placeholder,
 input[type="search"]::placeholder, 
 input[type="tel"]::placeholder, 
 input[type="color"]::placeholder {
-    font-family: --font-1;
+    font-family: $font-1;
     font-size: 16px;
     line-height: 26px;
-    color: --color-1;
+    color: $color-1;
 }
 
 
@@ -186,7 +185,7 @@ input[type="color"]::placeholder {
 
 .error {
     font-size: 16px;
-    color: --color-2;
+    color: $color-2;
     margin-bottom: 10px;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
@@ -204,8 +203,8 @@ p {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    color: --color-2;
-    font-family: --font-2;
+    color: $color-2;
+    font-family: $font-2;
 }
 
 .p-14 {
@@ -218,8 +217,8 @@ p {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    color: --color-2;
-    font-family: --font-2;
+    color: $color-2;
+    font-family: $font-2;
 }
 
 .tp-16 {
@@ -427,7 +426,7 @@ button {
 }
 
 .font-2 {
-    font-family: --font-2  ;
+    font-family: $font-2  ;
 }
 
 .fw-4 {
@@ -489,7 +488,7 @@ a {
     @include transition3;
     cursor: pointer;
     display: inline-block;
- 
+    // display: inherit;
     &:focus,
     &:hover {
         @include transition3;
@@ -516,12 +515,12 @@ a {
 
 .link-style-1 a {
     text-decoration: none;
-    color: --color-2;
+    color: $color-2;
     @include transition3;
 
     &:focus,
     &:hover {
-        color: --color-3;
+        color: $color-3;
         text-decoration: none;
         outline: 0;
         @include transition3;
@@ -530,11 +529,11 @@ a {
 
 .link-style-2 a {
     text-decoration: none;
-    color: --color-1;
+    color: $color-1;
     @include transition3;
     &:focus,
     &:hover {
-        color: --color-2;
+        color: $color-2;
         text-decoration: none;
         outline: 0;
         @include transition3;
@@ -543,11 +542,11 @@ a {
 
 .link-style-3 a {
     text-decoration: none;
-    color: --color-1;
+    color: $color-1;
     @include transition3;
     &:focus,
     &:hover {
-        color: --color-3;
+        color: $color-3;
         text-decoration: none;
         @include transition3;
     }
@@ -555,11 +554,11 @@ a {
 
 .link-style-4 a {
     text-decoration: none;
-    color: --color-2;
+    color: $color-2;
     @include transition3;
     &:focus,
     &:hover {
-        color: --color-7;
+        color: $color-7;
         text-decoration: none;
         @include transition3;
     }
@@ -567,11 +566,11 @@ a {
 
 .link-style-5 a {
     text-decoration: none;
-    color: --color-2;
+    color: $color-2;
     @include transition3;
     &:focus,
     &:hover {
-        color: --color-1;
+        color: $color-1;
         text-decoration: none;
         outline: 0;
         @include transition3;
@@ -580,11 +579,11 @@ a {
 
 .link-style-6 a {
     text-decoration: none;
-    color: --color-2;
+    color: $color-2;
     @include transition3;
     &:focus,
     &:hover {
-        color: --color-6;
+        color: $color-6;
         text-decoration: none;
         outline: 0;
         @include transition3;
@@ -593,11 +592,11 @@ a {
 
 .link-style-7 a {
     text-decoration: none;
-    color: --color-1;
+    color: $color-1;
     @include transition3;
     &:focus,
     &:hover {
-        color: --color-6;
+        color: $color-6;
         text-decoration: none;
         outline: 0;
         @include transition3;
@@ -613,7 +612,7 @@ a {
 }
 
 .text-color-3 {
-    color: --color-3!important;
+    color: $color-3!important;
 }
 
 .text-color-4 {
@@ -625,7 +624,7 @@ a {
 }
 
 .text-color-6 {
-    color: --color-6 !important;
+    color: $color-6 !important;
 }
 
 .text-color-7 {
@@ -633,7 +632,7 @@ a {
 }
 
 .text-color-8 {
-    color: --color-7!important;
+    color: $color-7!important;
 }
 
 
@@ -647,47 +646,47 @@ a {
         font-size: 17px;
         font-weight: 400;
         background: transparent;
-        color: --color-1;
+        color: $color-1;
         border: none;
         line-height: 20px;
-      
+        // padding: 13px 14.5px 11px;
         padding: 17.5px 21.5px 17px;
         @include transition3;
         border-top-right-radius: 4px;
         border-bottom-right-radius: 4px;
-      
+        // transform: rotateY(170deg);
         &:hover {
-            background: --color-3;
+            background: $color-3;
         }
 
         &.search-icon::after {
             content: "\f002";
             font-family: "Font Awesome 5 Pro";
-            color: --color-1;
+            color: $color-1;
         }
     }
 }
 .search-form {
     position: relative;
     .search-field {
-        background: --color-3;
-        color: --color-1;
+        background: $color-3;
+        color: $color-1;
         width: 100%;
-        border: 1px solid --color-3;
+        border: 1px solid $color-3;
         line-height: 24px;
         padding: 15px 50px 14px 20px;
         border-radius: 0;
         &::placeholder {
-            color: --color-1 !important;
+            color: $color-1 !important;
             line-height: 19px;
             font-size: 16px !important;
             font-weight: 400;
-            font-family: --font-2;
+            font-family: $font-2;
             font-weight: 400;
         }
         &:focus {
-            color: --color-1;
-            border: 1px solid --color-2;
+            color: $color-1;
+            border: 1px solid $color-2;
         }
     }
 }
@@ -702,15 +701,15 @@ a {
         width: 100%;
         box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 30%);
         z-index: 999;
-        background: --color-1;
+        background: $color-1;
         border: none;
         opacity: 0;
         @include transition5;
         #main-nav > ul > li > a {
-            color: --color-2;
+            color: $color-2;
         }
         #main-nav > ul > .current-menu-item > a {
-            color: --color-6;
+            color: $color-6;
         }   
     }
 }
@@ -726,8 +725,8 @@ a {
 
 .themesflat-pagination {
     display: inline-block;
-    background-color: --bg-color;
-    border: 1px solid --color-2;
+    background-color: $bg-color;
+    border: 1px solid $color-2;
     padding: 21px 50px 31px;
     margin-top: 59px;
     ul {
@@ -750,7 +749,7 @@ a {
                 width        : 10px;
                 height       : 10px;           
                 border-radius: 200px;
-                background-color: --color-2;
+                background-color: $color-2;
                 object-fit   : cover;  
                 position: relative;  
                 @include transition3;;
@@ -769,7 +768,7 @@ a {
                             content: "";
                             width: 40px;
                             height: 40px;
-                            border: 1px solid --color-2;
+                            border: 1px solid $color-2;
                             border-radius: 50%;
                             position: absolute;
                             transform: translate(-50%, -50%);
@@ -781,18 +780,18 @@ a {
                 &.style {
                     width        : 65px;
                     height       : 65px;
-                    color        : --color-1;
+                    color        : $color-1;
                     text-align   : center;
                     line-height  : 65px;
-                    box-shadow: 2px 6px 0 --color-6;
+                    box-shadow: 2px 6px 0 $color-6;
                     i {
                         font-size: 22px;
                         font-weight: 400;
                         vertical-align: middle;
                     }
                     &:hover {
-                        box-shadow: 2px 6px 0 --color-2;
-                        background: --color-3;
+                        box-shadow: 2px 6px 0 $color-2;
+                        background: $color-3;
                     }
                 }
             }
@@ -818,7 +817,7 @@ a {
     visibility: hidden;
     cursor: pointer;
     overflow: hidden;
-    box-shadow: 5px 5px 0 --color-2;
+    box-shadow: 5px 5px 0 $color-2;
     &.show {
         right: 15px;
         opacity: 1;
@@ -838,7 +837,7 @@ a {
 
     &::before {
         z-index: -1;
-        background-color: --color-3;
+        background-color: $color-3;
     }
 
     &::after {
@@ -850,8 +849,8 @@ a {
     }
 
     &:hover {
-       
-        box-shadow: 5px 5px 0 --color-6;
+        // transform: translateY(-7%);
+        box-shadow: 5px 5px 0 $color-6;
     }
 }
 
@@ -865,7 +864,7 @@ a {
     position: relative;
     width: 100%;
     height: 100%;
-    background: --color-1;
+    background: $color-1;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -888,7 +887,7 @@ a {
   #box {
     width: 50px;
     height: 50px;
-    background: --color-3;
+    background: $color-3;
     animation: animate .5s linear infinite;
     position: absolute;
     top: 0;
@@ -946,13 +945,13 @@ a {
     margin-bottom: 52px;
     h6 {
         margin-bottom: 26px;
-       
-        color: --color-1;
+        // text-transform: uppercase;
+        color: $color-1;
         padding: 10px 20px;
         display: inline-block;
-        background: --color-3;
+        background: $color-3;
         border-radius: 5px;
-        box-shadow: 5px 5px 0 --color-2;
+        box-shadow: 5px 5px 0 $color-2;
     }
     h2 {
         letter-spacing: -0.9px;
@@ -963,8 +962,8 @@ a {
     } 
     &.style2 {
         h6 {
-            background: --color-1;
-            color: --color-2;
+            background: $color-1;
+            color: $color-2;
         }
     } 
     &.style3 {
@@ -995,7 +994,7 @@ a {
     h6 {
         margin-bottom: 20px;
         margin-left: 1px;
-        color: --color-1;
+        color: $color-1;
         display: inline-block;
         background: #5C28CA;
         border-radius: 5px;
@@ -1055,7 +1054,7 @@ a {
 .dropdown {
     li {
         border-top        : 0.5px solid rgba(122, 121, 138, 0.1);
-        background        : --color-1;
+        background        : $color-1;
         color             : #000;
         width             : 100%;
         padding           : 9px 10px 8px 16px;
@@ -1108,7 +1107,7 @@ a {
 
 .progress-content {
     height: 5px;
-    background-color: --color-3;
+    background-color: $color-3;
     width: 0%;
 
 }

@@ -18,7 +18,6 @@
     "react-router": "^6.16.0",
     "react-router-dom": "^6.20.0",
     "react-scripts": "5.0.1",
-    "scss": "^0.2.4",
     "shortcodes": "^1.0.0",
     "slider": "^1.0.4",
     "swiper": "^11.0.5",
@@ -48,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.69.5"
   }
 }

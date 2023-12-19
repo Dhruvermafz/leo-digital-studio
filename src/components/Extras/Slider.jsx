@@ -2,7 +2,7 @@ import React from 'react'
 import slider from "../../assets/images/slider/slider-2.png"
 import slider2 from "../../assets/images/slider/slider-1.png"
 import bgslider from "../../assets/images/slider/bg-slider-1.png"
-import "../../styles/scss/component/slider.css"
+import "../../styles/scss/component/_slider.scss"
 const Slider = () => {
   return (
     <section class="slider home2 sld-style">

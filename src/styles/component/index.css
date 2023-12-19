@@ -1,11 +1,4 @@
 @charset "UTF-8";
-@import url("./button.css");
-@import url("./footer.css");
-@import url("./header.css");
-@import url("./hover.css");
-@import url("./section.css");
-@import url("./side-bar.css");
-@import url("./slider.css");
 /* Header
 -------------------------------------------------------------- */
 header {
@@ -778,7 +771,7 @@ header {
   -webkit-transform: translateX(-270px);
   -ms-transform: translateX(-270px);
   transform: translateX(-250px);
-  cursor: url(../../../assets/images/icon/close.png), auto;
+  cursor: url(../icon/close-1-1.png), auto;
   -webkit-transition: all 0.2s ease-in-out 0s;
   -moz-transition: all 0.2s ease-in-out 0s;
   -ms-transition: all 0.2s ease-in-out 0s;
@@ -1014,7 +1007,7 @@ path.two {
 .flat-title-page.inner {
   padding: 176px 0 62px 0px;
   position: relative;
-  background-image: url(../../../assets/images/section/img-page-inner.jpg);
+  background-image: url(../../assets/images/section/img-page-inner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1321,7 +1314,7 @@ path.two {
   box-shadow: unset;
   border-radius: 12px;
   padding: 60px 0 50px;
-  background: url(../../../assets/images/section/bg-newsletter.jpg) center center no-repeat;
+  background: url(./../../assets/images/section/bg-newsletter.jpg) center center no-repeat;
   background-size: cover;
   z-index: 2;
 }
@@ -1688,12 +1681,12 @@ path.two {
 .flat-video {
   padding-top: 144px;
   padding-bottom: 150px;
-  background: url(../../../assets/images/section/bg-diagram.jpg) center center no-repeat;
+  background: url(./../../assets/images/section/bg-video.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
 .flat-video.page {
-  background: url(../../../assets/images/section/bg-diagram.jpg) center center no-repeat;
+  background: url(./../../assets/images/section/bg-video-page.jpg) center center no-repeat;
   background-size: cover;
   border-radius: 5px;
   padding-bottom: 151px;
@@ -1805,13 +1798,13 @@ path.two {
   border-left: 1px solid #00234B;
   border-right: 1px solid #00234B;
   padding: 83px 20px 79px 24px;
-  background: url(../../../assets/images/mark/mark-icon.png) center center no-repeat;
+  background: url(./../../assets/images/mark/mark-icon.png) center center no-repeat;
 }
 .flat-icon .icon-box.box-3 {
   padding: 83px 0px 79px 0px;
 }
 .flat-icon .icon-box:hover {
-  background: url(../../../assets/images/mark/mark-icon.png) center center no-repeat;
+  background: url(./../../assets/images/mark/mark-icon.png) center center no-repeat;
 }
 .flat-icon .icon-box:hover .icon svg {
   -webkit-animation: spinAround 2s linear infinite;
@@ -1860,7 +1853,7 @@ path.two {
 }
 
 .flat-services {
-  background: url(../../../assets/images/mark/mark-service2.png) center center no-repeat;
+  background: url(./../../assets/images/mark/mark-service2.png) center center no-repeat;
   padding-bottom: 120px;
 }
 .flat-services .heading-section2 {
@@ -1907,7 +1900,7 @@ path.two {
 }
 .flat-process .box-process {
   width: 57.3%;
-  background: url(../../../assets/images/section/bg-diagram.jpg) center center no-repeat;
+  background: url(./../../assets/images/section/bg-diagram.jpg) center center no-repeat;
   background-size: cover;
   padding: 80px 75px;
   flex: none;
@@ -2090,7 +2083,7 @@ path.two {
 }
 .flat-growing .wrap-growing .box-images .images {
   margin-left: -157px;
-  background: url(../../../assets/images/mark/growing-1.png) center no-repeat;
+  background: url(./../../assets/images/mark/growing-1.png) center no-repeat;
   padding: 130px 0px;
 }
 .flat-growing .wrap-growing .box-growing {
@@ -2112,7 +2105,7 @@ path.two {
 
 .flat-projects {
   padding-bottom: 120px;
-  background: url(../../../assets/images/mark/mark-projects.png) center no-repeat;
+  background: url(./../../assets/images/mark/mark-projects.png) center no-repeat;
   background-position: 0px 20px;
 }
 .flat-projects .swiper-slide-active .box .image-box .images {
@@ -2208,7 +2201,7 @@ path.two {
 }
 
 .flat-partners {
-  background: url(../../../assets/images/section/bg-partners2.jpg) center center no-repeat;
+  background: url(./../../assets/images/section/bg-partners2.jpg) center center no-repeat;
   background-size: cover;
   padding-bottom: 100px;
 }
@@ -2305,7 +2298,7 @@ path.two {
 }
 .flat-analytics .wrap-analytics .box-images .images {
   margin-left: -187px;
-  background: url(../../../assets/images/mark/mark-analytics.png) center no-repeat;
+  background: url(./../../assets/images/mark/mark-analytics.png) center no-repeat;
   padding: 120px 0px 71px 100px;
   margin-right: 0px;
   position: relative;
@@ -2358,7 +2351,7 @@ path.two {
 .flat-testimonials .box-testi {
   padding: 131px 97px 122px 307px;
   width: 50%;
-  background: url(../../../assets/images/section/bg-testimonials-1.png) center no-repeat;
+  background: url(./../../assets/images/section/bg-testimonials-1.png) center no-repeat;
   background-size: cover;
   flex: none;
 }
@@ -2415,7 +2408,7 @@ path.two {
 .flat-testimonials .box-images {
   width: 50%;
   padding: 110px 0px 120px 214px;
-  background: url(../../../assets/images/section/bg-testimonials-2.png) center no-repeat;
+  background: url(./../../assets/images/section/bg-testimonials-2.png) center no-repeat;
   background-size: cover;
 }
 .flat-testimonials .box-images .images {
@@ -2456,7 +2449,7 @@ path.two {
 }
 
 .flat-news {
-  background: url(../../../assets/images/mark/mark-blog.png) center no-repeat;
+  background: url(./../../assets/images/mark/mark-blog.png) center no-repeat;
 }
 .flat-news .heading-section2 {
   padding: 0 300px;
@@ -3433,7 +3426,7 @@ path.two {
   padding-right: 30px;
 }
 .flat-skills.page {
-  background: url(../../../assets/images/section/bg-skills.jpg) center center no-repeat;
+  background: url(./../../assets/images/section/bg-skills.jpg) center center no-repeat;
   background-size: cover;
   padding: 125px 0 142px;
 }
@@ -3834,7 +3827,7 @@ path.two {
   margin-bottom: 54px;
 }
 .flat-pricing.page .image-box {
-  background: url(../../../assets/images/img-box/bg-pricing.jpg) center center no-repeat;
+  background: url(./../../assets/images/img-box/bg-pricing.jpg) center center no-repeat;
   background-size: cover;
   padding: 15px 15px;
   text-align: center;
@@ -4588,7 +4581,7 @@ path.two {
 }
 #footer.home {
   padding: 210px 0 66px;
-  background: url(../../../assets/images/section/bg-footer-1.jpg) center center no-repeat;
+  background: url(./../../assets/images/section/bg-footer-1.jpg) center center no-repeat;
   background-size: cover;
   margin-top: -130px;
 }
@@ -4830,7 +4823,7 @@ path.two {
   border-top: 1px solid rgba(18, 10, 33, 0.1);
 }
 .widget-social-footer.home {
-  background: url(../../../assets/images/section/bg-footer-1.jpg) center center no-repeat;
+  background: url(./../../assets/images/section/bg-footer-1.jpg) center center no-repeat;
   background-position: bottom;
 }
 .widget-social-footer .title-bottom {
@@ -5304,7 +5297,7 @@ path.two {
   padding: 55px;
   bottom: 13px;
   margin-left: 82px;
-  background: url(../../../assets/images/slider/mark-title.png) center no-repeat;
+  background: url(./../../assets/images/slider/mark-title.png) center no-repeat;
   animation: swing3 ease-in-out 2s infinite alternate;
 }
 @keyframes swing3 {

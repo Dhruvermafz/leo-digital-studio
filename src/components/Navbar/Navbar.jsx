@@ -5,8 +5,8 @@ import news3 from "../../assets/images/blog/news-3.jpg"
 import news from "../../assets/images/blog/news-2.jpg"
 import news4 from "../../assets/images/blog/news-4.jpg"
 import news2 from "../../assets/images/blog/news-1.jpg"
-import "../../styles/scss/component/header.css";
-import "../../styles/scss/component/side-bar.css"
+import "../../styles/scss/component/_header.scss";
+import "../../styles/scss/component/_slider.scss"
 const Navbar = () => {
   return (
     <header id="header_main" className="header_1 js-header home">
