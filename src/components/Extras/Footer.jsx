@@ -29,16 +29,16 @@ const Footer = () => {
                     ways.{" "}
                   </p>
                   <div className="icon-social text-color-1">
-                    <a href="#">
+                    <a href="https://www.facebook.com/LeoDigitalStudio10/">
                       <i className="fab fa-facebook-f"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://twitter.com/Leo_Digital_01">
                       <i className="fab fa-twitter"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/leo-digital-studio-65a55921a">
                       <i className="fab fa-linkedin-in"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/leo.digitalstudio/">
                       <i className="fab fa-instagram"></i>
                     </a>
                   </div>
@@ -116,7 +116,7 @@ const Footer = () => {
                   </div>
                   <div className="content">
                     <h6>Location</h6>
-                    <p>55 Main Street, 2nd Block, USA</p>
+                    <p>2058 sector-1 housing board colony near jaat bhawan Rohtak Haryana 124001</p>
                   </div>
                 </div>
                 <div className="box-icon flex">
@@ -138,8 +138,8 @@ const Footer = () => {
                   </div>
                   <div className="content">
                     <h6>Email Us</h6>
-                    <a href="mailto:support@gmail.com">
-                      <p>support@gmail.com</p>
+                    <a href="mailto:officialabhi1010@gmail.com">
+                      <p>officialabhi1010@gmail.com</p>
                     </a>
                   </div>
                 </div>
@@ -162,8 +162,11 @@ const Footer = () => {
                   </div>
                   <div className="content">
                     <h6>Hotline</h6>
-                    <a href="tel:0123456789">
-                      <p>Call +000 (123) 456 88</p>
+                    <a href="tel:9416511010">
+                      <p>Call +9416511010 </p>
+                    </a>
+                    <a href="tel:9416367707">
+                      <p>Call +9416367707</p>
                     </a>
                   </div>
                 </div>
@@ -179,12 +182,12 @@ const Footer = () => {
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="title-bottom tp-16 font-2">
                 {" "}
-                © 2022{" "}
+                © 2023{" "}
                 <a
-                  href="https://themeforest.net/user/themesflat/portfolio"
+                  href="https://leodigitalstudio.in"
                   className="text-color-3"
                 >
-                  Themesflat.
+                  Leo Digital Studio.
                 </a>{" "}
                 All Rights Reserved.{" "}
               </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import mark from "../../assets/images/mark/mark-inner-page.jpg"
+import mark from "../../assets/images/mark/mark-inner-page.png"
 const TitleService = () => {
   return (
    

@@ -1,5 +1,5 @@
 import React from 'react'
-import faq from "../../assets/images/mark/mark-inner-page.jpg"
+import faq from "../../assets/images/mark/mark-inner-page.png"
 const TitleFaq = () => {
   return (
     <section className="flat-title-page inner">

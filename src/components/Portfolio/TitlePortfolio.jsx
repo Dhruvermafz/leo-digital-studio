@@ -1,5 +1,5 @@
 import React from "react";
-import portfolio from "../../assets/images/mark/mark-inner-page.jpg"
+import portfolio from "../../assets/images/mark/mark-inner-page.png"
 const TitlePortfolio = () => {
   return (
     <section class="flat-title-page inner">
