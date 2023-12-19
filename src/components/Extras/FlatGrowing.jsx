@@ -1,5 +1,5 @@
 import React from 'react'
-import growing from "../../assets/images/img-box/growing-1.jpg"
+import growing from "../../assets/images/img-box/growing-1.png"
 const FlatGrowing = () => {
   return (
     <section class="flat-growing">

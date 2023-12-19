@@ -1,5 +1,5 @@
 import React from 'react'
-import bussiness from "../../assets/images/img-box/business.jpg" 
+import bussiness from "../../assets/images/img-box/business.png" 
 const Business = () => {
   return (
     <section className="tf-section flat-business">

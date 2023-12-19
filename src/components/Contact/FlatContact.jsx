@@ -1,5 +1,5 @@
 import React from 'react'
-import contact from "../../assets/images/img-box/contact-1.jpg" 
+import contact from "../../assets/images/img-box/contact-1.png" 
 const FlatContact = () => {
   return (
     <section className="tf-section flat-contact-us">
