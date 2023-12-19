@@ -13,14 +13,18 @@ import FlatProcess from "../components/Extras/FlatProcess";
 import FlatGrowing from "../components/Extras/FlatGrowing";
 import "../scripts/swiper"
 import Help from "../components/Help/Help"
+import FlatAbout from "../components/Home/FlatAbout";
+import SectionPricing from "../components/Pricing/SectionPricing";
+import FlatPricing from "../components/Pricing/FlatPricing";
 const Home = () => {
   return (
-    <>
+
       <body className="body header-fixed counter-scroll">
         <div id="wrapper">
           <div id="page" className="clearfix">
             <Navbar />
             <Slider />
+            <FlatAbout/>
             <FlatIcons/>
             <ServiceFlat/>
             <FlatProcess/>
@@ -29,6 +33,7 @@ const Home = () => {
             <Partners/>
             <Analytics/>
             <Testimonials />
+            <FlatPricing/>
             <NewsBlogs />
             <Help/>
             <Footer />
@@ -37,7 +42,7 @@ const Home = () => {
 
         <a id="scroll-top" className="button-go"></a>
       </body>
-    </>
+ 
   );
 };
 

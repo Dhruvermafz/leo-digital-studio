@@ -1,4 +1,5 @@
-@import url(../abstracts/variables.css);
+@import url("../abstracts/_mixin.scss");
+@import url("../abstracts/variables.css");
 
 /* Side bar */
 .search-flat {

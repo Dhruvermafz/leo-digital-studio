@@ -7,6 +7,7 @@ import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Extras/Footer'
 import Help from '../components/Help/Help'
 import WeDo from '../components/Services/WeDo'
+import SectionService from '../components/Services/SectionService'
 const Services = () => {
   return (
     <body className="body header-fixed counter-scroll">
@@ -15,7 +16,7 @@ const Services = () => {
             <Navbar />
             <TitleService/>
             <WeDo/>
-            <ServiceFlat/>
+            <SectionService/>      
             <Count/>
             <FlatStep/>
             <Help/>
