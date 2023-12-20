@@ -4,6 +4,7 @@ import Footer from '../components/Extras/Footer'
 import TitlePricing from '../components/Pricing/TitlePricing'
 import Help from '../components/Help/Help'
 import SectionPricing from '../components/Pricing/SectionPricing'
+import FlatPricing from '../components/Pricing/FlatPricing'
 const Pricing = () => {
   return (
     <body className="body header-fixed counter-scroll">
@@ -11,7 +12,7 @@ const Pricing = () => {
       <div id="page" className="clearfix">
         <Navbar />
        <TitlePricing/>
-       <SectionPricing/>
+       <FlatPricing/>
        <Help/>
         <Footer />
       </div>

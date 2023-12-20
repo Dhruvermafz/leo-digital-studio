@@ -13,6 +13,9 @@ import FlatStep from "../components/Services/FlatStep";
 import FlatSkills from "../components/Skills/FlatSkills";
 import Count from "../components/Services/Count";
 import FlatProcess from "../components/Extras/FlatProcess";
+import SectionNews from "../components/Blogs/SectionNews";
+import NewsBlogs from "../components/Blogs/News&Blogs";
+import FlatBlog from "../components/Blogs/FlatBlog";
 const Home = () => {
   return (
 
@@ -25,11 +28,10 @@ const Home = () => {
             <FlatAbout/>
            <SectionService/>
             <Business/>
-            <FlatProcess/>
-
             <FlatStep/>
             <FlatSkills/>
             <Testimonials />
+            <NewsBlogs/>
             <FlatPricing/>
             <Help/>
             <Footer />

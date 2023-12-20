@@ -4,6 +4,8 @@ import FlatContact from '../components/Contact/FlatContact'
 import Map from '../components/Contact/map'
 import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Extras/Footer'
+import SectionContact from '../components/Contact/SectionContact'
+import Help from '../components/Help/Help'
 const Contact = () => {
   return (
     <body className="body header-fixed counter-scroll">
@@ -13,6 +15,8 @@ const Contact = () => {
             <ContactTitle/>
             <FlatContact/>
             <Map/>
+            <SectionContact/>
+            <Help/>
             <Footer />
           </div>
         </div>
