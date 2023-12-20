@@ -12,6 +12,7 @@ import SectionService from "../components/Services/SectionService";
 import FlatStep from "../components/Services/FlatStep";
 import FlatSkills from "../components/Skills/FlatSkills";
 import Count from "../components/Services/Count";
+import FlatProcess from "../components/Extras/FlatProcess";
 const Home = () => {
   return (
 
