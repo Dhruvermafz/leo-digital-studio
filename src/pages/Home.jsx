@@ -2,20 +2,16 @@ import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Extras/Footer";
 import Testimonials from "../components/Testimonials/Testimonials";
-import NewsBlogs from "../components/Blogs/News&Blogs";
 import Slider from "../components/Extras/Slider";
-import Analytics from "../components/Extras/Analytics";
-import Partners from "../components/Partners/Partners";
-import Projects from "../components/Projects/Projects";
-import FlatIcons from "../components/Extras/FlatIcons";
-import ServiceFlat from "../components/Services/ServiceFlat";
-import FlatProcess from "../components/Extras/FlatProcess";
-import FlatGrowing from "../components/Extras/FlatGrowing";
 import "../scripts/swiper"
 import Help from "../components/Help/Help"
-import SectionAbout from "../components/About/SectionAbout";
 import FlatPricing from "../components/Pricing/FlatPricing";
 import FlatAbout from "../components/About/FlatAbout";
+import Business from "../components/Extras/Business";
+import SectionService from "../components/Services/SectionService";
+import FlatStep from "../components/Services/FlatStep";
+import FlatSkills from "../components/Skills/FlatSkills";
+import Count from "../components/Services/Count";
 const Home = () => {
   return (
 
@@ -24,17 +20,16 @@ const Home = () => {
           <div id="page" className="clearfix">
             <Navbar />
             <Slider />
+            <Count/>
             <FlatAbout/>
-            <FlatIcons/>
-            <ServiceFlat/>
+           <SectionService/>
+            <Business/>
             <FlatProcess/>
-            <FlatGrowing/>
-            <Projects/>
-            <Partners/>
-            <Analytics/>
+
+            <FlatStep/>
+            <FlatSkills/>
             <Testimonials />
             <FlatPricing/>
-            <NewsBlogs />
             <Help/>
             <Footer />
           </div>
