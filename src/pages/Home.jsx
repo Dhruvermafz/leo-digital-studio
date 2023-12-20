@@ -15,6 +15,7 @@ import "../scripts/swiper"
 import Help from "../components/Help/Help"
 import SectionAbout from "../components/About/SectionAbout";
 import FlatPricing from "../components/Pricing/FlatPricing";
+import FlatAbout from "../components/About/FlatAbout";
 const Home = () => {
   return (
 
@@ -23,7 +24,7 @@ const Home = () => {
           <div id="page" className="clearfix">
             <Navbar />
             <Slider />
-            <SectionAbout/>
+            <FlatAbout/>
             <FlatIcons/>
             <ServiceFlat/>
             <FlatProcess/>

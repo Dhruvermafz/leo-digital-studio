@@ -3,6 +3,7 @@ import mark2 from "../../assets/images/mark/mark-2.png"
 import mark3 from "../../assets/images/mark/mark-3.png"
 import mark4 from "../../assets/images/mark/mark-4.png"
 import about1 from "../../assets/images/img-box/about-1.png" 
+import "../../styles/scss/component/_section.scss"
 const About = () => {
   return (
     <section className="tf-section flat-about2">

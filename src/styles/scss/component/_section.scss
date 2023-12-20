@@ -43,7 +43,7 @@
     &.inner {
         padding: 176px 0 62px 0px;
         position       : relative;
-        background-image: url(../../assets/images/section/img-page-inner.jpg);
+        background-image: url(../../../assets/images/section/img-page-inner.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -342,7 +342,7 @@
         box-shadow: unset;
         border-radius: 12px;
         padding: 60px 0 50px;
-        background: url(./../../assets/images/section/bg-newsletter.jpg)  center center no-repeat;
+        background: url(../../../assets/images/section/bg-newsletter.jpg)  center center no-repeat;
         background-size: cover;
         z-index: 2;
         .heading-section2 {
@@ -716,11 +716,11 @@
 .flat-video {
     padding-top: 144px;
     padding-bottom: 150px;
-    background: url(./../../assets/images/section/bg-video.jpg)  center center no-repeat;
+    background: url(../../../assets/images/section/bg-diagram.jpg)  center center no-repeat;
     background-size: cover;
     position: relative;
     &.page {
-        background: url(./../../assets/images/section/bg-video-page.jpg)  center center no-repeat;
+        background: url(../../../assets/images/section/bg-diagram.jpg)  center center no-repeat;
         background-size: cover;
         border-radius: 5px;
         padding-bottom: 151px;
@@ -829,13 +829,13 @@
             border-left: 1px solid $color-8;
             border-right: 1px solid $color-8;
             padding: 83px 20px 79px 24px;
-            background: url(./../../assets/images/mark/mark-icon.png)  center center no-repeat;
+            background: url(../../../assets/images/mark/mark-icon.png)  center center no-repeat;
         }
         &.box-3 { 
             padding: 83px 0px 79px 0px;
         }
         &:hover {
-            background: url(./../../assets/images/mark/mark-icon.png)  center center no-repeat;
+            background: url(../../../assets/images/mark/mark-icon.png)  center center no-repeat;
             .icon svg {
                 -webkit-animation: spinAround 2s linear infinite;
                 -moz-animation: spinAround 2s linear infinite;
@@ -888,7 +888,7 @@
 
 
 .flat-services {
-    background: url(./../../assets/images/mark/mark-service2.png)  center center no-repeat;
+    background: url(../../../assets/images/mark/mark-service2.png)  center center no-repeat;
     padding-bottom: 120px;
     .heading-section2 {
         padding: 0 240px;
@@ -938,7 +938,7 @@
     }
     .box-process {
         width: 57.3%;
-        background: url(./../../assets/images/section/bg-diagram.jpg)  center center no-repeat;
+        background: url(../../../assets/images/section/bg-diagram.jpg)  center center no-repeat;
         background-size: cover;
         padding: 80px 75px;
         flex: none;
@@ -1120,7 +1120,7 @@
             background-size: cover;
             .images {
                 margin-left: -157px;
-                background: url(./../../assets/images/mark/growing-1.png) center no-repeat;
+                background: url(../../../assets/images/mark/growing-1.png) center no-repeat;
                 padding: 130px 0px;
             }
         }
@@ -1145,7 +1145,7 @@
 
 .flat-projects {
     padding-bottom: 120px;
-    background: url(./../../assets/images/mark/mark-projects.png) center no-repeat;
+    background: url(../../../assets/images/mark/mark-projects.png) center no-repeat;
     background-position: 0px 20px;
     .swiper-slide-active {
         .box {
@@ -1247,7 +1247,7 @@
 }
 
 .flat-partners {
-    background: url(./../../assets/images/section/bg-partners2.jpg)  center center no-repeat;
+    background: url(../../../assets/images/section/bg-partners2.jpg)  center center no-repeat;
     background-size: cover;
     padding-bottom: 100px;
     .wrap-partners {
@@ -1339,7 +1339,7 @@
             position: relative;
             .images {
                 margin-left: -187px;
-                background: url(./../../assets/images/mark/mark-analytics.png) center no-repeat;
+                background: url(../../../assets/images/mark/mark-analytics.png) center no-repeat;
                 padding: 120px 0px 71px 100px;
                 margin-right: 0px;
                 position: relative;
@@ -1397,7 +1397,7 @@
     .box-testi {
         padding: 131px 97px 122px 307px;
         width: 50%;
-        background: url(./../../assets/images/section/bg-testimonials-1.png) center no-repeat;
+        background: url(../../../assets/images/section/bg-testimonials-1.png) center no-repeat;
         background-size: cover;
         flex: none;
         .heading-section2 {
@@ -1457,7 +1457,7 @@
     .box-images {
         width: 50%;
         padding: 110px 0px 120px 214px;
-        background: url(./../../assets/images/section/bg-testimonials-2.png) center no-repeat;
+        background: url(../../../assets/images/section/bg-testimonials-2.png) center no-repeat;
         background-size: cover;
         .images {
             width: 110px; 
@@ -1493,7 +1493,7 @@
 }
 
 .flat-news {
-    background: url(./../../assets/images/mark/mark-blog.png) center no-repeat;
+    background: url(../../../assets/images/mark/mark-blog.png) center no-repeat;
     .heading-section2 {
         padding: 0 300px;
         margin-bottom: 51px;
@@ -2402,7 +2402,7 @@
         }
     }
     &.page {
-        background: url(./../../assets/images/section/bg-skills.jpg) center center no-repeat;
+        background: url(../../../assets/images/section/bg-skills.jpg) center center no-repeat;
         background-size: cover;
         padding: 125px 0 142px;
     }
@@ -2801,7 +2801,7 @@
         }
         
         .image-box {
-            background: url(./../../assets/images/img-box/bg-pricing.jpg) center center no-repeat;
+            background: url(../../../assets/images/img-box/bg-pricing.jpg) center center no-repeat;
             background-size: cover;
             padding: 15px 15px;
             text-align: center;
