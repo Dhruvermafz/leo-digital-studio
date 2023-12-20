@@ -1,5 +1,15 @@
 import React from 'react'
-
+import blog from "../../assets/images/blog/blog-1.jpg"
+import blog2 from "../../assets/images/blog/blog-2.jpg"
+import blog3 from "../../assets/images/blog/blog-3.jpg"
+import blog4 from "../../assets/images/blog/blog-4.jpg"
+import blog5 from "../../assets/images/blog/blog-5.jpg"
+import blog6 from "../../assets/images/blog/blog-6.jpg"
+import news from "../../assets/images/blog/news-1.jpg"
+import news2 from "../../assets/images/blog/news-2.jpg"
+import news3 from "../../assets/images/blog/news-3.jpg"
+import news4 from "../../assets/images/blog/news-4.jpg"
+import newssidebar from "../../assets/images/blog/blog-sidebar-1.png"
 const FlatBlog = () => {
   return (
     <section className="tf-section flat-blog">
@@ -20,7 +30,7 @@ const FlatBlog = () => {
                             </div>
                         </div> 
                         <div className="media">
-                            <img className="img-item" src="assets/images/blog/blog-1.jpg" alt=""/>
+                            <img className="img-item" src={blog} alt=""/>
                             <span className="hover-one"></span>
                         </div>                                                                                                  
                     </div> 
@@ -37,7 +47,7 @@ const FlatBlog = () => {
                             </div>
                         </div> 
                         <div className="media">
-                            <img className="img-item" src="assets/images/blog/blog-2.jpg" alt=""/>
+                            <img className="img-item" src={blog2} alt=""/>
                             <span className="hover-one"></span>
                         </div>                                                                                                  
                     </div> 
@@ -54,7 +64,7 @@ const FlatBlog = () => {
                             </div>
                         </div> 
                         <div className="media">
-                            <img className="img-item" src="assets/images/blog/blog-3.jpg" alt=""/>
+                            <img className="img-item" src={blog3} alt=""/>
                             <span className="hover-one"></span>
                         </div>                                                                                                  
                     </div>  
@@ -71,7 +81,7 @@ const FlatBlog = () => {
                             </div>
                         </div> 
                         <div className="media">
-                            <img className="img-item" src="assets/images/blog/blog-4.jpg" alt=""/>
+                            <img className="img-item" src={blog4} alt=""/>
                             <span className="hover-one"></span>
                         </div>                                                                                                  
                     </div> 
@@ -88,7 +98,7 @@ const FlatBlog = () => {
                             </div>
                         </div> 
                         <div className="media">
-                            <img className="img-item" src="assets/images/blog/blog-5.jpg" alt=""/>
+                            <img className="img-item" src={blog5} alt=""/>
                             <span className="hover-one"></span>
                         </div>                                                                                                  
                     </div> 
@@ -105,7 +115,7 @@ const FlatBlog = () => {
                             </div>
                         </div> 
                         <div className="media">
-                            <img className="img-item" src="assets/images/blog/blog-6.jpg" alt=""/>
+                            <img className="img-item" src={blog6} alt=""/>
                             <span className="hover-one"></span>
                         </div>                                                                                                  
                     </div> 
@@ -163,7 +173,7 @@ const FlatBlog = () => {
                             <ul className="recent-news ">
                                 <li className="hover-img flex">
                                     <div className="thumb img-style ">
-                                        <img className="img" src="assets/images/blog/news-1.jpg" alt="images"/>
+                                        <img className="img" src={news} alt="images"/>
                                     </div>
                                     <div className="content link-style-1">    
                                         <div className="days p-16">September 25, 2022</div>                              
@@ -172,7 +182,7 @@ const FlatBlog = () => {
                                 </li>
                                 <li className="hover-img flex">
                                     <div className="thumb img-style ">
-                                        <img className="img" src="assets/images/blog/news-2.jpg" alt="images"/>
+                                        <img className="img" src={news2} alt="images"/>
                                     </div>
                                     <div className="content link-style-1">    
                                         <div className="days p-16">September 25, 2022</div>                              
@@ -181,7 +191,7 @@ const FlatBlog = () => {
                                 </li>
                                 <li className="hover-img flex">
                                     <div className="thumb img-style ">
-                                        <img className="img" src="assets/images/blog/news-3.jpg" alt="images"/>
+                                        <img className="img" src={news3} alt="images"/>
                                     </div>
                                     <div className="content link-style-1">    
                                         <div className="days p-16">September 25, 2022</div>                              
@@ -190,7 +200,7 @@ const FlatBlog = () => {
                                 </li>
                                 <li className="hover-img flex">
                                     <div className="thumb img-style ">
-                                        <img className="img" src="assets/images/blog/news-4.jpg" alt="images"/>
+                                        <img className="img" src={news4} alt="images"/>
                                     </div>
                                     <div className="content link-style-1">    
                                         <div className="days p-16">September 25, 2022</div>                              
@@ -217,7 +227,7 @@ const FlatBlog = () => {
                                   </a>
                             </div>  
                             <div className="images">
-                                <img className="img-item" src="assets/images/blog/blog-sidebar-1.png" alt=""/>
+                                <img className="img-item" src={newssidebar} alt=""/>
                             </div>
                         </div>
 
