@@ -25,7 +25,7 @@ const FlatAbout = () => {
                   <img src={about2} alt="" />
                 </div>
                 <h6 className="link-style-1">
-                  <a href="about.html">Research & Strategy</a>
+                  <a href="/about">Research & Strategy</a>
                 </h6>
               </div>
               <div className="inner inner-2 flex-three">
@@ -33,7 +33,7 @@ const FlatAbout = () => {
                   <img src={about2} alt="" />
                 </div>
                 <h6 className="link-style-1">
-                  <a href="about.html">Development & scale</a>
+                  <a href="/about">Development & scale</a>
                 </h6>
               </div>
             </div>
@@ -47,7 +47,7 @@ const FlatAbout = () => {
             </p>
             <div className="sc-btn-button">
               <a className="cta btn-1" href="#">
-                <span>Learn More Us</span>
+                <span>Learn About Us</span>
                 <span>
                   <svg
                     width="66px"

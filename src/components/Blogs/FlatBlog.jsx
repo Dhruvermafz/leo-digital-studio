@@ -20,7 +20,7 @@ const FlatBlog = () => {
                     <div className="blog-box flex-one">
                         <div className="content">
                             <div className="days p-16">September 25, 2022</div>                                                              
-                            <div className="titles"><a href="blog-details.html">How Partytown Eliminates Website Bloat From Party</a></div>
+                            <div className="titles"><a href="/blog_details">How Partytown Eliminates Website Bloat From Party</a></div>
                             <p className="lh-26">Drive more leads, sales, and revenue for business digital marketing,</p>
                             <div className="meta">
                                 <a href="blog-details.html" className="btn-button flex-three fw-5"><span>Read More </span> 

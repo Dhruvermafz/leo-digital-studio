@@ -53,7 +53,7 @@ const SectionAbout = () => {
             </p>
             <div className="sc-btn-button">
               <a className="cta btn-1" href="about.html">
-                <span>Learn More Us</span>
+                <span>Learn About Us</span>
                 <span>
                   <svg
                     width="66px"
