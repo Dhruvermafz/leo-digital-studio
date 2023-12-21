@@ -36,7 +36,7 @@ const Navbar = () => {
                   <nav id="main-nav" className="main-nav">
                     <ul id="menu-primary-menu" className="menu">
                       <li
-                        className="menu-item menu-item-has-children current-menu-item"
+                        className="menu-item current-menu-item"
                       >
                         <a href="/">Home</a>
                         
@@ -57,27 +57,21 @@ const Navbar = () => {
                           </li>
                           <li className="menu-item">
                             <a href="/faq">Our Faq</a>
-                          </li>
-                       
-                          <li className="menu-item">
-                            <a href="/product-details"
-                              >Product Details</a
-                            >
-                          </li>
+                          </li>                                               
                         </ul>
                       </li>
 
-                      <li className="menu-item menu-item-has-children">
+                      <li className="menu-item ">
                         <a href="/services"> Services </a>
                         
                       </li>
 
-                      <li className="menu-item menu-item-has-children">
+                      <li className="menu-item ">
                         <a href="/portfolio">Portfolio </a>
                         
                       </li>
 
-                      <li className="menu-item menu-item-has-children">
+                      <li className="menu-item ">
                         <a href="/blogs">Blog</a>
                        
                       </li>

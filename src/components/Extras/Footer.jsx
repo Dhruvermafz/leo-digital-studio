@@ -29,17 +29,20 @@ const Footer = () => {
                     ways.{" "}
                   </p>
                   <div className="icon-social text-color-1">
-                    <a href="https://www.facebook.com/LeoDigitalStudio10/">
+                    <a href="https://www.facebook.com/LeoDigitalStudio10/" target="_blank" rel="noreferrer">
                       <i className="fab fa-facebook-f"></i>
                     </a>
-                    <a href="https://twitter.com/Leo_Digital_01">
+                    <a href="https://twitter.com/Leo_Digital_01" target="_blank" rel="noreferrer">
                       <i className="fab fa-twitter"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/leo-digital-studio-65a55921a">
+                    <a href="https://www.linkedin.com/in/leo-digital-studio-65a55921a" target="_blank" rel="noreferrer">
                       <i className="fab fa-linkedin-in"></i>
                     </a>
-                    <a href="https://www.instagram.com/leo.digitalstudio/">
+                    <a href="https://www.instagram.com/leo.digitalstudio/" target="_blank" rel="noreferrer">
                       <i className="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=9416511010" target="_blank" rel="noreferrer">
+                      <i className="fab fa-whatsapp"></i>
                     </a>
                   </div>
                 </div>
@@ -82,7 +85,7 @@ const Footer = () => {
                   </li>
                  
                   <li>
-                    <a href="faq.html">Faqs</a>
+                    <a href="/faq">Faqs</a>
                   </li>
                 </ul>
               </div>
@@ -185,7 +188,7 @@ const Footer = () => {
                 © 2023{" "}
                 <a
                   href="https://leodigitalstudio.in"
-                  className="text-color-3"
+                  className="text-color-3" target="_blank" rel="noreferrer"
                 >
                   Leo Digital Studio.
                 </a>{" "}
@@ -200,7 +203,7 @@ const Footer = () => {
                     <a href="/about">About</a>{" "}
                   </li>
                   <li>
-                    <a href="/service-details">Setting & privacy </a>{" "}
+                    <a href="/services">Services </a>{" "}
                   </li>
                   <li>
                     <a href="/faq">Faqs</a>

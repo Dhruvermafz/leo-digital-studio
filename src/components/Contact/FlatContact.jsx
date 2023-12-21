@@ -41,7 +41,7 @@ const FlatContact = () => {
                             </div>
                             <div className="content">
                                 <h6 className="sub-title fw-4">Email Address</h6>
-                                <div className="title-30 link-style-1"><a href="mailto:officialabhi1010@gmail.com">officialabhi1010@gmail.com</a></div>
+                                <div className="title-30 link-style-1"><a href="mailto:officialabhi1010@gmail.com" target="_blank" rel="noreferrer">officialabhi1010@gmail.com</a></div>
                             </div>
                         </div>
                         <div className="info flex">
@@ -56,11 +56,11 @@ const FlatContact = () => {
                             <div className="content">
                                 <h6 className="sub-title fw-4">Hotlines</h6>
                                 <div className="title-30 link-style-1">
-                                    <a href="tel:9416511010">Call +9416511010</a>
+                                    <a href="tel:9416511010" target="_blank" rel="noreferrer">Call +9416511010</a>
                                
                       </div>
                       <div className='title-30 link-style-1'>
-                       <a href="tel:9416367707">Call +9416367707</a>
+                       <a href="tel:9416367707" target="_blank" rel="noreferrer">Call +9416367707</a>
                       </div>
                       
                             </div>
