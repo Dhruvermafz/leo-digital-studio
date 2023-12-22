@@ -42,15 +42,10 @@ const Navbar = () => {
                         
                       </li>
 
-                      <li className="menu-item menu-item-has-children">
+                      {/* <li className="menu-item menu-item-has-children">
                         <a href="#"> Pages </a>
                         <ul className="sub-menu">
-                          <li className="menu-item">
-                            <a href="/about">About</a>
-                          </li>
-                          <li className="menu-item">
-                            <a href="/team">Our Team</a>
-                          </li>
+                        
                           
                           <li className="menu-item">
                             <a href="/pricing">Pricing</a>
@@ -59,6 +54,10 @@ const Navbar = () => {
                             <a href="/faq">Our Faq</a>
                           </li>                                               
                         </ul>
+                      </li> */}
+                      <li className="menu-item ">
+                        <a href="/about"> About </a>
+                        
                       </li>
 
                       <li className="menu-item ">
@@ -78,6 +77,10 @@ const Navbar = () => {
 
                       <li className="menu-item">
                         <a href="/contact">Contact </a>
+                      </li>
+                      <li className="menu-item ">
+                        <a href="/portfolio"> Portfolio </a>
+                        
                       </li>
                     </ul>
                   </nav>

@@ -1,103 +1,77 @@
-/**
- * Header Connect
- * retinaLogo
- * ajaxContactForm
- * Loadmore Item
- * headerFixed
- * mobileNav
- * ajaxSubscribe
- * alertBox
- * loadmore
- */
 import jQuery from "jquery";
 
 (function ($) {
   "use strict";
 
-  var themesflatTheme = {
-    // Main init function
+  const themesflatTheme = {
     init: function () {
       this.config();
       this.events();
     },
 
-    // Define vars for caching
     config: function () {
-      this.config = {
+      this.cache = {
         $window: $(window),
         $document: $(document),
       };
     },
 
-    // Events
     events: function () {
-      var self = this;
+      const self = this;
 
-      // Run on document ready
-      self.config.$document.on("ready", function () {
-        // Retina Logos
+      self.cache.$document.on("ready", function () {
         self.retinaLogo();
       });
 
-      // Run on Window Load
-      self.config.$window.on("load", function () {});
+      self.cache.$window.on("load", function () {
+        // Do something on window load
+      });
     },
-  }; // end themesflatTheme
 
-  // Start things up
-  themesflatTheme.init();
+    retinaLogo: function () {
+      const retina = window.devicePixelRatio > 1;
 
-  var retinaLogos = function () {
-    var retina = window.devicePixelRatio > 1 ? true : false;
-    if (retina) {
-      $("#site-logo-inner").find("img").attr({
-        src: "../assets/images/logo/logo@2x.png",
+      if (retina) {
+        this.updateLogo("site-logo-inner", "logo@2x.png");
+        this.updateLogo("logo-footer.style", "logo-footer@2x.png");
+        this.updateLogo("logo-footer.style2", "logo-footer-home.png");
+      }
+    },
+
+    updateLogo: function (selector, imageName) {
+      $(`#${selector} img`).attr({
+        src: `../assets/images/logo/${imageName}`,
         width: "195",
         height: "50",
       });
-
-      $("#logo-footer.style").find("img").attr({
-        src: "../assets/images/logo/logo-footer@2x.png",
-        width: "195",
-        height: "50",
-      });
-      $("#logo-footer.style2").find("img").attr({
-        src: "../assets/images/logo/logo-footer-home.png",
-        width: "195",
-        height: "50",
-      });
-    }
+    },
   };
 
-  var ajaxContactForm = function () {
-    $("#contactform,#commentform").each(function () {
+  const ajaxContactForm = function () {
+    $("#contactform, #commentform").each(function () {
       $(this).validate({
         submitHandler: function (form) {
-          var $form = $(form),
-            str = $form.serialize(),
-            loading = $("<div />", { class: "loading" });
+          const $form = $(form);
+          const str = $form.serialize();
+          const loading = $("<div />", { class: "loading" });
 
           $.ajax({
             type: "POST",
             url: $form.attr("action"),
             data: str,
             beforeSend: function () {
-              $form.find(".form-submit,comment-form").append(loading);
+              $form.find(".form-submit, .comment-form").append(loading);
             },
             success: function (msg) {
-              var result, cls;
-              if (msg === "Success") {
-                result =
-                  "Message Sent Successfully To Email Administrator. ( You can change the email management a very easy way to get the message of customers in the user manual )";
-                cls = "msg-success";
-              } else {
-                result = "Error sending email.";
-                cls = "msg-error";
-              }
+              const result =
+                msg === "Success"
+                  ? "Message Sent Successfully To Email Administrator. ( You can change the email management a very easy way to get the message of customers in the user manual )"
+                  : "Error sending email.";
+              const cls = msg === "Success" ? "msg-success" : "msg-error";
 
               $form.prepend(
                 $("<div />", {
-                  class: "flat-alert " + cls,
+                  class: `flat-alert ${cls}`,
                   text: result,
                 }).append(
                   $('<a class="close" href="#"><i class="fa fa-close"></i></a>')
@@ -106,93 +80,51 @@ import jQuery from "jquery";
 
               $form.find(":input").not(".submit").val("");
             },
-            complete: function (xhr, status, error_thrown) {
+            complete: function () {
               $form.find(".loading").remove();
             },
           });
         },
       });
-    }); // each contactform
+    });
   };
 
-  // Header Connect
+  const loadmore = function () {
+    const showItems = function (selector, count) {
+      $(selector).slice(0, count).show();
+    };
 
-  var loadmore = function () {
-    $(".fl-item").slice(0, 8).show();
-    $(".fl-blog.fl-item2").slice(0, 6).show();
-    $(".fl-collection.fl-item3").slice(0, 3).show();
-    $(".fl-item.fl-item4").slice(0, 15).show();
-    $(".fl-item.fl-item5").slice(0, 7).show();
+    showItems(".fl-item", 8);
+    showItems(".fl-blog.fl-item2", 6);
+    showItems(".fl-collection.fl-item3", 3);
+    showItems(".fl-item.fl-item4", 15);
+    showItems(".fl-item.fl-item5", 7);
 
     $(".loadmore").on("click", function (e) {
       e.preventDefault();
 
-      $(".fl-item:hidden").slice(0, 4).slideDown();
-      $(".fl-item2:hidden").slice(0, 3).slideDown();
-      $(".fl-item3:hidden").slice(0, 3).slideDown();
-      $(".fl-item4:hidden").slice(0, 5).slideDown();
-      $(".fl-item5:hidden").slice(0, 13).slideDown();
-      if ($(".fl-item:hidden").length == 0) {
+      showItems(".fl-item:hidden", 4);
+      showItems(".fl-item2:hidden", 3);
+      showItems(".fl-item3:hidden", 3);
+      showItems(".fl-item4:hidden", 5);
+      showItems(".fl-item5:hidden", 13);
+
+      if ($(".fl-item:hidden").length === 0) {
         $(".loadmore").hide();
-      }
-      if ($(".fl-item2:hidden").length == 0) {
-        $("#loadmore").hide();
-      }
-      if ($(".fl-item3:hidden").length == 0) {
-        $("#loadmore").hide();
-      }
-      if ($(".fl-item4:hidden").length == 0) {
-        $("#loadmore").hide();
-      }
-      if ($(".fl-item5:hidden").length == 0) {
-        $("#loadmore").hide();
       }
     });
   };
 
-  // Header Fixed
-  //    var headerFixed = function () {
-  //     if ($('body').hasClass('header-fixed')) {
-  //         var nav = $('#header_main');
-
-  //         if (nav.length) {
-  //             var offsetTop = nav.offset().top,
-  //                 headerHeight = nav.height(),
-  //                 injectSpace = $('<div />', {
-  //                     height: headerHeight
-  //                 }).insertAfter(nav);
-  //             injectSpace.hide();
-
-  //             $(window).on('load scroll', function () {
-  //                 if ($(window).scrollTop() > offsetTop) {
-  //                     nav.addClass('is-fixed');
-  //                     injectSpace.show();
-  //                 } else {
-  //                     nav.removeClass('is-fixed');
-  //                     injectSpace.hide();
-  //                 }
-
-  //                 if ($(window).scrollTop() > 1000) {
-  //                     nav.addClass('is-small');
-  //                 } else {
-  //                     nav.removeClass('is-small');
-  //                 }
-  //             })
-  //         }
-  //     }
-  // };
-
-  // Header Fixed
-  var headerFixed = function () {
+  const headerFixed = function () {
     if ($("body").hasClass("header-fixed")) {
-      var nav = $("#site-header");
+      const nav = $("#site-header");
 
       if (nav.length) {
-        var offsetTop = nav.offset().top,
-          headerHeight = nav.height(),
-          injectSpace = $("<div />", {
-            height: headerHeight,
-          }).insertAfter(nav);
+        const offsetTop = nav.offset().top;
+        const headerHeight = nav.height();
+        const injectSpace = $("<div />", {
+          height: headerHeight,
+        }).insertAfter(nav);
         injectSpace.hide();
 
         $(window).on("load scroll", function () {
@@ -214,17 +146,13 @@ import jQuery from "jquery";
     }
   };
 
-  var mobileNav = function () {
-    var mobile = window.matchMedia("(max-width: 991px)");
-    var wrapMenu = $("#site-header-inner .wrap-inner");
-    var navExtw = $(".nav-extend.active");
-    var navExt = $(".nav-extend.active").children();
+  const mobileNav = function () {
+    const mobile = window.matchMedia("(max-width: 991px)");
+    const wrapMenu = $("#site-header-inner .wrap-inner");
+    const navExtw = $(".nav-extend.active");
+    const navExt = $(".nav-extend.active").children();
 
-    responsivemenu(mobile);
-
-    mobile.addListener(responsivemenu);
-
-    function responsivemenu(mobile) {
+    const responsivemenu = function (mobile) {
       if (mobile.matches) {
         $("#main-nav")
           .attr("id", "main-nav-mobi")
@@ -251,24 +179,30 @@ import jQuery from "jquery";
           .prev()
           .remove();
 
-        $(".mobile-button").removeClass("active");
-        $(".mobile-button-style2").removeClass("active");
+        $(".mobile-button, .mobile-button-style2").removeClass("active");
         $(".sub-menu").css({ display: "block" });
       }
-    }
-    $(document).on("click", ".mobile-button", function () {
-      $(this).toggleClass("active");
-      $("#main-nav-mobi").slideToggle();
-    });
-    $(document).on("click", ".mobile-button-style2", function () {
-      $(this).toggleClass("active");
-      $("#main-nav-mobi").slideToggle();
-    });
+    };
+
+    responsivemenu(mobile);
+
+    mobile.addListener(responsivemenu);
+
+    $(document).on(
+      "click",
+      ".mobile-button, .mobile-button-style2",
+      function () {
+        $(this).toggleClass("active");
+        $("#main-nav-mobi").slideToggle();
+      }
+    );
+
     $(document).on("click", "#main-nav-mobi .arrow", function () {
       $(this).toggleClass("active").next().slideToggle();
     });
   };
-  var ajaxSubscribe = {
+
+  const ajaxSubscribe = {
     obj: {
       subscribeEmail: $("#subscribe-email"),
       subscribeButton: $("#subscribe-button"),
@@ -286,11 +220,11 @@ import jQuery from "jquery";
     },
 
     eventLoad: function () {
-      var objUse = ajaxSubscribe.obj;
+      const objUse = ajaxSubscribe.obj;
 
-      $(objUse.subscribeButton).on("click", function () {
+      objUse.subscribeButton.on("click", function () {
         if (window.ajaxCalling) return;
-        var isMailchimp = objUse.dataMailchimp === "true";
+        const isMailchimp = objUse.dataMailchimp === "true";
 
         if (isMailchimp) {
           ajaxSubscribe.ajaxCall(objUse.mailChimpAction);
@@ -302,8 +236,9 @@ import jQuery from "jquery";
 
     ajaxCall: function (action) {
       window.ajaxCalling = true;
-      var objUse = ajaxSubscribe.obj;
-      var messageDiv = objUse.subscribeMsg.html("").hide();
+      const objUse = ajaxSubscribe.obj;
+      const messageDiv = objUse.subscribeMsg.html("").hide();
+
       $.ajax({
         url: action,
         type: "POST",
@@ -369,25 +304,25 @@ import jQuery from "jquery";
         error: function (jqXHR, textStatus, errorThrown) {
           alert("Connection error");
         },
-        complete: function (data) {
+        complete: function () {
           window.ajaxCalling = false;
         },
       });
     },
   };
 
-  var alertBox = function () {
+  const alertBox = function () {
     $(document).on("click", ".close", function (e) {
       $(this).closest(".flat-alert").remove();
       e.preventDefault();
     });
   };
 
-  // Dom Ready
   $(function () {
     $(window).on("load resize", function () {
-      retinaLogos();
+      themesflatTheme.retinaLogo();
     });
+
     headerFixed();
     mobileNav();
     ajaxSubscribe.eventLoad();

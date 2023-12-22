@@ -13,7 +13,6 @@ import Portfolio from "./pages/Portfolio";
 import Services from "./pages/Services";
 import Blogs from "./pages/Blogs";
 import Pricing from "./pages/Pricing";
-
 function App() {
   return (
     <Router>

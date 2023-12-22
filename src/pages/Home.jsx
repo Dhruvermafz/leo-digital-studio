@@ -13,6 +13,8 @@ import FlatStep from "../components/Services/FlatStep";
 import FlatSkills from "../components/Skills/FlatSkills";
 import Count from "../components/Services/Count";
 import NewsBlogs from "../components/Blogs/News&Blogs";
+import Faqs from "../components/Faqs/Faqs";
+
 const Home = () => {
   return (
 
@@ -23,13 +25,14 @@ const Home = () => {
             <Slider />
             <Count/>
             <FlatAbout/>
-           <SectionService/>
+            <SectionService/>
             <Business/>
             <FlatStep/>
             <FlatSkills/>
             <Testimonials />
             <NewsBlogs/>
             <FlatPricing/>
+            <Faqs/>
             <Help/>
             <Footer />
           </div>

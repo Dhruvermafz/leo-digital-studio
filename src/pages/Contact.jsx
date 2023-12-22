@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Extras/Footer'
 import SectionContact from '../components/Contact/SectionContact'
 import Help from '../components/Help/Help'
+import Faqs from '../components/Faqs/Faqs'
 const Contact = () => {
   return (
     <body className="body header-fixed counter-scroll">
@@ -16,6 +17,8 @@ const Contact = () => {
             <FlatContact/>
             <Map/>
             <SectionContact/>
+            <Faqs/>
+            
             <Help/>
             <Footer />
           </div>
