@@ -9,9 +9,9 @@ const TitleBlog = () => {
                 <div className="col-xl-5 col-lg-5 col-md-7 ">
                     <div className="page-title-heading">   
                         <div className="heading-inner">
-                            <div className="heading"><span>Blog List View</span> </div>
+                            <div className="heading"><span>Our Blogs</span> </div>
                             <div className="title-inner link-style-7">
-                                <h5 className="font-2"><a className="home" href="index.html">Home</a><span>Blog List</span></h5>
+                                <h5 className="font-2"><a className="home" href="/">Home</a><span>Blog List</span></h5>
                             </div>
                         </div>                     
                         

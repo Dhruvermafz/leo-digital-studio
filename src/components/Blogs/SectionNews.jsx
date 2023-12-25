@@ -55,14 +55,14 @@ const SectionNews = () => {
                   <div class="content po-content-2">
                     <p class="days p-14">September 25, 2022</p>
                     <h4 class="link-style-1 lh-28">
-                      <a href="blog-details.html"
+                      <a href="/blog_details"
                         >How Partytown Eliminates Website Bloat From Third
                         Party Scripts Ways</a
                       >
                     </h4>
                     <div class="meta">
                       <a
-                        href="blog-details.html"
+                        href="/blog_details"
                         class="btn-button flex-three fw-5"
                         ><span>Read More </span>
                         <svg
@@ -94,14 +94,14 @@ const SectionNews = () => {
                   <div class="content po-content-2">
                     <p class="days p-14">September 25, 2022</p>
                     <h4 class="link-style-1 lh-28">
-                      <a href="blog-details.html"
+                      <a href="/blog_details"
                         >Productivity Tips And Tools For More Efficient
                         Workflow Rendering Patterns</a
                       >
                     </h4>
                     <div class="meta">
                       <a
-                        href="blog-details.html"
+                        href="/blog_details"
                         class="btn-button flex-three fw-5"
                         ><span>Read More </span>
                         <svg
@@ -133,14 +133,14 @@ const SectionNews = () => {
                   <div class="content po-content-2">
                     <p class="days p-14">September 25, 2022</p>
                     <h4 class="link-style-1 lh-28">
-                      <a href="blog-details.html"
+                      <a href="/blog_details"
                         >How Partytown Eliminates Website Bloat From Third
                         Party Scripts Ways</a
                       >
                     </h4>
                     <div class="meta">
                       <a
-                        href="blog-details.html"
+                        href="/blog_details"
                         class="btn-button flex-three fw-5"
                         ><span>Read More </span>
                         <svg
@@ -172,14 +172,14 @@ const SectionNews = () => {
                   <div class="content po-content-2">
                     <p class="days p-14">September 25, 2022</p>
                     <h4 class="link-style-1 lh-28">
-                      <a href="blog-details.html"
+                      <a href="/blog_details"
                         >Productivity Tips And Tools For More Efficient
                         Workflow Rendering Patterns</a
                       >
                     </h4>
                     <div class="meta">
                       <a
-                        href="blog-details.html"
+                        href="/blog_details"
                         class="btn-button flex-three fw-5"
                         ><span>Read More </span>
                         <svg

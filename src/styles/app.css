@@ -1,13 +1,9 @@
 @charset "UTF-8";
-/**
-  * Name: SeoMx - Seo & Digital Marketing HTML Template
-  * Version: 1.0
-  * Author: Themesflat
-  * Author URI: http://www.themesflat.com
-*/
-@import "responsive.css";
-@import "animate.css";
-@import "jquery.fancybox.min.css";
+
+
+@import url("./animate.css");
+@import url("responsive.css");
+@import url("./jquery.fancybox.min.css");
 @import "../styles/font-awesome.css";
 @import "magnific-popup.css";
 @import "swiper-bundle.min.css";

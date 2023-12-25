@@ -10,7 +10,7 @@ const ContactTitle = () => {
                     <div className="heading-inner">
                         <div className="heading"><span>Contact Us</span> </div>
                         <div className="title-inner link-style-7">
-                            <h5 className="font-2"><a className="home" href="index.html">Home</a><span>Contact Us</span></h5>
+                            <h5 className="font-2"><a className="home" href="/">Home</a><span>Contact Us</span></h5>
                         </div>
                     </div>                     
                 </div>                        

@@ -23,7 +23,7 @@ const FlatBlog = () => {
                             <div className="titles"><a href="/blog_details">How Partytown Eliminates Website Bloat From Party</a></div>
                             <p className="lh-26">Drive more leads, sales, and revenue for business digital marketing,</p>
                             <div className="meta">
-                                <a href="blog-details.html" className="btn-button flex-three fw-5"><span>Read More </span> 
+                                <a href="/blog_details" className="btn-button flex-three fw-5"><span>Read More </span> 
                                 <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
                                 </svg>  </a>                            
@@ -37,10 +37,10 @@ const FlatBlog = () => {
                     <div className="blog-box flex-one">
                         <div className="content">
                             <div className="days p-16">September 25, 2022</div>                                                              
-                            <div className="titles"><a href="blog-details.html">Boos Resource Load With fetchpriority, A New Priority Hint</a></div>
+                            <div className="titles"><a href="/blog_details">Boos Resource Load With fetchpriority, A New Priority Hint</a></div>
                             <p className="lh-26">Drive more leads, sales, and revenue for business digital marketing,</p>
                             <div className="meta">
-                                <a href="blog-details.html" className="btn-button flex-three fw-5"><span>Read More </span> 
+                                <a href="/blog_details" className="btn-button flex-three fw-5"><span>Read More </span> 
                                 <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
                                 </svg>  </a>                            
@@ -54,10 +54,10 @@ const FlatBlog = () => {
                     <div className="blog-box flex-one">
                         <div className="content">
                             <div className="days p-16">September 25, 2022</div>                                                              
-                            <div className="titles"><a href="blog-details.html">How To Get Work Dones Wranglinge Stakeholders </a></div>
+                            <div className="titles"><a href="/blog_details">How To Get Work Dones Wranglinge Stakeholders </a></div>
                             <p className="lh-26">Drive more leads, sales, and revenue for business digital marketing,</p>
                             <div className="meta">
-                                <a href="blog-details.html" className="btn-button flex-three fw-5"><span>Read More </span> 
+                                <a href="/blog_details" className="btn-button flex-three fw-5"><span>Read More </span> 
                                 <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
                                 </svg>  </a>                            
@@ -71,10 +71,10 @@ const FlatBlog = () => {
                     <div className="blog-box flex-one">
                         <div className="content">
                             <div className="days p-16">September 25, 2022</div>                                                              
-                            <div className="titles"><a href="blog-details.html">Build A Progressively Enhanced, Accessible Filterable & Pagin </a></div>
+                            <div className="titles"><a href="/blog_details">Build A Progressively Enhanced, Accessible Filterable & Pagin </a></div>
                             <p className="lh-26">Drive more leads, sales, and revenue for business digital marketing,</p>
                             <div className="meta">
-                                <a href="blog-details.html" className="btn-button flex-three fw-5"><span>Read More </span> 
+                                <a href="/blog_details" className="btn-button flex-three fw-5"><span>Read More </span> 
                                 <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
                                 </svg>  </a>                            
@@ -88,10 +88,10 @@ const FlatBlog = () => {
                     <div className="blog-box flex-one">
                         <div className="content">
                             <div className="days p-16">September 25, 2022</div>                                                              
-                            <div className="titles"><a href="blog-details.html">Jobs For Designers And Developers Affected By The</a></div>
+                            <div className="titles"><a href="/blog_details">Jobs For Designers And Developers Affected By The</a></div>
                             <p className="lh-26">Drive more leads, sales, and revenue for business digital marketing,</p>
                             <div className="meta">
-                                <a href="blog-details.html" className="btn-button flex-three fw-5"><span>Read More </span> 
+                                <a href="/blog_details" className="btn-button flex-three fw-5"><span>Read More </span> 
                                 <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
                                 </svg>  </a>                            
@@ -105,10 +105,10 @@ const FlatBlog = () => {
                     <div className="blog-box flex-one">
                         <div className="content">
                             <div className="days p-16">September 25, 2022</div>                                                              
-                            <div className="titles"><a href="blog-details.html">Windows Contrast Mode, Forced Colors Mode CSS Custom </a></div>
+                            <div className="titles"><a href="/blog_details">Windows Contrast Mode, Forced Colors Mode CSS Custom </a></div>
                             <p className="lh-26">Drive more leads, sales, and revenue for business digital marketing,</p>
                             <div className="meta">
-                                <a href="blog-details.html" className="btn-button flex-three fw-5"><span>Read More </span> 
+                                <a href="/blog_details" className="btn-button flex-three fw-5"><span>Read More </span> 
                                 <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
                                 </svg>  </a>                            
@@ -177,7 +177,7 @@ const FlatBlog = () => {
                                     </div>
                                     <div className="content link-style-1">    
                                         <div className="days p-16">September 25, 2022</div>                              
-                                        <h6 className="title"><a href="blog-details.html">Fluid Sizing Instead Of Media Queries</a></h6>
+                                        <h6 className="title"><a href="/blog_details">Fluid Sizing Instead Of Media Queries</a></h6>
                                     </div>
                                 </li>
                                 <li className="hover-img flex">
@@ -186,7 +186,7 @@ const FlatBlog = () => {
                                     </div>
                                     <div className="content link-style-1">    
                                         <div className="days p-16">September 25, 2022</div>                              
-                                        <h6 className="title"><a href="blog-details.html">Fluid Sizing Instead Of Media Queries</a></h6>
+                                        <h6 className="title"><a href="/blog_details">Fluid Sizing Instead Of Media Queries</a></h6>
                                     </div>
                                 </li>
                                 <li className="hover-img flex">
@@ -195,7 +195,7 @@ const FlatBlog = () => {
                                     </div>
                                     <div className="content link-style-1">    
                                         <div className="days p-16">September 25, 2022</div>                              
-                                        <h6 className="title"><a href="blog-details.html">Fluid Sizing Instead Of Media Queries</a></h6>
+                                        <h6 className="title"><a href="/blog_details">Fluid Sizing Instead Of Media Queries</a></h6>
                                     </div>
                                 </li>
                                 <li className="hover-img flex">
@@ -204,7 +204,7 @@ const FlatBlog = () => {
                                     </div>
                                     <div className="content link-style-1">    
                                         <div className="days p-16">September 25, 2022</div>                              
-                                        <h6 className="title"><a href="blog-details.html">Fluid Sizing Instead Of Media Queries</a></h6>
+                                        <h6 className="title"><a href="/blog_details">Fluid Sizing Instead Of Media Queries</a></h6>
                                     </div>
                                 </li>
                             </ul>

@@ -29,21 +29,21 @@ const NewsBlogs = () => {
                     >
                       <div className="box hover-img">
                         <div className="images img-style">
-                          <a href="blog-details.html"
+                          <a href="/blog_details"
                             ><img src={blog} alt=""
                           /></a>
                         </div>
                         <div className="content">
                           <p className="days p-14">September 25, 2022</p>
                           <h3 className="link-style-4">
-                            <a href="blog-details.html"
+                            <a href="/blog_details"
                               >Ultimate Free Solo Blog Setup With Ghost And
                               Gatsby</a
                             >
                           </h3>
                           <div className="meta">
                             <a
-                              href="blog-details.html"
+                              href="/blog_details"
                               className="btn-button flex-three fw-5"
                               ><span>Read More </span>
                               <svg
@@ -70,21 +70,21 @@ const NewsBlogs = () => {
                     >
                       <div className="box hover-img">
                         <div className="images img-style">
-                          <a href="blog-details.html"
+                          <a href="/blog_details"
                             ><img src={blog2} alt=""
                           /></a>
                         </div>
                         <div className="content">
                           <p className="days p-14">September 25, 2022</p>
                           <h3 className="link-style-4">
-                            <a href="blog-details.html"
+                            <a href="/blog_details"
                               >Rethinking Server-Timing As Seen Critical
                               Monitoring Tool</a
                             >
                           </h3>
                           <div className="meta">
                             <a
-                              href="blog-details.html"
+                              href="/blog_details"
                               className="btn-button flex-three fw-5"
                               ><span>Read More </span>
                               <svg
@@ -111,21 +111,21 @@ const NewsBlogs = () => {
                     >
                       <div className="box hover-img">
                         <div className="images img-style">
-                          <a href="blog-details.html"
+                          <a href="/blog_details"
                             ><img src={blog3} alt=""
                           /></a>
                         </div>
                         <div className="content">
                           <p className="days p-14">September 25, 2022</p>
                           <h3 className="link-style-4">
-                            <a href="blog-details.html"
+                            <a href="/blog_details"
                               >Top Tasks Focus On What Matters Must Focus On
                               What Doesn’t</a
                             >
                           </h3>
                           <div className="meta">
                             <a
-                              href="blog-details.html"
+                              href="/blog_details"
                               className="btn-button flex-three fw-5"
                               ><span>Read More </span>
                               <svg

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import logo from "../../assets/images/logo/logo.png";
 import close from "../../assets/images/icon/close.png"
 import news3 from "../../assets/images/blog/news-3.jpg"
@@ -8,8 +8,13 @@ import news2 from "../../assets/images/blog/news-1.jpg"
 import "../../styles/scss/component/_header.scss";
 import "../../styles/scss/component/_slider.scss"
 const Navbar = () => {
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setSidebarOpen(!isSidebarOpen);
+  };
   return (
-    <header id="header_main" className="header_1 js-header home">
+    <header id="header_main" className={`header_1 js-header home ${isSidebarOpen ? 'sidebar-open' : ''}`}>
     <div className="container-fuild">
       <div className="row">
         <div className="col-md-12">
@@ -17,7 +22,7 @@ const Navbar = () => {
             <div className="wrap-box relative">
               <div id="site-logo" className="clearfix">
                 <div id="site-logo-inner">
-                  <a href="index.html" rel="home" className="main-logo">
+                  <a href="/" rel="home" className="main-logo">
                     <img
                       id="logo_header"
                       src={logo}
@@ -28,9 +33,9 @@ const Navbar = () => {
                   </a>
                 </div>
               </div>
-              <div className="mobile-button"><span></span></div>
+              <div className="mobile-button" onClick={toggleSidebar}><span></span></div>
               {/* <!-- /.mobile-button --> */}
-              {/* <!-- <div className="wrap-nav"> --> */}
+              <div className="wrap-nav"> 
               <div id="site-header-inner">
                 <div className="wrap-inner clearfix flex">
                   <nav id="main-nav" className="main-nav">
@@ -78,10 +83,7 @@ const Navbar = () => {
                       <li className="menu-item">
                         <a href="/contact">Contact </a>
                       </li>
-                      <li className="menu-item ">
-                        <a href="/portfolio"> Portfolio </a>
-                        
-                      </li>
+                      
                     </ul>
                   </nav>
                   {/* <!-- /#main-nav --> */}
@@ -95,7 +97,7 @@ const Navbar = () => {
                         ><i className="far fa-search"></i
                       ></span>
                     </a>
-
+{/* 
                     <div className="top-search">
                       <form
                         action="#"
@@ -121,11 +123,11 @@ const Navbar = () => {
                           <i className="far fa-search"></i>
                         </button>
                       </form>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
-              {/* <!-- </div> --> */}
+             </div>
               <div className="flat-button-top flex-three">
                 <a href="#" className="menu-bar-right header-menu">
                   <svg
@@ -145,7 +147,7 @@ const Navbar = () => {
                   </svg>
                 </a>
                 <div className="sc-btn-top" id="site-header">
-                  <a className="cta btn-2" href="contact.html">
+                  <a className="cta btn-2" href="/contact">
                     <span>Get Started</span>
                     <span>
                       <svg
@@ -188,7 +190,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-    <div id="sidebar" className="side-menu__block">
+    <div id="sidebar" className={`side-menu__block ${isSidebarOpen ? 'open' : ''}`}>
       <div className="side-menu__block-overlay custom-cursor__overlay"></div>
       <div className="inner-sidebar side-menu__block-inner fl-st-1">
         <div className="side-menu__top justify-content-end">
@@ -325,8 +327,9 @@ const Navbar = () => {
           </div>
         </aside>
       </div>
+      </div>
       {/* <!--/inner-sidebar--> */}
-    </div>
+  
   </header>
   );
 };

@@ -14,6 +14,7 @@ import FlatSkills from "../components/Skills/FlatSkills";
 import Count from "../components/Services/Count";
 import NewsBlogs from "../components/Blogs/News&Blogs";
 import Faqs from "../components/Faqs/Faqs";
+import FlatIcons from "../components/Extras/FlatIcons";
 
 const Home = () => {
   return (
