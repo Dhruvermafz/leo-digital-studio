@@ -1,9 +1,40 @@
-import React from 'react'
+import React, {useState} from 'react'
 import mark2 from "../../assets/images/mark/mark-news-2.png"
 import mark from "../../assets/images/mark/mark-news-1.png" 
 import mark3 from "../../assets/images/mark/mark-news-3.png"
 import newsletter from "../../assets/images/img-box/newsletter-1.png"
 const Help = () => {
+    const [email, setEmail] = useState('');
+  const [subscriptionStatus, setSubscriptionStatus] = useState('');
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    // Perform API call
+    try {
+      const response = await fetch('YOUR_API_ENDPOINT', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      if (response.ok) {
+        setSubscriptionStatus('Subscription successful!');
+      } else {
+        setSubscriptionStatus('Subscription failed. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error during API call:', error);
+      setSubscriptionStatus('An error occurred. Please try again later.');
+    }
+  };
+
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value);
+  };
+
   return (
 
  
@@ -22,8 +53,9 @@ const Help = () => {
                        </div>   
                        <div className="widget-subcribe">
                            <div className="form-subcribe">
-                               <form id="subscribe-form" action="#" method="GET" accept-charset="utf-8" className="form-submit flex">
-                                   <input name="email" value="" className="email" type="email" placeholder="Enter Email Address" required/>
+                               <form id="subscribe-form" onSubmit={handleSubmit} className="form-submit flex">
+                                   <input name="email" value={email} 
+                                   onChange={handleEmailChange} className="email" type="email" placeholder="Enter Email Address" required/>
                                    <i className="far fa-comment-alt-dots"></i>
                                    <button id="submit" name="submit" type="submit" className="cta btn-1"> 
                                        <span>Sign Up</span>

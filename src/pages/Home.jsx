@@ -33,7 +33,6 @@ const Home = () => {
             <Testimonials />
             <NewsBlogs/>
             <FlatPricing/>
-            <SectionPricing/>
             <Faqs/>
             <Help/>
             <Footer />
