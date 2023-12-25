@@ -1,8 +1,10 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import pricing from "../../assets/images/img-box/pricing-1.png" 
 import pricing2 from "../../assets/images/img-box/pricing-2.png"
 import pricing3 from "../../assets/images/img-box/pricing-3.png"
+import Swiper from 'swiper'
 const SectionPricing = () => {
+  
   return (
     <section className="tf-section flat-pricing page">
     <div className="container">

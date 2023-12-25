@@ -7,6 +7,7 @@ import news4 from "../../assets/images/blog/news-4.jpg"
 import news2 from "../../assets/images/blog/news-1.jpg"
 import "../../styles/scss/component/_header.scss";
 import "../../styles/scss/component/_slider.scss"
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
 
@@ -41,47 +42,29 @@ const Navbar = () => {
                   <nav id="main-nav" className="main-nav">
                     <ul id="menu-primary-menu" className="menu">
                       <li
-                        className="menu-item current-menu-item"
+                       className={`menu-item ${window.location.pathname === '/' ? 'current-menu-item' : ''}`}
                       >
-                        <a href="/">Home</a>
-                        
+                        <Link to="/">Home</Link>          
                       </li>
 
-                      {/* <li className="menu-item menu-item-has-children">
-                        <a href="#"> Pages </a>
-                        <ul className="sub-menu">
-                        
-                          
-                          <li className="menu-item">
-                            <a href="/pricing">Pricing</a>
-                          </li>
-                          <li className="menu-item">
-                            <a href="/faq">Our Faq</a>
-                          </li>                                               
-                        </ul>
-                      </li> */}
-                      <li className="menu-item ">
-                        <a href="/about"> About </a>
-                        
+                      <li className={`menu-item ${window.location.pathname === '/about' ? 'current-menu-item' : ''}`}>
+                        <Link to="/about"> About </Link>          
                       </li>
 
-                      <li className="menu-item ">
-                        <a href="/services"> Services </a>
-                        
+                      <li className={`menu-item ${window.location.pathname === '/services' ? 'current-menu-item' : ''}`}>
+                        <Link to="/services"> Services </Link>           
                       </li>
 
-                      <li className="menu-item ">
-                        <a href="/portfolio">Portfolio </a>
-                        
+                      <li className={`menu-item ${window.location.pathname === '/portfolio' ? 'current-menu-item' : ''}`}>
+                        <Link to="/portfolio">Portfolio </Link>               
                       </li>
 
-                      <li className="menu-item ">
-                        <a href="/blogs">Blog</a>
-                       
+                      <li className={`menu-item ${window.location.pathname === '/blogs' ? 'current-menu-item' : ''}`}>
+                        <Link to="/blogs">Blog</Link>               
                       </li>
 
-                      <li className="menu-item">
-                        <a href="/contact">Contact </a>
+                      <li className={`menu-item ${window.location.pathname === '/contact' ? 'current-menu-item' : ''}`}>
+                        <Link to="/contact">Contact </Link>
                       </li>
                       
                     </ul>

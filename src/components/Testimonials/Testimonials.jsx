@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import testimonials from "../../assets/images/img-box/testimonials.jpg"
 import testimonials2 from "../../assets/images/img-box/testimonials-1.png"
 import testimonials3 from "../../assets/images/img-box/testimonials-2.png"
@@ -7,7 +7,26 @@ import testimonials5 from "../../assets/images/img-box/testimonials-4.png"
 import testimonials6 from "../../assets/images/img-box/testimonials-5.png"
 import testimonials7 from "../../assets/images/img-box/testimonials-6.png"
 import testimonials8 from "../../assets/images/img-box/testimonials-7.png"
+// Add this to your main stylesheet
+import Swiper from 'swiper'
+
 const Testimonials = () => {
+    useEffect(() => {
+        // Initialize Swiper when the component mounts
+        const swiper = new Swiper('.carousel-3', {
+          slidesPerView: 1,
+          spaceBetween: 20,
+          pagination: {
+            el: '.swiper-pagination2',
+            clickable: true,
+          },
+        });
+    
+        // Destroy Swiper when the component unmounts
+        return () => {
+          swiper.destroy();
+        };
+      }, []);
   return (
     <div>
        <section className="flat-testimonials">

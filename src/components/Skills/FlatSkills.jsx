@@ -1,6 +1,7 @@
 import React from 'react'
 import about3 from "../../assets/images/img-box/about-3.png" 
 import "../../styles/scss/component/_section.scss"
+import "./flatSkills.css"
 const FlatSkills = () => {
   return (
     <section className="flat-skills">

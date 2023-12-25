@@ -1,6 +1,7 @@
-import React from 'react'
-
+import React, {useEffect} from 'react'
+import Swiper from 'swiper';
 const FlatPricing = () => {
+   
   return (
     <section className="tf-section flat-pricing">
                 <div className="container">

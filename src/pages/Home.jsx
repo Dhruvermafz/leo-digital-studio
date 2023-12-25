@@ -15,6 +15,8 @@ import Count from "../components/Services/Count";
 import NewsBlogs from "../components/Blogs/News&Blogs";
 import Faqs from "../components/Faqs/Faqs";
 import FlatIcons from "../components/Extras/FlatIcons";
+import SectionPricing from "../components/Pricing/SectionPricing";
+import FaqContact from "../components/Faqs/FaqContact";
 
 const Home = () => {
   return (
@@ -33,7 +35,9 @@ const Home = () => {
             <Testimonials />
             <NewsBlogs/>
             <FlatPricing/>
+            <SectionPricing/>
             <Faqs/>
+            <FaqContact/>
             <Help/>
             <Footer />
           </div>

@@ -22,11 +22,7 @@ const Footer = () => {
                     </a>
                   </div>
                   <p className="sub-widget-logo tp-16">
-                    Sit amet consectetur adipiscing dipiscing in porttitor
-                    aliquam lacus volutpat vivamus aliquam purus viverra integer
-                    sem amet porttitor sempert. Facilisi ac facilisis eget
-                    tristique fermentum, auctor duifaucibus montes ace systems
-                    ways.{" "}
+                    At Leo Digital Studio, we redefine digital marketing as an art form, crafting bespoke strategies that resonate with your brand's uniwue essence. With a commitment to innovation and a relentless pursuit of excellence, we stand as architects of digital success, transforming businesses into online powerhouses.{" "}
                   </p>
                   <div className="icon-social text-color-1">
                     <a href="https://www.facebook.com/LeoDigitalStudio10/" target="_blank" rel="noreferrer">
