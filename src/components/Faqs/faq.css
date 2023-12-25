@@ -1,0 +1,136 @@
+.flat-faq {
+    padding-top: 140px;
+  }
+  
+  .flat-faq .box-client {
+    padding: 12px 0px 0 46px;
+  }
+  
+  .flat-faq .box-client ul li.style {
+    background-color: #8B54FF;
+  }
+  
+  .flat-faq .flat-accordion .flat-toggle {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  .flat-faq .flat-accordion .flat-toggle.activ {
+    box-shadow: 7px 7px 0 #120A21;
+    margin-bottom: 27px;
+  }
+  
+  .flat-faq .flat-accordion .flat-toggle:last-child {
+    margin-bottom: 0;
+  }
+  
+  .flat-faq .flat-accordion .flat-toggle .toggle-title {
+    padding: 25px 0px 24px 31px;
+    background-color: #fff;
+    cursor: pointer;
+    color: #120A21;
+    width: 45%;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  .flat-faq .flat-accordion .flat-toggle .toggle-title.active {
+    padding: 34px 0px 13px 31px;
+  }
+  
+  .flat-faq .flat-accordion .flat-toggle .toggle-title.active .btn-toggle {
+    right: 30px;
+    top: 34px;
+  }
+  
+  .flat-faq .flat-accordion .flat-toggle .toggle-title.active .btn-toggle::after {
+    content: "\f068";
+  }
+  
+  .flat-faq .flat-accordion .flat-toggle .btn-toggle {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  .flat-faq .flat-accordion .flat-toggle .btn-toggle::after {
+    content: "\f067";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 400;
+    color: #120A21;
+    font-size: 19px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #FFD80D;
+    box-shadow: -5px -5px 0 #8B54FF;
+  }
+  
+  .flat-faq .flat-accordion .flat-toggle .toggle-content {
+    padding: 24px 110px 24px 23px;
+    /* display: none; Remove this line */
+    background-color: #fff;
+    width: 55%;
+    transition: all 0s ease !important;
+  }
+  
+  .flat-faq .flat-accordion .flat-toggle .toggle-content p {
+    line-height: 33px;
+  }
+  
+  .flat-faq.page {
+    padding: 130px 0 85px;
+  }
+  
+  .flat-faq.page .heading-section {
+    padding: 0 260px;
+  }
+  
+  .flat-faq.page .flat-accordion .flat-toggle {
+    background: #FFF4E7;
+  }
+  
+  .flat-faq.page .flat-accordion .flat-toggle .toggle-title {
+    background: #FFF4E7;
+    line-height: 29px;
+    padding: 23.5px 0px 22.5px 27px;
+  }
+  
+  .flat-faq.page .flat-accordion .flat-toggle .toggle-title.active {
+    padding: 33px 80px 13px 38px;
+  }
+  
+  .flat-faq.page .flat-accordion .flat-toggle .toggle-title.active .btn-toggle {
+    right: 42px;
+    top: 44px;
+  }
+  
+  .flat-faq.page .flat-accordion .flat-toggle .toggle-content {
+    background: #FFF4E7;
+    padding: 29px 110px 40px 20px;
+  }
+  
+  .flat-faq.page .flat-accordion .flat-toggle .toggle-content .texts {
+    margin-bottom: 19px;
+  }
+  

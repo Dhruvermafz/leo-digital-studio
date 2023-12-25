@@ -1,10 +1,35 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import slider from "../../assets/images/slider/slider-2.png"
 import slider2 from "../../assets/images/slider/slider-1.png"
 import bgslider from "../../assets/images/slider/bg-slider-1.png"
 import mark from "../../assets/images/slider/mark-slider-2.png"
-
+import Swiper from 'swiper'; // Import Swiper styles
 const Slider = () => {
+ 
+  useEffect(() => {
+    // Initialize Swiper when the component mounts
+    const mainslider2 = new Swiper('.mainslider2', {
+      // Add your Swiper options here
+      loop: true, // Example option: loop the slides
+      pagination: {
+        el: '.swiper-pagination2',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next3',
+        prevEl: '.swiper-button-prev3',
+      },
+    });
+
+    // You can log the Swiper instance to the console for debugging
+    console.log(mainslider2);
+
+    // Destroy Swiper on component unmount
+    return () => {
+      mainslider2.destroy();
+    };
+  }, []);
+  
   return (
     <section className="slider home2 sld-style">
     <div className="swiper-container mainslider2">
@@ -116,4 +141,4 @@ const Slider = () => {
   )
 }
 
-export default Slider
+export default Slider;
