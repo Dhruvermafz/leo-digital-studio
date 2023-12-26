@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Preloader from "./components/Home/Preloader";
+import Preloader from "./components/Extras/Preloader";
 import "./styles/app.css";
 import "./styles/font-awesome.css";
 import "./styles/responsive.css";
