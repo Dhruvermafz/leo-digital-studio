@@ -3,8 +3,29 @@ import pricing from "../../assets/images/img-box/pricing-1.png"
 import pricing2 from "../../assets/images/img-box/pricing-2.png"
 import pricing3 from "../../assets/images/img-box/pricing-3.png"
 import Swiper from 'swiper'
+
 const SectionPricing = () => {
-  
+    useEffect(() => {
+        // Initialize Swiper when the component mounts
+        const pricingSwiper = new Swiper('.carousel-9', {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          breakpoints: {
+            768: {
+              slidesPerView: 2,
+            },
+            992: {
+              slidesPerView: 3,
+            },
+          },
+        });
+    
+        
+      }, []);
   return (
     <section className="tf-section flat-pricing page">
     <div className="container">

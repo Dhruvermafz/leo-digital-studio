@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import faqImage from "../../assets/images/img-box/faq-1.jpg";
-import "./faq.css"
+import "./faq.css";
+
 const Faqs = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -43,15 +44,15 @@ const Faqs = () => {
           </div>
 
           <div className="col-lg-12">
-            <div className="wrap-faq">
+            <div className='wrap-faq'>
               <div className="flat-accordion fl-faq-content">
                 {faqs.map((faq, index) => (
-                  <div className={`flat-toggle flex ${activeIndex === index ? 'activ' : ''}`} key={index}>
-                    <div className="toggle-title" onClick={() => handleToggle(index)}>
-                      {`${index + 1}.${faq.question}`}
+                  <div className="flat-toggle flex" key={index}>
+                    <div className={`toggle-title ${activeIndex === index ? 'active' : ''}`} onClick={() => handleToggle(index)}>
+                      {`${index + 1}. ${faq.question}`}
                       <div className="btn-toggle"></div>
                     </div>
-                    <div className="toggle-content section-desc">
+                    <div className={`toggle-content section-desc ${activeIndex === index ? 'show' : ''}`}>
                       <p className="texts p-18">{faq.answer}</p>
                       <img src={faq.image} alt="" />
                     </div>
