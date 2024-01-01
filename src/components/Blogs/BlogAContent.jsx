@@ -21,7 +21,7 @@ const BlogAContent = () => {
                         <div className="box-info flex">
                             <div className="box-1 box-1 flex-three">
                                 <i className="fas fa-user-circle"></i>
-                               <p className="fw-5">James B. Schwarz</p>
+                               <p className="fw-5">Abhishek Singh - Founder</p>
                             </div>
                             <div className="box-2 flex-three">
                                 <i className="fal fa-calendar-minus"></i>
@@ -34,14 +34,44 @@ const BlogAContent = () => {
                         </div>
                     </div>
                    
-                    <div className="title-blog title-35 fw-6">How Partytown Eliminates Website Bloat From Party Overcoming Imposter Syndrome</div>
-                    <p className="text-1">Sit amet consectetur adipiscing elit. Et id purus sem morbi. Integer a sollicitudin ac eget sed consectetur et nam. Elementum eu egestas faucibus bibendum aliquet ullamcorper quis aliquet lorem. Mor phasellus dictum tellus, massa congue sapien mollis suspendisse pretium. Malesuada id enim vitae dignissim. Sed sit mattis adipiscing lectus consectetur. Sagittis, praesent ullamcorper cras ac at iaculis elementum in. Faucibus massa libero sit laoreet. Scelerisque egestas molestie velit ultrices sed senectus rhoncus.
-                        Eget eget enim vitae suspendisse tincidunt mi nibh orci semper. Pellentesque turpis urna, dolor et et sed egestas ac. Mi velit, quam pretium, leo. Aliquam purus erat aliquet diam tortor</p>
+                    <div className="title-blog title-35 fw-6">Navigating Success in the Digital Age: The Irrefutable Importance of Digital Marketing for Businesses in Rohtak</div>
+                    <p className="text-1">1.	Global Reach with Local Precision:
+Digital marketing opens the door to a global audience while allowing businesses to target specific local markets. For businesses in Rohtak, leveraging digital marketing services tailored to the local audience ensures that the brand message resonates within the community. Businesses can utilize strategies like local SEO and geotargeted advertising to connect with potential customers in Rohtak.
+</p>
+<p className='text-1'>
+2.	Cost-Effectiveness and Measurable ROI:
+Traditional marketing methods often come with a hefty price tag, and measuring their effectiveness can be challenging. Digital marketing, on the other hand, provides cost-effective solutions with clear, measurable results. Businesses can track the performance of their campaigns in real-time, allowing for adjustments and optimizations to maximize return on investment (ROI).
+</p>
+<p className='text-1'>
+3.	Brand Visibility and Credibility:
+Establishing a strong online presence is crucial for building brand visibility and credibility. Digital marketing strategies such as social media marketing, content marketing, and search engine optimization (SEO) contribute to creating a reputable brand image. For businesses in Rohtak, employing digital marketing services ensures that the brand is not only seen but also perceived positively within the local community.
+</p>
+
+<p className='text-1'>
+4.	Targeted Advertising for Enhanced Engagement:
+Digital marketing allows businesses to precisely target their audience based on demographics, interests, and online behaviour. This level of targeting ensures that marketing messages reach the right people at the right time. Businesses in Rohtak can benefit from targeted advertising to engage with their local audience, promoting products and services to those most likely to convert.
+</p>
+<p className='text-1'>
+5.	Adaptability in a Dynamic Marketplace:
+The business landscape is constantly evolving, and digital marketing provides the flexibility needed to adapt to these changes. Whether it's adjusting the target audience, refining advertising strategies, or adopting new technologies, businesses in Rohtak can stay agile and competitive by embracing digital marketing services that evolve with the market.
+</p>
+<p className='text-1'>
+6.	Customer Engagement and Relationship Building:
+Digital marketing fosters direct communication between businesses and their audience. Through social media, email marketing, and other digital channels, businesses can engage with customers, gather feedback, and build lasting relationships. In Rohtak, where the local community plays a vital role, digital marketing services contribute to creating a sense of community around the brand.
+</p>
+<p className='text-1'>
+7.	Digital Marketing Services in Rohtak:
+For businesses in Rohtak, harnessing the power of digital marketing services is essential. Companies specializing in digital marketing services in Rohtak can tailor strategies to the unique characteristics of the local market, ensuring maximum impact and relevance. Whether it's local SEO, social media management, or online advertising, these services are designed to elevate a business's online presence within the Rohtak community.
+</p>
                     <div className="post-title">
-                        <h3>Voice Control Usability Considerations For Partially Precise Timing With Web Animations</h3>
+                        <h3>Voice Control Usability Considerations For Partially Precise Timing With Web Animations. 
+                        
+                        </h3>
                         <h6 className="flex-three">Ronald M. Spino</h6>
                     </div>
-                    <p className="text-2">Mor phasellus dictum tellus, massa congue sapien mollis suspendisse pretium. Malesuada id enim vitae dignissim. Sed sit mattis adipiscing lectus consectetur. Sagittis, praesent ullamcorper cras ac at iaculis elementum in. Faucibus massa libero sit laoreet. Scelerisque egestas molestie velit</p>
+                    <p className="text-2">Conclusion:
+In a world driven by digital interactions, the importance of digital marketing for businesses, especially those in Rohtak, cannot be overstated. A well-crafted digital marketing strategy is not just a competitive advantage; it's a necessity for survival in today's business landscape. By embracing digital marketing services in Rohtak, businesses can thrive, connect with their local audience, and navigate the digital age with confidence.
+</p>
                     <div className="tags-box">
                         <div className="tags flex-three ">
                             <h5 className="title-tag fs-16 fw-6">Popular Tag :</h5>
