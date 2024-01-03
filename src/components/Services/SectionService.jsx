@@ -10,7 +10,7 @@ const SectionService = () => {
             <div className="col-lg-12">
                 <div className="heading-section style4 center">
                     <h6 className="">Popular Service</h6>
-                    <h2 className="">Outsmart the competition with best-in-className SEO marketing services</h2>                                                  
+                    <h2 className="">Outsmart the competition with best SEO marketing services</h2>                                                  
                 </div> 
                 <div className="mark-img">
                     <img className="mark-1 absolute animate-up" src={mark} alt=""/>
@@ -36,11 +36,10 @@ const SectionService = () => {
                                                                   
                         </div>
                         <div className="content ">
-                            <h4><a href="service-details.html"> SEO Optimization</a></h4>
-                            <p className="fw-5 lh-26">Drive more leads sale and revenue your business with 
-                                digital marketing service</p>
+                            <h4><a href="/services"> SEO Optimization</a></h4>
+                            <p className="fw-5 lh-26">Unlock the full potential of your online presence with SEO (Search Engine Optimization). At its core, SEO is the strategic art of enhancing your website's visibility on search engines.</p>
                             <div className="meta">
-                                <a href="service-details.html" className="btn-button flex-three fw-5"><span>Read More</span> 
+                                <a href="/services" className="btn-button flex-three fw-5"><span>Read More</span> 
                                 <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
                                 </svg>  </a>                            
@@ -58,11 +57,10 @@ const SectionService = () => {
                             </svg>                                  
                         </div>
                         <div className="content">
-                            <h4><a href="service-details.html"> Email Marketing</a></h4>
-                            <p className="fw-5 lh-26">Drive more leads sale and revenue your business with 
-                                digital marketing service</p>
+                            <h4><a href="/services"> Email Marketing</a></h4>
+                            <p className="fw-5 lh-26">Experience the impact of targeted communication with Email Marketing. Seamlessly connect with your audience, fostering relationships and driving engagement.</p>
                             <div className="meta">
-                                <a href="service-details.html" className="btn-button flex-three fw-5"><span>Read More</span> 
+                                <a href="/services" className="btn-button flex-three fw-5"><span>Read More</span> 
                                 <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
                                 </svg>  </a>                            
@@ -88,11 +86,10 @@ const SectionService = () => {
                             </svg>                                                                      
                         </div>
                         <div className="content">
-                            <h4><a href="service-details.html">Web Development</a></h4>
-                            <p className="fw-5 lh-26">Drive more leads sale and revenue your business with 
-                                digital marketing service</p>
+                            <h4><a href="/services">Web Development</a></h4>
+                            <p className="fw-5 lh-26">Leo Digital distinguishes itself in the realm of web development by weaving a tapestry of innovation and precision for our clients.</p>
                             <div className="meta">
-                                <a href="service-details.html" className="btn-button flex-three fw-5"><span>Read More</span> 
+                                <a href="/services" className="btn-button flex-three fw-5"><span>Read More</span> 
                                 <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
                                 </svg>  </a>                            
@@ -114,11 +111,10 @@ const SectionService = () => {
                             </svg>                                   
                         </div>
                         <div className="content">
-                            <h4><a href="service-details.html"> UI/UX Strategy</a></h4>
-                            <p className="fw-5 lh-26">Drive more leads sale and revenue your business with 
-                                digital marketing service</p>
+                            <h4><a href="/services"> UI/UX Strategy</a></h4>
+                            <p className="fw-5 lh-26">At Leo Digital, our UI/UX strategies redefine digital experiences. We stand out by meticulously blending creativity with usability, crafting interfaces that captivate and functionalities that resonate. </p>
                             <div className="meta">
-                                <a href="service-details.html" className="btn-button flex-three fw-5"><span>Read More</span> 
+                                <a href="/services" className="btn-button flex-three fw-5"><span>Read More</span> 
                                 <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
                                 </svg>  </a>                            
@@ -139,11 +135,10 @@ const SectionService = () => {
                             </svg>                                  
                         </div>
                         <div className="content">
-                            <h4><a href="service-details.html"> Digital Strategy</a></h4>
-                            <p className="fw-5 lh-26">Drive more leads sale and revenue your business with 
-                                digital marketing service</p>
+                            <h4><a href="/services"> Digital Strategy</a></h4>
+                            <p className="fw-5 lh-26">Leo Digital emerges as a beacon in the realm of digital strategies, setting new benchmarks for our clients' success. What defines us is our holistic approach—integrated, data-driven, and tailor-made to amplify digital footprints. </p>
                             <div className="meta">
-                                <a href="service-details.html" className="btn-button flex-three fw-5"><span>Read More</span> 
+                                <a href="/services" className="btn-button flex-three fw-5"><span>Read More</span> 
                                 <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
                                 </svg>  </a>                            
@@ -166,11 +161,10 @@ const SectionService = () => {
                             </svg>                                 
                         </div>
                         <div className="content">
-                            <h4><a href="service-details.html"> Content Marketing</a></h4>
-                            <p className="fw-5 lh-26">Drive more leads sale and revenue your business with 
-                                digital marketing service</p>
+                            <h4><a href="/services"> Content Marketing</a></h4>
+                            <p className="fw-5 lh-26">Leo Digital stands out as a beacon of excellence in content creation services, seamlessly blending creativity with strategic precision. </p>
                             <div className="meta">
-                                <a href="service-details.html" className="btn-button flex-three fw-5"><span>Read More</span> 
+                                <a href="/services" className="btn-button flex-three fw-5"><span>Read More</span> 
                                 <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
                                 </svg>  </a>                            
@@ -202,11 +196,10 @@ const SectionService = () => {
                             </svg>                                 
                         </div>
                         <div className="content">
-                            <h4><a href="service-details.html"> Design & Branding</a></h4>
-                            <p className="fw-5 lh-26">Drive more leads sale and revenue your business with 
-                                digital marketing service</p>
+                            <h4><a href="/services"> Design & Branding</a></h4>
+                            <p className="fw-5 lh-26">In the realm of design and branding, Leo Digital emerges as a true trailblazer. What sets us apart is our commitment to transforming concepts into visual narratives that resonate with authenticity and innovation. </p>
                             <div className="meta">
-                                <a href="service-details.html" className="btn-button flex-three fw-5"><span>Read More</span> 
+                                <a href="/services" className="btn-button flex-three fw-5"><span>Read More</span> 
                                 <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
                                 </svg>  </a>                            
@@ -215,6 +208,7 @@ const SectionService = () => {
                     </div>  
                 </div>                      
             </div>
+        
             <div className="col-lg-3 col-md-6">
                 <div className="box center box-hv ">
                     <div className="inner hover-style">
@@ -235,18 +229,19 @@ const SectionService = () => {
                                 <path d="M13.125 27.5H16.875V17.5H13.125V27.5ZM14.375 18.75H15.625V26.25H14.375V18.75Z" fill="white"/>
                             </svg>                                
                         </div>
-                        <div className="content">
-                            <h4><a href="service-details.html"> Business Solutions</a></h4>
-                            <p className="fw-5 lh-26">Drive more leads sale and revenue your business with 
-                                digital marketing service</p>
-                            <div className="meta">
-                                <a href="service-details.html" className="btn-button flex-three fw-5"><span>Read More</span> 
-                                <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
-                                </svg>  </a>                            
-                            </div> 
-                        </div>
+                      
+                       <div className="content">
+<h4><a href="/services">Lead Generation</a></h4>
+<p className="fw-5 lh-26">Leo Digital redefines excellence in lead generation services, standing as a catalyst for our clients' growth. What distinguishes us is our strategic prowess—meticulously tailoring lead generation campaigns that don't just capture attention but convert leads into valuable customers. </p>
+<div className="meta">
+    <a href="/services" className="btn-button flex-three fw-5"><span>Read More</span> 
+    <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
+    </svg>  </a>                            
+</div> 
+</div>
                     </div>  
+                   
                 </div>                      
             </div>
         </div>

@@ -38,15 +38,10 @@ const FlatAbout = () => {
               </div>
             </div>
             <p className="tp-16">
-              Sit amet consectetur adipiscing elit. Felis mollis eget
-              scelerisque nibh mattis nulla. Suspendisse euismod odio
-              bibendum mi aliquam. Dignissim neque viverra tempor enim
-              proin tristique lectus cursus id. Accumsan praesent volu
-              ornarey diam. Vitae malesuada faucibus habitasse eu, et
-              tempus,
+            Welcome to Leo Digital Studio — where a decade of profound industry experience converges with cutting-edge innovation. We are not just a digital marketing agency; we are architects of growth for businesses. Our seasoned team crafts dynamic and data-driven strategies, ensuring your digital presence not only stands out but thrives. With Leo Digital Studio, your success is not just a goal; it's a meticulously curated journey towards unparalleled digital excellence.
             </p>
             <div className="sc-btn-button">
-              <a className="cta btn-1" href="#">
+              <a className="cta btn-1" href="/about">
                 <span>Learn About Us</span>
                 <span>
                   <svg

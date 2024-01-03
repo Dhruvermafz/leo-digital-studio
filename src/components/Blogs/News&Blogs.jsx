@@ -57,9 +57,9 @@ const NewsBlogs = () => {
                                 </div>
                                 <div class="content">
                                     <p class="days p-14">September 25, 2022</p>
-                                    <h3 class="link-style-4"><a href="blog-details.html">Ultimate Free Solo Blog Setup With Ghost And Gatsby</a></h3>
+                                    <h3 class="link-style-4"><a href="/blog/1/">Navigating Success in the Digital Age: The Irrefutable Importance of Digital Marketing for Businesses in Rohtak</a></h3>
                                     <div class="meta">
-                                        <a href="blog-details.html" class="btn-button flex-three fw-5"><span>Read More </span> 
+                                        <a href="/blog/1/" class="btn-button flex-three fw-5"><span>Read More </span> 
                                         <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
                                         </svg>  </a>                            
@@ -74,9 +74,9 @@ const NewsBlogs = () => {
                                 </div>
                                <div class="content">
                                     <p class="days p-14">September 25, 2022</p>
-                                    <h3 class="link-style-4"><a href="blog-details.html">Rethinking Server-Timing As Seen Critical Monitoring Tool</a> </h3>
+                                    <h3 class="link-style-4"><a href="/blog/2/">Unveiling the Power of SEO: Boosting Your Website Rank in 2024 with Leo Digital Studio</a> </h3>
                                     <div class="meta">
-                                        <a href="blog-details.html" class="btn-button flex-three fw-5"><span>Read More </span> 
+                                        <a href="/blog/2/" class="btn-button flex-three fw-5"><span>Read More </span> 
                                         <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
                                         </svg>  </a>                            
@@ -91,9 +91,9 @@ const NewsBlogs = () => {
                                 </div>
                                <div class="content">
                                     <p class="days p-14">September 25, 2022</p>
-                                    <h3 class="link-style-4"><a href="blog-details.html">Top Tasks Focus On What Matters Must Focus On What Doesn’t</a> </h3>
+                                    <h3 class="link-style-4"><a href="/blog/2/">Unveiling the Power of SEO: Boosting Your Website Rank in 2024 with Leo Digital Studio</a> </h3>
                                     <div class="meta">
-                                        <a href="blog-details.html" class="btn-button flex-three fw-5"><span>Read More </span> 
+                                        <a href="/blog/2/" class="btn-button flex-three fw-5"><span>Read More </span> 
                                         <svg width="31" height="9" viewBox="0 0 31 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M30.3536 4.85355C30.5488 4.65829 30.5488 4.34171 30.3536 4.14645L27.1716 0.964466C26.9763 0.769204 26.6597 0.769204 26.4645 0.964466C26.2692 1.15973 26.2692 1.47631 26.4645 1.67157L29.2929 4.5L26.4645 7.32843C26.2692 7.52369 26.2692 7.84027 26.4645 8.03553C26.6597 8.2308 26.9763 8.2308 27.1716 8.03553L30.3536 4.85355ZM0 5H30V4H0V5Z" fill="#120A21"/>
                                         </svg>  </a>                            

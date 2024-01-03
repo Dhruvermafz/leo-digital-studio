@@ -19,16 +19,11 @@ const Business = () => {
                     <h2>Build Your Business Grateful & Successful Together</h2>
                   </div>
                   <p className="tp-16">
-                    Sit amet consectetur adipiscing elit. Ornare molestie
-                    ultrices accumsan nunc. Dolor feugiat etiam egestas
-                    volutpat, tempus maecenas quam sagittis. Tortor ut dictumst
-                    sit euismod quis fringilla. Laoreet tempor morbi adipiscing
-                    Orci, quisque vitae nisl, sed sit nec feugiat amet. In
-                    feugiat
+                  At Leo Digital, our business analysis process is unparalleled, ensuring 100% guaranteed results for our clients. Leveraging advanced analytics tools and a team of seasoned professionals, we conduct comprehensive assessments tailored to each client's unique needs. Our approach involves in-depth market research, competitor analysis, and a meticulous examination of industry trends. By combining data-driven insights with our extensive experience, we formulate strategies that position our clients as industry leaders.
                   </p>
                   <div className="meta">
                     <a
-                      href="service-details.html"
+                      href="/services"
                       className="btn-button flex-three fw-5"
                       ><span>Learn More</span>
                       <svg

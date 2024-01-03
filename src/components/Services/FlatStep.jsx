@@ -10,26 +10,26 @@ const FlatStep = () => {
                     <div className="box-step box-1">
                         <div className="heading-section style4">
                             <h6 className="">Working Process</h6>
-                            <h2>Foundations of SEO to Complate Our Business Missions</h2>   
+                            <h2>Foundations of SEO to Complete Our Business Missions</h2>   
                         </div> 
                         <div className="step step-1">
-                            <div className="number one text-color-1"> 01 </div>
+                            <div className="number one text-color-1"> 02 </div>
                             <div className="title title-30 fw-7 link-style-">
-                                <a href="#"> Benefited For Digital Marketing Solution</a>
+                                <a href="/services"> Benefits For Digital Marketing Solution</a>
                             </div>
                         </div>
                     </div>
                     <div className="box-step box-2"> 
                         <div className="step step-2">
-                            <div className="number two"> 02 </div>
+                            <div className="number two"> 01 </div>
                             <div className="title title-30 fw-7 link-style-">
-                                <a href="#">Content and Email Marketing Solutions</a> 
+                                <a href="/services">Content and Email Marketing Solutions</a> 
                             </div>
                         </div>
                         <div className="step step-3"> 
                             <div className="number three text-color-1"> 03 </div>
                             <div className="title title-30 fw-7 link-style-">
-                                <a href="#">UI/UI Design & Web Development</a> 
+                                <a href="/services">UI/UI Design & Web Development</a> 
                             </div>
                         </div>
                     </div>

@@ -22,7 +22,7 @@ const FlatContact = () => {
                     <div className="heading-section style3">
                         <h6 className="" >Contact Us</h6>
                         <h2 className="text-unset">Feel Free to Contact With Us. We’re Ready to  Help you</h2>  
-                        <p className="p-18">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque quae abillo inventore veritatis quasi architecto beatae</p> 
+                        <p className="p-18">Contact Leo Digital for bespoke solutions tailored to your digital needs. Our seasoned team is ready to elevate your brand. Let's craft success together.</p> 
                     </div> 
                   
                     <div className="info-box">

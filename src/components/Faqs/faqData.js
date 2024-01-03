@@ -1,4 +1,4 @@
-const faqData = [
+exports.faqData = [
   {
     question: "What is digital marketing?",
     answer:

@@ -1,7 +1,8 @@
 import React from 'react'
-import team1 from "../../assets/images/img-box/team-1.jpg" 
-import team2 from "../../assets/images/img-box/team-2.jpg"
-import team3 from "../../assets/images/img-box/team-3.jpg"
+import team1 from "../../assets/images/team/Abhishek.jpg" 
+import team2 from "../../assets/images/team/Dhruv.jpg"
+import team3 from "../../assets/images/team/Jaideep.jpg"
+import team4 from "../../assets/images/team/Jatin .jpg"
 const TeamSection = () => {
   return (
     <section className="tf-section flat-team page">
@@ -17,15 +18,10 @@ const TeamSection = () => {
                 <div className="box-team hover-img">
                     <div className="images flex-center img-style">
                         <img src={team1} alt=""/>
-                        <div className="icon-social link-style-6">
-                            <a href="#"><i className="fab fa-facebook-f"></i></a>
-                            <a href="#"><i className="fab fa-twitter"></i></a>
-                            <a href="#"><i className="fab fa-instagram"></i></a>                               
-                            <a href="#"> <i className="fab fa-linkedin-in"></i></a>
-                        </div> 
+
                     </div>
                     <div className="content center">                                 
-                        <h5 className="link-style-1"><a href="team-details.html">David L. Landrum</a> </h5> 
+                        <h5 className="link-style-1"><a href="/about">Abhishek Rathor</a> </h5> 
                         <div className="sub-title title-16 fw-6">CEO & Founder</div>
                     </div>
                 </div>
@@ -34,15 +30,10 @@ const TeamSection = () => {
                 <div className="box-team hover-img">
                     <div className="images flex-center img-style">
                         <img src={team2} alt=""/>
-                        <div className="icon-social link-style-6">
-                            <a href="#"><i className="fab fa-facebook-f"></i></a>
-                            <a href="#"><i className="fab fa-twitter"></i></a>
-                            <a href="#"><i className="fab fa-instagram"></i></a>                               
-                            <a href="#"> <i className="fab fa-linkedin-in"></i></a>
-                        </div> 
+                       
                     </div>
                     <div className="content center">                                 
-                        <h5 className="link-style-1"><a href="team-details.html">Loren B. Snelson</a> </h5> 
+                        <h5 className="link-style-1"><a href="/about">Dhruv Verma</a> </h5> 
                         <div className="sub-title title-16 fw-6">Web Developer</div>
                     </div>
                 </div>
@@ -50,17 +41,24 @@ const TeamSection = () => {
             <div className="col-lg-3 col-md-6">
                 <div className="box-team hover-img">
                     <div className="images flex-center img-style">
-                        <img src={team3} alt=""/>
-                        <div className="icon-social link-style-6">
-                            <a href="#"><i className="fab fa-facebook-f"></i></a>
-                            <a href="#"><i className="fab fa-twitter"></i></a>
-                            <a href="#"><i className="fab fa-instagram"></i></a>                               
-                            <a href="#"> <i className="fab fa-linkedin-in"></i></a>
-                        </div> 
+                        <img src={team4} alt=""/>
+                        
                     </div>
                     <div className="content center">                                 
-                        <h5 className="link-style-1"><a href="team-details.html">Michael D. Nichols</a> </h5> 
-                        <div className="sub-title title-16 fw-6">Web Designer</div>
+                        <h5 className="link-style-1"><a href="/about">Jatin Wadhwa</a> </h5> 
+                        <div className="sub-title title-16 fw-6">Designer</div>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-3 col-md-6">
+                <div className="box-team hover-img">
+                    <div className="images flex-center img-style">
+                        <img src={team3} alt=""/>
+                        
+                    </div>
+                    <div className="content center">                                 
+                        <h5 className="link-style-1"><a href="/about">Jaideep Sanghwan</a> </h5> 
+                        <div className="sub-title title-16 fw-6">Social Media Manager</div>
                     </div>
                 </div>
             </div>

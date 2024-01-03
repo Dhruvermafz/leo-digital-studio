@@ -14,7 +14,6 @@ import FlatSkills from "../components/Skills/FlatSkills";
 import Count from "../components/Services/Count";
 import NewsBlogs from "../components/Blogs/News&Blogs";
 import Faqs from "../components/Faqs/Faqs";
-import SectionPricing from "../components/Pricing/SectionPricing";
 
 const Home = () => {
   return (
@@ -36,6 +35,7 @@ const Home = () => {
             <Faqs/>
             <Help/>
             <Footer />
+     
           </div>
         </div>
 

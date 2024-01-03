@@ -47,9 +47,7 @@ const Slider = () => {
                       ><span> Agency</span>
                     </h1>
                     <h4 className="fw-4">
-                      Sit amet consectetur adipiscing elit Massa diam
-                      tincidunt posuere aliquam et sit imperdiet sagittis
-                      tempus arcus
+                    “With over a decade of expertise, Leo Digital Studio stands as a trailblazer in digital marketing and SEO solutions. Our seasoned team crafts compelling strategies, seamlessly integrating SEO prowess to elevate your online presence. Trust Leo for unparalleled excellence in optimizing your digital success.”
                     </h4>
                   </div>
                   <div className="flat-bt-slider flex">
