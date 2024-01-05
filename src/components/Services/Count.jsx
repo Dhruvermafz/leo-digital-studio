@@ -29,7 +29,7 @@ const Count = () => {
 
                         <div className="content" >
                             <div className="count-number ">                                  
-                                <div className="number number-style number-one" data-speed="2000" data-to="512" data-inviewport="yes">189+</div>                                   
+                                <div className="number number-style number-one" data-speed="2000" data-to="512" data-inviewport="yes">189</div>                                   
                             </div>
                             <h6 className="title-count fs-16 fw-4">Satisfied Clients</h6>
                         </div>                                
@@ -54,7 +54,7 @@ const Count = () => {
                         </div>
                         <div className="content" >
                             <div className="count-number "> 
-                                <div className="number number-style " data-speed="2000" data-to="835" data-inviewport="yes">18+</div>                                                      
+                                <div className="number number-style number-one" data-speed="2000" data-to="835" data-inviewport="yes">18</div>                                                      
                             </div>
                             <h6 className="title-count fs-16 fw-4">Experience Member</h6>
                         </div>                                
@@ -77,7 +77,7 @@ const Count = () => {
                         </div>
                         <div className="content" >
                             <div className="count-number "> 
-                                <div className="number number-style " data-speed="2000" data-to="962" data-inviewport="yes">220+</div>                                                      
+                                <div className="number number-style number-one" data-speed="2000" data-to="962" data-inviewport="yes">220</div>                                                      
                             </div>
                             <h6 className="title-count fs-16 fw-4">Projects Accomplished</h6>
                         </div>                                

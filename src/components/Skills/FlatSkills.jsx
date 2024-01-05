@@ -32,7 +32,7 @@ const FlatSkills = () => {
                 <div className="content-progress-box">
                   <div className="progress-bar" data-percentage="89%">
                     <h4 className="progress-title-holder">
-                      <span className="progress-title">Research</span>
+                      <span className="progress-title">Social Media Marketing</span>
                       <span className="progress-number-wrapper">
                         <span className="progress-number-mark">
                           <span className="percent">89%</span>
@@ -43,12 +43,12 @@ const FlatSkills = () => {
                       <div className="progress-content style-1"></div>
                     </div>
                   </div>
-                  <div className="progress-bar" data-percentage="93%">
+                  <div className="progress-bar" data-percentage="92%">
                     <h4 className="progress-title-holder">
                       <span className="progress-title">Development</span>
                       <span className="progress-number-wrapper">
                         <span className="progress-number-mark">
-                          <span className="percent">93%</span>
+                          <span className="percent">92%</span>
                         </span>
                       </span>
                     </h4>
@@ -56,12 +56,12 @@ const FlatSkills = () => {
                       <div className="progress-content style-1"></div>
                     </div>
                   </div>
-                  <div className="progress-bar" data-percentage="78%">
+                  <div className="progress-bar" data-percentage="97%">
                     <h4 className="progress-title-holder">
                       <span className="progress-title">SEO Optimization</span>
                       <span className="progress-number-wrapper">
                         <span className="progress-number-mark">
-                          <span className="percent">78%</span>
+                          <span className="percent">97%</span>
                         </span>
                       </span>
                     </h4>
