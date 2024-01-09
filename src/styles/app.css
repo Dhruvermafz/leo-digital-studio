@@ -4610,10 +4610,10 @@ path.two {
   color: #120A21;
 }
 #footer.home {
-  padding: 210px 0 66px;
+  padding: 50px 0px 0px;
   background: url(../assets/images/section/bg-footer-1.jpg) center center no-repeat;
-  background-size: cover;
-  margin-top: -130px;
+  background-size: auto;
+  margin-top: auto;
 }
 #footer.home .widget-menu .box-icon .icon {
   background: #F43FE2;

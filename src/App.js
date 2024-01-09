@@ -16,7 +16,13 @@ import Blogs from "./pages/Blogs";
 import Pricing from "./pages/Pricing";
 import BlogA from "./pages/BlogA";
 import BlogB from "./pages/BlogB";
-
+import AdminLogin from "./admin/Auth/AdminLogin";
+import AdminWrapper from "./admin/AdminWrapper";
+import TeamPage from "./admin/Team/TeamPage";
+import Landing from "./admin/LandingPages/Landing";
+import PortfolioPage from "./admin/Portfolio/PortfolioPage";
+import BlogWrapper from "./admin/Blogs/BlogWrapper";
+import AddOrEdit from "./admin/Blogs/AddOrEdit";
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -47,6 +53,13 @@ function App() {
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/blog/1/" element={<BlogA />} />
           <Route path="/blog/2/" element={<BlogB />} />
+          <Route path="/admin/login" element={<AdminLogin />} />
+          <Route path="/admin" element={<AdminWrapper />} />
+          <Route path="/admin/team-access" element={<TeamPage />} />
+          <Route path="/admin/landing-pages" element={<Landing />} />
+          <Route path="/admin/portfolio" element={<PortfolioPage />} />
+          <Route path="/admin/blogs" element={<BlogWrapper />} />
+          <Route path="/admin/blogs/add-or-edit" element={<AddOrEdit />} />
         </Routes>
       )}
     </Router>
